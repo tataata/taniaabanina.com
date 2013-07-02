@@ -25,17 +25,17 @@ $textcolor : $black;
 
 // 2. TYPOGRAPHY 			==============================
 
-$basefont :  Georgia, Times, "Times New Roman", sans-serif;
-$basefontsize : 16;
-$baselineheight : 1.5em;
+$basefont :  "PT Serif", Georgia, Times, "Times New Roman", sans-serif;
+$basefontsize : 18;
+$baselineheight : 1.75em;
 $baseheadingfont : inherit;
-$baseheadingfontweight : bold;
+$baseheadingfontweight : normal;
 $baseheadingfontcolor : inherit;
 
 $altfont : Cambria, Georgia, Times, "Times New Roman";
 $altlineheight : 1.35em;
 
-$headlineFont : 'crimsonroman',Georgia, Times, "Times New Roman";
+$headlineFont : "PT Serif", Georgia, Times, "Times New Roman";
 
 $codefont : Monaco, Courier New, monospace;
 
@@ -43,7 +43,8 @@ $codefont : Monaco, Courier New, monospace;
 
 $basecolor 		: rgb(45,53,62);
 $compcolor 		: adjust-hue($basecolor, 180);
-$bordercolor    : lighten($basecolor, 60%);
+$bordercolor  : lighten($basecolor, 60%);
+$highlight		: #06a9c5;
 
 // Links
 

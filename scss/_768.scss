@@ -15,6 +15,40 @@
 // 4. TEXTURE 				==============================
 // 5. ELEMENTS 				==============================
 // 6. LAYOUT 				==============================
+
+.wrap {
+	max-width: 100%;
+
+	.entry {
+		.text {
+			float: left;
+			width: 64%;
+		}
+		.aside {
+			float: right;
+			width: 32%;
+		}
+	}
+}
+
+.projects {
+	list-style: none;
+
+	.projects__item {
+		width: 30%;
+		margin: 0 2.9% $base-line-height 0;
+		//border: 1px solid red;
+		//float: left;
+		display: -moz-inline-stack;
+    display: inline-block;
+    *display: inline;
+		zoom: 1;
+    vertical-align: top;
+		
+		padding: 0;
+	}
+}
+
 // 7. VENDOR-SPECIFIC 		==============================
 // 8. MODERNIZR 			==============================
 // 9. TEMPLATE SPECIFICS 	==============================

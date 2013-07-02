@@ -28,7 +28,7 @@ width : device-width; }
 
 html {
 	background : $bodycolor;
-	font-size : 62.5%;
+	//font-size : 62.5%;
 	-webkit-overflow-scrolling : touch;
 	-webkit-tap-highlight-color : lighten($basecolor, 75%);
 	-webkit-text-size-adjust : 100%;
@@ -37,13 +37,17 @@ html {
 
 body {
 	margin : 0;
-	padding : $baselineheight * 2 0;
+	padding : $base-line-height * 2 0;
 	width : 100%;
 	background-color : transparent;
 	font-family : $basefont;
-	@include font-size();
-	line-height : $baselineheight;
+//	@include font-size();
+	//line-height : $base-line-height;
 	color : $textcolor; 
+	background-color: $highlight;
+	background-position: top left;
+	background-image: image-url("bg.png");
+	background-repeat: repeat;
 }
 
 // 2. TYPOGRAPHY 			==============================

@@ -16,14 +16,19 @@
 // 5. ELEMENTS 				==============================
 // 6. LAYOUT 				==============================
 
-
+.wrap {
+	margin: 0 4%;
+}
 
 .projects {
 	list-style: none;
 
 	.projects__item {
-		width: 50%;
-		border: 1px solid red;
+
+		width: 46%;
+		margin: 0 2.9% $base-line-height 0;
+
+//		border: 1px solid red;
 		//float: left;
 		display: -moz-inline-stack;
     display: inline-block;

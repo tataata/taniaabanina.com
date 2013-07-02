@@ -2,7 +2,7 @@
 .wrap {
 	padding: $baselineheight;
 	background: $white;
-	margin: 0 $baselineheight * 2;
+	margin: 0;
 
 	.header {
 		border-bottom: $baselineheight / 6 solid $black;
@@ -11,7 +11,6 @@
 			margin-bottom: $baselineheight / 4;
 			.small {
 				display: block;
-				margin: $baselineheight / 6 0;
 			}
 		}
 	}
@@ -37,9 +36,80 @@
 	padding: 0;
 
 	.projects__item {
-		margin: 0 0 1em;
+		background: transparent;
+
+		&:hover,
+		&:focus {
+			background: $greyLighter;
+			//color: $white;
+		}
+
 		.thumb {
 			display: block;
+			padding-bottom: $base-line-height / 4;
+			padding-top: $base-line-height / 2;
+
+			img {
+				margin-bottom: $base-line-height / 6;
+			}
+			//border-bottom: $base-line-height / 6 solid transparent;
+			
+
+			&:hover {
+				//border-bottom: $base-line-height / 6 solid $highlight;
+
+			}
+		}
+	}
+}
+
+.collaborations {
+	list-style: none;
+
+	.collaborations__item {
+		display: inline-block;
+		*display: inline;
+		zoom: 1;
+
+		.collaborations__link {
+			text-indent: -9878px;
+			display: block;
+			background-image: image-url("logo-sprite.png");
+			background-repeat: no-repeat;
+			height: 50px;
+			margin: 0 10px 10px 0;
+		}
+		.intaxi {
+			background-position: 0 0;
+			width:190px;
+
+			&:hover {
+				background-position: 0 -60px;
+			}
+		}
+		.intaxi {
+			background-position: 0 0;
+			width:190px;
+
+			&:hover {
+				background-position: 0 -60px;
+			}
+		}
+		.kidsters {
+			background-position: -200px 0;
+			width:210px;
+
+			&:hover {
+				background-position: -200px -60px;
+			}
+		}
+		.centrida {
+			background-position: -420px 0;
+			width:200px;
+
+			&:hover {
+				background-position: -420px -60px;
+			}
 		}
 	}
 }
