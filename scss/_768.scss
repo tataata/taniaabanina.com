@@ -49,6 +49,19 @@
 	}
 }
 
+.cv {
+	.aside {
+		float: right;
+		margin-left: 4%;
+		margin-bottom: 30px;
+		padding-top: $base-line-height / 2;
+	}
+	.goal,
+	.spec {
+		overflow: auto;
+	}
+}
+
 // 7. VENDOR-SPECIFIC 		==============================
 // 8. MODERNIZR 			==============================
 // 9. TEMPLATE SPECIFICS 	==============================

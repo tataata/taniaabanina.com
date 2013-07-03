@@ -42,10 +42,16 @@ margin-bottom : $baselineheight / 4; }
 figcaption {
 display : block;
 font-weight : normal;
-@include font-size(14);
+//@include font-size(14);
 color : $grey; }
 }
 
+dl {
+	dt {
+		font-weight: normal;
+	}
+
+}
 // list-bordered
 
 .list-bordered {

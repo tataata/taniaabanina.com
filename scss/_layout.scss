@@ -3,21 +3,29 @@
 	padding: $baselineheight;
 	background: $white;
 	margin: 0;
+	position: relative;
 
 	.header {
-		border-bottom: $baselineheight / 6 solid $black;
+		border-bottom: $base-line-height / 6 solid $black;
 
 		h1 {
-			margin-bottom: $baselineheight / 4;
 			.small {
 				display: block;
 			}
 		}
 	}
 
+	.nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
 
+	.content {
+		padding: $base-line-height 0;
+	}
 	.entry {
-		margin: $baselineheight 0;
+		
 	}
 }
 
@@ -28,6 +36,17 @@
 
 .icon-twitter {
 	@include icon-left(-25px, 0);
+}
+
+.icon-location {
+	@include icon-left(-55px, 0);
+	padding-left: 22px;
+
+	&:hover {
+		&:before {
+			background-position: -55px 0;
+		}
+	}
 }
 
 .projects {
@@ -110,6 +129,29 @@
 			&:hover {
 				background-position: -420px -60px;
 			}
+		}
+	}
+}
+
+.cv {
+
+	dl {
+		dt {
+			margin-top: 1em;
+		}
+		dd {
+			margin-bottom: 0;
+		}
+	}
+	.experience {
+		.period,
+		.description {
+			color: $greyDark;
+		}
+	}
+	.lang {
+		ul {
+			list-style: none;
 		}
 	}
 }
