@@ -15,11 +15,42 @@
 		}
 	}
 
-	.nav {
-		position: fixed;
+
+	.sticky-wrapper {
+		position: absolute;
 		top: 0;
-		left: 0;
+		margin-top: 0;
+		right: 0;
+
+
+		.nav__item {
+			a {
+				display:block;
+
+			}
+		}
 	}
+	.nav {
+		position: static;
+		margin: 0;
+	}
+
+
+
+
+		.nav__list {
+			list-style: none;
+		}
+		.nav__item {
+			a {
+				padding: $base-line-height / 2 $base-line-height;
+				background: $red;
+				color: $white;
+				text-decoration: none;
+				line-height: 1;
+			}
+		}
+	
 
 	.content {
 		padding: $base-line-height 0;

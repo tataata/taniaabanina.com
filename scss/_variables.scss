@@ -18,6 +18,8 @@ $greyLight 	: lighten($black, 75%);
 $greyLighter: lighten($black, 90%);
 $white 			: rgb(255,255,255);
 
+
+
 // 1. ROOT 					==============================
 
 $bodycolor : $white;
@@ -45,6 +47,7 @@ $basecolor 		: rgb(45,53,62);
 $compcolor 		: adjust-hue($basecolor, 180);
 $bordercolor  : lighten($basecolor, 60%);
 $highlight		: #06a9c5;
+$red					: #a62820;
 
 // Links
 

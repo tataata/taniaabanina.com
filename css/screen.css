@@ -91,6 +91,7 @@ body {
   background-position: top left;
   background-image: url('/i/bg.png?1362345429');
   background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 /* line 2, ../scss/_layout.scss */
@@ -108,18 +109,40 @@ body {
 .wrap .header h1 .small {
   display: block;
 }
-/* line 18, ../scss/_layout.scss */
-.wrap .nav {
-  position: fixed;
+/* line 19, ../scss/_layout.scss */
+.wrap .sticky-wrapper {
+  position: absolute;
   top: 0;
-  left: 0;
+  margin-top: 0;
+  right: 0;
 }
-/* line 24, ../scss/_layout.scss */
+/* line 27, ../scss/_layout.scss */
+.wrap .sticky-wrapper .nav__item a {
+  display: block;
+}
+/* line 33, ../scss/_layout.scss */
+.wrap .nav {
+  position: static;
+  margin: 0;
+}
+/* line 41, ../scss/_layout.scss */
+.wrap .nav__list {
+  list-style: none;
+}
+/* line 45, ../scss/_layout.scss */
+.wrap .nav__item a {
+  padding: 12px 24px;
+  background: #a62820;
+  color: white;
+  text-decoration: none;
+  line-height: 1;
+}
+/* line 55, ../scss/_layout.scss */
 .wrap .content {
   padding: 24px 0;
 }
 
-/* line 33, ../scss/_layout.scss */
+/* line 64, ../scss/_layout.scss */
 .icon-flickr {
   position: relative;
   padding-left: 28px;
@@ -141,7 +164,7 @@ body {
   background-position: 0 -25px;
 }
 
-/* line 37, ../scss/_layout.scss */
+/* line 68, ../scss/_layout.scss */
 .icon-twitter {
   position: relative;
   padding-left: 28px;
@@ -163,7 +186,7 @@ body {
   background-position: -25px -25px;
 }
 
-/* line 41, ../scss/_layout.scss */
+/* line 72, ../scss/_layout.scss */
 .icon-location {
   position: relative;
   padding-left: 28px;
@@ -185,47 +208,47 @@ body {
 .icon-location:hover:before {
   background-position: -55px -25px;
 }
-/* line 46, ../scss/_layout.scss */
+/* line 77, ../scss/_layout.scss */
 .icon-location:hover:before {
   background-position: -55px 0;
 }
 
-/* line 52, ../scss/_layout.scss */
+/* line 83, ../scss/_layout.scss */
 .projects {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 57, ../scss/_layout.scss */
+/* line 88, ../scss/_layout.scss */
 .projects .projects__item {
   background: transparent;
 }
-/* line 61, ../scss/_layout.scss */
+/* line 92, ../scss/_layout.scss */
 .projects .projects__item:hover, .projects .projects__item:focus {
   background: #e6e6e6;
 }
-/* line 66, ../scss/_layout.scss */
+/* line 97, ../scss/_layout.scss */
 .projects .projects__item .thumb {
   display: block;
   padding-bottom: 6px;
   padding-top: 12px;
 }
-/* line 71, ../scss/_layout.scss */
+/* line 102, ../scss/_layout.scss */
 .projects .projects__item .thumb img {
   margin-bottom: 4px;
 }
 
-/* line 85, ../scss/_layout.scss */
+/* line 116, ../scss/_layout.scss */
 .collaborations {
   list-style: none;
 }
-/* line 88, ../scss/_layout.scss */
+/* line 119, ../scss/_layout.scss */
 .collaborations .collaborations__item {
   display: inline-block;
   *display: inline;
   zoom: 1;
 }
-/* line 93, ../scss/_layout.scss */
+/* line 124, ../scss/_layout.scss */
 .collaborations .collaborations__item .collaborations__link {
   text-indent: -9878px;
   display: block;
@@ -234,57 +257,57 @@ body {
   height: 50px;
   margin: 0 10px 10px 0;
 }
-/* line 101, ../scss/_layout.scss */
+/* line 132, ../scss/_layout.scss */
 .collaborations .collaborations__item .intaxi {
   background-position: 0 0;
   width: 190px;
 }
-/* line 105, ../scss/_layout.scss */
+/* line 136, ../scss/_layout.scss */
 .collaborations .collaborations__item .intaxi:hover {
   background-position: 0 -60px;
 }
-/* line 109, ../scss/_layout.scss */
+/* line 140, ../scss/_layout.scss */
 .collaborations .collaborations__item .intaxi {
   background-position: 0 0;
   width: 190px;
 }
-/* line 113, ../scss/_layout.scss */
+/* line 144, ../scss/_layout.scss */
 .collaborations .collaborations__item .intaxi:hover {
   background-position: 0 -60px;
 }
-/* line 117, ../scss/_layout.scss */
+/* line 148, ../scss/_layout.scss */
 .collaborations .collaborations__item .kidsters {
   background-position: -200px 0;
   width: 210px;
 }
-/* line 121, ../scss/_layout.scss */
+/* line 152, ../scss/_layout.scss */
 .collaborations .collaborations__item .kidsters:hover {
   background-position: -200px -60px;
 }
-/* line 125, ../scss/_layout.scss */
+/* line 156, ../scss/_layout.scss */
 .collaborations .collaborations__item .centrida {
   background-position: -420px 0;
   width: 200px;
 }
-/* line 129, ../scss/_layout.scss */
+/* line 160, ../scss/_layout.scss */
 .collaborations .collaborations__item .centrida:hover {
   background-position: -420px -60px;
 }
 
-/* line 139, ../scss/_layout.scss */
+/* line 170, ../scss/_layout.scss */
 .cv dl dt {
   margin-top: 1em;
 }
-/* line 142, ../scss/_layout.scss */
+/* line 173, ../scss/_layout.scss */
 .cv dl dd {
   margin-bottom: 0;
 }
-/* line 148, ../scss/_layout.scss */
+/* line 179, ../scss/_layout.scss */
 .cv .experience .period,
 .cv .experience .description {
   color: #404040;
 }
-/* line 153, ../scss/_layout.scss */
+/* line 184, ../scss/_layout.scss */
 .cv .lang ul {
   list-style: none;
 }
@@ -301,13 +324,13 @@ html {
   line-height: 1.77778em;
 }
 
-/* line 21, ../scss/_typography.scss */
+/* line 13, ../scss/_typography.scss */
 body {
   font-family: "PT Serif", Georgia, Times, "Times New Roman", sans-serif;
   text-transform: none;
 }
 
-/* line 30, ../scss/_typography.scss */
+/* line 22, ../scss/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-family: "PT Serif", Georgia, Times, "Times New Roman";
@@ -316,28 +339,28 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizelegibility;
 }
 
-/* line 39, ../scss/_typography.scss */
+/* line 31, ../scss/_typography.scss */
 h1 .small,
 h2 .small {
   font-weight: normal;
   color: #bfbfbf;
 }
 
-/* line 47, ../scss/_typography.scss */
+/* line 39, ../scss/_typography.scss */
 .header h1,
 .header .h1 {
   font-size: 3.44444em;
-  line-height: 1.54839em;
+  line-height: 1.29032em;
   margin: 0 auto 0em;
 }
-/* line 52, ../scss/_typography.scss */
+/* line 43, ../scss/_typography.scss */
 .header h1 .small {
   font-size: 0.51613em;
-  line-height: 1em;
+  line-height: 1.25em;
   margin: 0 auto 1em 0em;
 }
 
-/* line 61, ../scss/_typography.scss */
+/* line 52, ../scss/_typography.scss */
 .aside h1,
 .aside .h1 {
   font-size: 1.77778em;
@@ -345,27 +368,27 @@ h2 .small {
   margin: 0 auto 0em;
 }
 
-/* line 66, ../scss/_typography.scss */
+/* line 57, ../scss/_typography.scss */
 h1 {
   font-size: 2em;
   line-height: 1.77778em;
 }
 
-/* line 70, ../scss/_typography.scss */
+/* line 61, ../scss/_typography.scss */
 h2,
 .h2 {
   font-size: 1.77778em;
   line-height: 2em;
 }
 
-/* line 78, ../scss/_typography.scss */
+/* line 66, ../scss/_typography.scss */
 h3,
 .h3 {
   font-size: 1.33333em;
   line-height: 1.33333em;
 }
 
-/* line 99, ../scss/_typography.scss */
+/* line 84, ../scss/_typography.scss */
 h6,
 .h6 {
   font-weight: normal;
@@ -373,7 +396,7 @@ h6,
   text-transform: uppercase;
 }
 
-/* line 109, ../scss/_typography.scss */
+/* line 94, ../scss/_typography.scss */
 .cv .period,
 .cv .description,
 .cv .company {
@@ -381,7 +404,7 @@ h6,
   line-height: 1.78em;
 }
 
-/* line 121, ../scss/_typography.scss */
+/* line 106, ../scss/_typography.scss */
 .header h1 a,
 .header h2 a,
 .header h3 a {
@@ -393,12 +416,12 @@ h6,
   background-color: #f3f5f6;
 }
 
-/* line 138, ../scss/_typography.scss */
+/* line 123, ../scss/_typography.scss */
 .projects h2 {
   margin-bottom: 0;
 }
 
-/* line 146, ../scss/_typography.scss */
+/* line 131, ../scss/_typography.scss */
 .header .a-rss,
 .header .a-rss:hover {
   float: left;
@@ -411,7 +434,7 @@ h6,
   overflow: hidden;
 }
 
-/* line 161, ../scss/_typography.scss */
+/* line 146, ../scss/_typography.scss */
 p,
 ol,
 ul,
@@ -421,38 +444,38 @@ address {
   line-height: 32px;
 }
 
-/* line 168, ../scss/_typography.scss */
+/* line 153, ../scss/_typography.scss */
 .cv .aside p {
   margin-bottom: 16px;
 }
 
-/* line 175, ../scss/_typography.scss */
+/* line 160, ../scss/_typography.scss */
 .scope,
 small {
   font-size: 0.88889em;
   line-height: 1.5em;
 }
 
-/* line 180, ../scss/_typography.scss */
+/* line 165, ../scss/_typography.scss */
 .scope {
   margin-bottom: 0;
 }
 
-/* line 185, ../scss/_typography.scss */
+/* line 170, ../scss/_typography.scss */
 ul,
 ol {
   margin: 0 0 32px -24px;
   padding: 0 0 0 24px;
 }
 
-/* line 191, ../scss/_typography.scss */
+/* line 176, ../scss/_typography.scss */
 li ul,
 li ol {
   margin: 0;
   /*@include font-size(16); */
 }
 
-/* line 198, ../scss/_typography.scss */
+/* line 183, ../scss/_typography.scss */
 blockquote {
   margin: 0 0 32px -24px;
   padding-left: 24px;
@@ -461,12 +484,12 @@ blockquote {
   font-style: normal;
 }
 
-/* line 205, ../scss/_typography.scss */
+/* line 190, ../scss/_typography.scss */
 q {
   quotes: none;
 }
 
-/* line 211, ../scss/_typography.scss */
+/* line 196, ../scss/_typography.scss */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -475,58 +498,58 @@ q:after {
   content: none;
 }
 
-/* line 215, ../scss/_typography.scss */
+/* line 200, ../scss/_typography.scss */
 cite {
   font-style: normal;
 }
 
-/* line 221, ../scss/_typography.scss */
+/* line 206, ../scss/_typography.scss */
 dl,
 dd {
   margin-bottom: 32px;
 }
 
-/* line 224, ../scss/_typography.scss */
+/* line 209, ../scss/_typography.scss */
 dt {
   font-weight: bold;
 }
 
-/* line 229, ../scss/_typography.scss */
+/* line 214, ../scss/_typography.scss */
 .dl-horizontal dt {
   float: left;
   clear: left;
   width: 20.25%;
   text-align: right;
 }
-/* line 235, ../scss/_typography.scss */
+/* line 220, ../scss/_typography.scss */
 .dl-horizontal dd {
   margin-left: 22.78%;
 }
 
-/* line 241, ../scss/_typography.scss */
+/* line 226, ../scss/_typography.scss */
 abbr[title] {
   border-bottom: 1px dotted #c7ced6;
   cursor: help;
 }
 
-/* line 245, ../scss/_typography.scss */
+/* line 230, ../scss/_typography.scss */
 b, strong {
   font-weight: bold;
 }
 
-/* line 248, ../scss/_typography.scss */
+/* line 233, ../scss/_typography.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 251, ../scss/_typography.scss */
+/* line 236, ../scss/_typography.scss */
 ins {
   background-color: #f3f5f6;
   color: black;
   text-decoration: none;
 }
 
-/* line 256, ../scss/_typography.scss */
+/* line 241, ../scss/_typography.scss */
 mark {
   background-color: #f3f5f6;
   color: black;
@@ -534,7 +557,7 @@ mark {
   font-weight: bold;
 }
 
-/* line 265, ../scss/_typography.scss */
+/* line 250, ../scss/_typography.scss */
 pre,
 code,
 kbd,
@@ -543,14 +566,14 @@ samp {
   line-height: 32px;
 }
 
-/* line 270, ../scss/_typography.scss */
+/* line 255, ../scss/_typography.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-/* line 276, ../scss/_typography.scss */
+/* line 261, ../scss/_typography.scss */
 sub,
 sup {
   position: relative;
@@ -558,12 +581,12 @@ sup {
   vertical-align: baselineheight;
 }
 
-/* line 282, ../scss/_typography.scss */
+/* line 267, ../scss/_typography.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 285, ../scss/_typography.scss */
+/* line 270, ../scss/_typography.scss */
 sub {
   bottom: -0.25em;
 }
@@ -904,12 +927,18 @@ dl dt {
   .wrap {
     margin: 0 4%;
   }
+  /* line 22, ../scss/_600.scss */
+  .wrap .sticky-wrapper {
+    position: absolute;
+    right: 32px;
+    margin-top: 0;
+  }
 
-  /* line 23, ../scss/_600.scss */
+  /* line 29, ../scss/_600.scss */
   .projects {
     list-style: none;
   }
-  /* line 26, ../scss/_600.scss */
+  /* line 32, ../scss/_600.scss */
   .projects .projects__item {
     width: 46%;
     margin: 0 2.9% 32px 0;
@@ -922,26 +951,26 @@ dl dt {
 }
 @media only screen and (min-width: 768px) {
   /* 768 =================================================== */
-  /* line 19, ../scss/_768.scss */
+  /* line 23, ../scss/_768.scss */
   .wrap {
     max-width: 100%;
   }
-  /* line 23, ../scss/_768.scss */
+  /* line 30, ../scss/_768.scss */
   .wrap .entry .text {
     float: left;
     width: 64%;
   }
-  /* line 27, ../scss/_768.scss */
+  /* line 34, ../scss/_768.scss */
   .wrap .entry .aside {
     float: right;
     width: 32%;
   }
 
-  /* line 34, ../scss/_768.scss */
+  /* line 41, ../scss/_768.scss */
   .projects {
     list-style: none;
   }
-  /* line 37, ../scss/_768.scss */
+  /* line 44, ../scss/_768.scss */
   .projects .projects__item {
     width: 30%;
     margin: 0 2.9% 32px 0;
@@ -953,14 +982,14 @@ dl dt {
     padding: 0;
   }
 
-  /* line 53, ../scss/_768.scss */
+  /* line 60, ../scss/_768.scss */
   .cv .aside {
     float: right;
     margin-left: 4%;
     margin-bottom: 30px;
     padding-top: 16px;
   }
-  /* line 60, ../scss/_768.scss */
+  /* line 67, ../scss/_768.scss */
   .cv .goal,
   .cv .spec {
     overflow: auto;

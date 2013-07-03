@@ -18,6 +18,12 @@
 
 .wrap {
 	margin: 0 4%;
+
+	.sticky-wrapper {
+		position: absolute;
+		right: $base-line-height;
+		margin-top: 0;
+	}
 }
 
 .projects {

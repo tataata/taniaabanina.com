@@ -14,6 +14,9 @@
 	<!-- Google font: PT Serif -->
 	<link href='http://fonts.googleapis.com/css?family=PT+Serif&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
 
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.sticky.js"></script>
+
 	<!-- <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <link href="/css/print.css" media="print" rel="stylesheet" type="text/css" /> -->
   <!--[if IE]>
@@ -43,15 +46,17 @@
 <body class="page cv">
 	<div class="wrap">
 
-		<header class="header">
-				<h1>Tania Abanina<span class="small">web designer and&nbsp;client-side developer</span></h1>
-		</header><!-- /header -->
-		
-		<nav class="nav">
+		<nav class="nav" id="sticker">
 				<ul class="nav__list">
 					<li class="nav__item"><a href="index.html" title="go to home page">home</a></li>
 				</ul>
 			</nav>
+		
+		<header class="header">
+				<h1>Tania Abanina<span class="small">web designer and&nbsp;client-side developer</span></h1>
+		</header><!-- /header -->
+		
+		
 
 		<section class="content">
 
@@ -124,5 +129,12 @@
 
 		</section><!-- /content -->
 	</div>
+
+
+	<script>
+    $(window).load(function(){
+      $("#sticker").sticky({ topSpacing: 0, className:"hey" });
+    });
+  </script>
 </body>
 </html>
