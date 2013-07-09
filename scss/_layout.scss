@@ -48,6 +48,7 @@
 				color: $white;
 				text-decoration: none;
 				line-height: 1;
+				border-bottom: none;
 			}
 		}
 	
@@ -70,12 +71,32 @@
 }
 
 .icon-location {
-	@include icon-left(-55px, 0);
-	padding-left: 22px;
+	@include icon-left(-50px, 0);
 
 	&:hover {
 		&:before {
 			background-position: -55px 0;
+		}
+	}
+}
+
+.icon-github {
+	@include icon-left(-73px, 0);
+
+	&:hover {
+		&:before {
+			background-position: -73px 0;
+		}
+	}
+}
+
+
+.icon-bitbucket {
+	@include icon-left(-100px, 0);
+
+	&:hover {
+		&:before {
+			background-position: -100px 0;
 		}
 	}
 }
@@ -98,6 +119,9 @@
 			display: block;
 			padding-bottom: $base-line-height / 4;
 			padding-top: $base-line-height / 2;
+			border-bottom: none;
+			color: $textcolor;
+
 
 			img {
 				margin-bottom: $base-line-height / 6;
@@ -107,7 +131,7 @@
 
 			&:hover {
 				//border-bottom: $base-line-height / 6 solid $highlight;
-
+				color: $textcolor;
 			}
 		}
 	}
@@ -127,7 +151,8 @@
 			background-image: image-url("logo-sprite.png");
 			background-repeat: no-repeat;
 			height: 50px;
-			margin: 0 10px 10px 0;
+			margin: 0 $base-line-height $base-line-height 0;
+			border-bottom: none;
 		}
 		.intaxi {
 			background-position: 0 0;

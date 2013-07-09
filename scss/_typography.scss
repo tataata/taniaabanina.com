@@ -15,7 +15,15 @@ body {
 	text-transform: none;
 }
 
+a {
+  text-decoration: none;
+  border-bottom: 1px solid;
 
+  &:hover {
+    border-bottom: 1px solid;
+    text-decoration: none;
+  }
+}
 
 // HEADINGS ====================================================
 
@@ -57,9 +65,17 @@ h2 .small {
 h1 {
   @include adjust-font-size-to(36px);
 }
+
+
 h2,
 .h2 {
   @include adjust-font-size-to(32px);
+}
+.projects {
+  h2,
+  .h2 {
+    @include adjust-font-size-to(24px);
+  }
 }
 
 h3,

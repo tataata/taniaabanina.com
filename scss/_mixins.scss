@@ -61,7 +61,10 @@ border-bottom : solid 1px $bottom-color; }
 	$height: $iconHeight, 
 	$iconPath:image-url("icons.png")) {
 		position: relative;
-		padding-left: $width + 5px;
+		margin-left: $width + 5px;
+		//display: inline-block;
+		*display: inline;
+		zoom: 1;
 
 		&:before {
 			content: "";
@@ -71,7 +74,7 @@ border-bottom : solid 1px $bottom-color; }
 			position: absolute;
 			top: 50%;
 			margin-top: -$height / 2;
-			left: 3px;
+			left: -25px;
 			background: transparent $xOffset $yOffset $iconPath no-repeat;
 		}
 

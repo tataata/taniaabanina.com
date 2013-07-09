@@ -12,6 +12,7 @@
 // greyscale
 
 $black 			: rgb(0,0,0);
+$greyDarker	: lighten($black, 20%);
 $greyDark 	: lighten($black, 25%);
 $grey 			: lighten($black, 50%);
 $greyLight 	: lighten($black, 75%);
@@ -51,9 +52,9 @@ $red					: #a62820;
 
 // Links
 
-$linkcolor 		    : rgb(1,53,104);
-$linkcolorhover 	: darken($linkcolor, 10);
-$linkcolorvisited   : darken($linkcolorhover, 10);
+$linkcolor 		    : $greyDark;
+$linkcolorhover 	: darken($linkcolor, 20);
+$linkcolorvisited  : $linkcolor;
 $linkcolorfocus 	: darken($linkcolorvisited, 10);
 
 // colour palettes
