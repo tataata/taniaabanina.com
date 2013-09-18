@@ -287,7 +287,7 @@ body {
 }
 /* line 113, ../scss/_layout.scss */
 .projects .projects__item:hover, .projects .projects__item:focus {
-  background: #e6e6e6;
+  background: white url('/i/pattern.png?1379512586') center center repeat;
 }
 /* line 118, ../scss/_layout.scss */
 .projects .projects__item .thumb {
@@ -320,47 +320,47 @@ body {
 .collaborations .collaborations__item .collaborations__link {
   text-indent: -9878px;
   display: block;
-  background-image: url('/i/logo-sprite.png?1362345429');
+  background-image: url('/i/logo-sprite.png?1379511942');
   background-repeat: no-repeat;
   height: 50px;
-  margin: 0 24px 24px 0;
+  margin: 0 36px 24px 0;
   border-bottom: none;
 }
 /* line 157, ../scss/_layout.scss */
-.collaborations .collaborations__item .intaxi {
-  background-position: 0 0;
-  width: 190px;
+.collaborations .collaborations__item .upstream {
+  background-position: -555px -60px;
+  width: 194px;
 }
 /* line 161, ../scss/_layout.scss */
-.collaborations .collaborations__item .intaxi:hover {
-  background-position: 0 -60px;
+.collaborations .collaborations__item .upstream:hover {
+  background-position: -555px 0;
 }
 /* line 165, ../scss/_layout.scss */
 .collaborations .collaborations__item .intaxi {
-  background-position: 0 0;
-  width: 190px;
+  background-position: 0 -61px;
+  width: 156px;
 }
 /* line 169, ../scss/_layout.scss */
 .collaborations .collaborations__item .intaxi:hover {
-  background-position: 0 -60px;
+  background-position: 0 0;
 }
 /* line 173, ../scss/_layout.scss */
 .collaborations .collaborations__item .kidsters {
-  background-position: -200px 0;
-  width: 210px;
+  background-position: -165px -60px;
+  width: 169px;
 }
 /* line 177, ../scss/_layout.scss */
 .collaborations .collaborations__item .kidsters:hover {
-  background-position: -200px -60px;
+  background-position: -165px 0;
 }
 /* line 181, ../scss/_layout.scss */
 .collaborations .collaborations__item .centrida {
-  background-position: -420px 0;
+  background-position: -345px -62px;
   width: 200px;
 }
 /* line 185, ../scss/_layout.scss */
 .collaborations .collaborations__item .centrida:hover {
-  background-position: -420px -60px;
+  background-position: -346px 0;
 }
 
 /* line 195, ../scss/_layout.scss */
@@ -934,7 +934,7 @@ dl dt {
 
 @media print {
   /* Print =================================================== */
-  /* line 14, ../scss/_print.scss */
+  /* line 14, ../scss/print.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -948,58 +948,58 @@ dl dt {
     margin: 0.5cm;
 }
 
-  /* line 27, ../scss/_print.scss */
+  /* line 27, ../scss/print.scss */
   h2, h3 {
     orphans: 3;
     widows: 3;
     page-break-after: avoid;
   }
 
-  /* line 32, ../scss/_print.scss */
+  /* line 32, ../scss/print.scss */
   p {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 36, ../scss/_print.scss */
+  /* line 36, ../scss/print.scss */
   pre, blockquote {
     border: 1px solid gray;
     page-break-inside: avoid;
   }
 
-  /* line 40, ../scss/_print.scss */
+  /* line 40, ../scss/print.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 45, ../scss/_print.scss */
+  /* line 45, ../scss/print.scss */
   a, a:visited {
     text-decoration: underline;
   }
 
-  /* line 48, ../scss/_print.scss */
+  /* line 48, ../scss/print.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 52, ../scss/_print.scss */
+  /* line 52, ../scss/print.scss */
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 57, ../scss/_print.scss */
+  /* line 57, ../scss/print.scss */
   img {
     max-width: 100% !important;
     page-break-inside: avoid;
   }
 
-  /* line 61, ../scss/_print.scss */
+  /* line 61, ../scss/print.scss */
   thead {
     display: table-header-group;
   }
 
-  /* line 64, ../scss/_print.scss */
+  /* line 64, ../scss/print.scss */
   tr {
     page-break-inside: avoid;
   }
