@@ -42,8 +42,8 @@
 	list-style: none;
 
 	.projects__item {
-		width: 30%;
-		margin: 0 2.9% $base-line-height 0;
+		width: 31%;
+		margin: 0 1.9% $base-line-height 0;
 		//border: 1px solid red;
 		//float: left;
 		display: -moz-inline-stack;
@@ -52,7 +52,7 @@
 		zoom: 1;
     vertical-align: top;
 		
-		padding: 0;
+		//padding: 0 1%;
 	}
 }
 

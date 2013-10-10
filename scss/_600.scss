@@ -30,12 +30,8 @@
 	list-style: none;
 
 	.projects__item {
-
 		width: 46%;
 		margin: 0 2.9% $base-line-height 0;
-
-//		border: 1px solid red;
-		//float: left;
 		display: -moz-inline-stack;
     display: inline-block;
     *display: inline;

@@ -21,7 +21,7 @@
 		top: 0;
 		margin-top: 0;
 		right: 0;
-
+		z-index: 10;
 
 		.nav__item {
 			a {
@@ -108,32 +108,34 @@
 
 	.projects__item {
 		background: transparent;
+		//padding: $base-line-height * 0.25;
+		position: relative;
+		display: block;
+		padding: $base-line-height / 2 $base-line-height / 4;
 
 		&:hover,
 		&:focus {
 			background: $white image-url("pattern.png") center center repeat;
-			//color: $white;
 		}
 
 		.thumb {
 			display: block;
 			padding-bottom: $base-line-height / 4;
-			padding-top: $base-line-height / 2;
+			
 			border-bottom: none;
 			color: $textcolor;
-
+			position: relative; 
 
 			img {
 				margin-bottom: $base-line-height / 6;
 			}
 			//border-bottom: $base-line-height / 6 solid transparent;
-			
 
 			&:hover {
-				//border-bottom: $base-line-height / 6 solid $highlight;
 				color: $textcolor;
 			}
 		}
+
 	}
 }
 
