@@ -827,7 +827,7 @@ dl dt {
   top: 50%;
   margin-top: -11.5px;
   left: -25px;
-  background: transparent 0 0 url('/i/icons.png?1385727758') no-repeat;
+  background: transparent 0 0 url('/i/icons.png?1385752886') no-repeat;
 }
 /* line 82, ../scss/_mixins.scss */
 .icon-flickr:hover:before {
@@ -851,7 +851,7 @@ dl dt {
   top: 50%;
   margin-top: -11.5px;
   left: -25px;
-  background: transparent -25px 0 url('/i/icons.png?1385727758') no-repeat;
+  background: transparent -25px 0 url('/i/icons.png?1385752886') no-repeat;
 }
 /* line 82, ../scss/_mixins.scss */
 .icon-twitter:hover:before {
@@ -875,15 +875,15 @@ dl dt {
   top: 50%;
   margin-top: -11.5px;
   left: -25px;
-  background: transparent -50px 0 url('/i/icons.png?1385727758') no-repeat;
+  background: transparent -48px 0 url('/i/icons.png?1385752886') no-repeat;
 }
 /* line 82, ../scss/_mixins.scss */
 .icon-location:hover:before {
-  background-position: -50px -25px;
+  background-position: -48px -25px;
 }
 /* line 14, ../scss/_icons.scss */
 .icon-location:hover:before {
-  background-position: -55px 0;
+  background-position: -48px 0;
 }
 
 /* line 20, ../scss/_icons.scss */
@@ -903,7 +903,7 @@ dl dt {
   top: 50%;
   margin-top: -11.5px;
   left: -25px;
-  background: transparent -73px 0 url('/i/icons.png?1385727758') no-repeat;
+  background: transparent -73px 0 url('/i/icons.png?1385752886') no-repeat;
 }
 /* line 82, ../scss/_mixins.scss */
 .icon-github:hover:before {
@@ -927,7 +927,7 @@ dl dt {
   top: 50%;
   margin-top: -11.5px;
   left: -25px;
-  background: transparent -100px 0 url('/i/icons.png?1385727758') no-repeat;
+  background: transparent -100px 0 url('/i/icons.png?1385752886') no-repeat;
 }
 /* line 82, ../scss/_mixins.scss */
 .icon-bitbucket:hover:before {
@@ -951,7 +951,7 @@ dl dt {
   top: 50%;
   margin-top: -11.5px;
   left: -25px;
-  background: transparent -130px 0 url('/i/icons.png?1385727758') no-repeat;
+  background: transparent -130px 0 url('/i/icons.png?1385752886') no-repeat;
 }
 /* line 82, ../scss/_mixins.scss */
 .icon-linkedin:hover:before {
@@ -975,11 +975,35 @@ dl dt {
   top: 50%;
   margin-top: -11.5px;
   left: -25px;
-  background: transparent -155px 0 url('/i/icons.png?1385727758') no-repeat;
+  background: transparent -155px 0 url('/i/icons.png?1385752886') no-repeat;
 }
 /* line 82, ../scss/_mixins.scss */
 .icon-moikrug:hover:before {
   background-position: -155px -25px;
+}
+
+/* line 37, ../scss/_icons.scss */
+.icon-8tracks {
+  position: relative;
+  margin-left: 23px;
+  *display: inline;
+  zoom: 1;
+}
+/* line 69, ../scss/_mixins.scss */
+.icon-8tracks:before {
+  content: "";
+  display: block;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  top: 50%;
+  margin-top: -11.5px;
+  left: -25px;
+  background: transparent -177px 0 url('/i/icons.png?1385752886') no-repeat;
+}
+/* line 82, ../scss/_mixins.scss */
+.icon-8tracks:hover:before {
+  background-position: -177px -25px;
 }
 
 @media print {

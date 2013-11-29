@@ -8,11 +8,11 @@
 }
 
 .icon-location {
-	@include icon-left(-50px, 0);
+	@include icon-left(-48px, 0);
 
 	&:hover {
 		&:before {
-			background-position: -55px 0;
+			background-position: -48px 0;
 		}
 	}
 }
@@ -32,4 +32,8 @@
 
 .icon-moikrug {
 	@include icon-left(-155px, 0);
+}
+
+.icon-8tracks {
+	@include icon-left(-177px, 0);
 }
