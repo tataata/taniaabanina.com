@@ -61,7 +61,7 @@ border-bottom : solid 1px $bottom-color; }
 	$height: $iconHeight, 
 	$iconPath:image-url("icons.png")) {
 		position: relative;
-		margin-left: $width + 5px;
+		margin-left: $width;
 		//display: inline-block;
 		*display: inline;
 		zoom: 1;

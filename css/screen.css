@@ -144,156 +144,24 @@ body {
   padding: 24px 0;
 }
 
-/* line 65, ../scss/_layout.scss */
-.icon-flickr {
-  position: relative;
-  margin-left: 28px;
-  *display: inline;
-  zoom: 1;
-}
-/* line 69, ../scss/_mixins.scss */
-.icon-flickr:before {
-  content: "";
-  display: block;
-  width: 23px;
-  height: 23px;
-  position: absolute;
-  top: 50%;
-  margin-top: -11.5px;
-  left: -25px;
-  background: transparent 0 0 url('/i/icons.png?1373377479') no-repeat;
-}
-/* line 82, ../scss/_mixins.scss */
-.icon-flickr:hover:before {
-  background-position: 0 -25px;
-}
-
-/* line 69, ../scss/_layout.scss */
-.icon-twitter {
-  position: relative;
-  margin-left: 28px;
-  *display: inline;
-  zoom: 1;
-}
-/* line 69, ../scss/_mixins.scss */
-.icon-twitter:before {
-  content: "";
-  display: block;
-  width: 23px;
-  height: 23px;
-  position: absolute;
-  top: 50%;
-  margin-top: -11.5px;
-  left: -25px;
-  background: transparent -25px 0 url('/i/icons.png?1373377479') no-repeat;
-}
-/* line 82, ../scss/_mixins.scss */
-.icon-twitter:hover:before {
-  background-position: -25px -25px;
-}
-
-/* line 73, ../scss/_layout.scss */
-.icon-location {
-  position: relative;
-  margin-left: 28px;
-  *display: inline;
-  zoom: 1;
-}
-/* line 69, ../scss/_mixins.scss */
-.icon-location:before {
-  content: "";
-  display: block;
-  width: 23px;
-  height: 23px;
-  position: absolute;
-  top: 50%;
-  margin-top: -11.5px;
-  left: -25px;
-  background: transparent -50px 0 url('/i/icons.png?1373377479') no-repeat;
-}
-/* line 82, ../scss/_mixins.scss */
-.icon-location:hover:before {
-  background-position: -50px -25px;
-}
-/* line 77, ../scss/_layout.scss */
-.icon-location:hover:before {
-  background-position: -55px 0;
-}
-
-/* line 83, ../scss/_layout.scss */
-.icon-github {
-  position: relative;
-  margin-left: 28px;
-  *display: inline;
-  zoom: 1;
-}
-/* line 69, ../scss/_mixins.scss */
-.icon-github:before {
-  content: "";
-  display: block;
-  width: 23px;
-  height: 23px;
-  position: absolute;
-  top: 50%;
-  margin-top: -11.5px;
-  left: -25px;
-  background: transparent -73px 0 url('/i/icons.png?1373377479') no-repeat;
-}
-/* line 82, ../scss/_mixins.scss */
-.icon-github:hover:before {
-  background-position: -73px -25px;
-}
-/* line 87, ../scss/_layout.scss */
-.icon-github:hover:before {
-  background-position: -73px 0;
-}
-
-/* line 94, ../scss/_layout.scss */
-.icon-bitbucket {
-  position: relative;
-  margin-left: 28px;
-  *display: inline;
-  zoom: 1;
-}
-/* line 69, ../scss/_mixins.scss */
-.icon-bitbucket:before {
-  content: "";
-  display: block;
-  width: 23px;
-  height: 23px;
-  position: absolute;
-  top: 50%;
-  margin-top: -11.5px;
-  left: -25px;
-  background: transparent -100px 0 url('/i/icons.png?1373377479') no-repeat;
-}
-/* line 82, ../scss/_mixins.scss */
-.icon-bitbucket:hover:before {
-  background-position: -100px -25px;
-}
-/* line 98, ../scss/_layout.scss */
-.icon-bitbucket:hover:before {
-  background-position: -100px 0;
-}
-
-/* line 104, ../scss/_layout.scss */
+/* line 66, ../scss/_layout.scss */
 .projects {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 109, ../scss/_layout.scss */
+/* line 71, ../scss/_layout.scss */
 .projects .projects__item {
   background: transparent;
   position: relative;
   display: block;
   padding: 12px 6px;
 }
-/* line 117, ../scss/_layout.scss */
+/* line 79, ../scss/_layout.scss */
 .projects .projects__item:hover, .projects .projects__item:focus {
   background: white url('/i/pattern.png?1379512586') center center repeat;
 }
-/* line 121, ../scss/_layout.scss */
+/* line 83, ../scss/_layout.scss */
 .projects .projects__item .thumb {
   display: block;
   padding-bottom: 6px;
@@ -301,26 +169,26 @@ body {
   color: black;
   position: relative;
 }
-/* line 129, ../scss/_layout.scss */
+/* line 91, ../scss/_layout.scss */
 .projects .projects__item .thumb img {
   margin-bottom: 4px;
 }
-/* line 134, ../scss/_layout.scss */
+/* line 96, ../scss/_layout.scss */
 .projects .projects__item .thumb:hover {
   color: black;
 }
 
-/* line 142, ../scss/_layout.scss */
+/* line 104, ../scss/_layout.scss */
 .collaborations {
   list-style: none;
 }
-/* line 145, ../scss/_layout.scss */
+/* line 107, ../scss/_layout.scss */
 .collaborations .collaborations__item {
   display: inline-block;
   *display: inline;
   zoom: 1;
 }
-/* line 150, ../scss/_layout.scss */
+/* line 112, ../scss/_layout.scss */
 .collaborations .collaborations__item .collaborations__link {
   text-indent: -9878px;
   display: block;
@@ -330,57 +198,57 @@ body {
   margin: 0 36px 24px 0;
   border-bottom: none;
 }
-/* line 159, ../scss/_layout.scss */
+/* line 121, ../scss/_layout.scss */
 .collaborations .collaborations__item .upstream {
   background-position: -555px -60px;
   width: 194px;
 }
-/* line 163, ../scss/_layout.scss */
+/* line 125, ../scss/_layout.scss */
 .collaborations .collaborations__item .upstream:hover {
   background-position: -555px 0;
 }
-/* line 167, ../scss/_layout.scss */
+/* line 129, ../scss/_layout.scss */
 .collaborations .collaborations__item .intaxi {
   background-position: 0 -61px;
   width: 156px;
 }
-/* line 171, ../scss/_layout.scss */
+/* line 133, ../scss/_layout.scss */
 .collaborations .collaborations__item .intaxi:hover {
   background-position: 0 0;
 }
-/* line 175, ../scss/_layout.scss */
+/* line 137, ../scss/_layout.scss */
 .collaborations .collaborations__item .kidsters {
   background-position: -165px -60px;
   width: 169px;
 }
-/* line 179, ../scss/_layout.scss */
+/* line 141, ../scss/_layout.scss */
 .collaborations .collaborations__item .kidsters:hover {
   background-position: -165px 0;
 }
-/* line 183, ../scss/_layout.scss */
+/* line 145, ../scss/_layout.scss */
 .collaborations .collaborations__item .centrida {
   background-position: -345px -62px;
   width: 200px;
 }
-/* line 187, ../scss/_layout.scss */
+/* line 149, ../scss/_layout.scss */
 .collaborations .collaborations__item .centrida:hover {
   background-position: -346px 0;
 }
 
-/* line 197, ../scss/_layout.scss */
+/* line 159, ../scss/_layout.scss */
 .cv dl dt {
   margin-top: 1em;
 }
-/* line 200, ../scss/_layout.scss */
+/* line 162, ../scss/_layout.scss */
 .cv dl dd {
   margin-bottom: 0;
 }
-/* line 206, ../scss/_layout.scss */
+/* line 168, ../scss/_layout.scss */
 .cv .experience .period,
 .cv .experience .description {
   color: #404040;
 }
-/* line 211, ../scss/_layout.scss */
+/* line 173, ../scss/_layout.scss */
 .cv .lang ul {
   list-style: none;
 }
@@ -934,6 +802,184 @@ dl dt {
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom-width: 0;
+}
+
+/* line 75, ../scss/_elements.scss */
+.list__inline li {
+  display: inline-block;
+  margin-right: 0.6em;
+}
+
+/* line 2, ../scss/_icons.scss */
+.icon-flickr {
+  position: relative;
+  margin-left: 23px;
+  *display: inline;
+  zoom: 1;
+}
+/* line 69, ../scss/_mixins.scss */
+.icon-flickr:before {
+  content: "";
+  display: block;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  top: 50%;
+  margin-top: -11.5px;
+  left: -25px;
+  background: transparent 0 0 url('/i/icons.png?1385727758') no-repeat;
+}
+/* line 82, ../scss/_mixins.scss */
+.icon-flickr:hover:before {
+  background-position: 0 -25px;
+}
+
+/* line 6, ../scss/_icons.scss */
+.icon-twitter {
+  position: relative;
+  margin-left: 23px;
+  *display: inline;
+  zoom: 1;
+}
+/* line 69, ../scss/_mixins.scss */
+.icon-twitter:before {
+  content: "";
+  display: block;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  top: 50%;
+  margin-top: -11.5px;
+  left: -25px;
+  background: transparent -25px 0 url('/i/icons.png?1385727758') no-repeat;
+}
+/* line 82, ../scss/_mixins.scss */
+.icon-twitter:hover:before {
+  background-position: -25px -25px;
+}
+
+/* line 10, ../scss/_icons.scss */
+.icon-location {
+  position: relative;
+  margin-left: 23px;
+  *display: inline;
+  zoom: 1;
+}
+/* line 69, ../scss/_mixins.scss */
+.icon-location:before {
+  content: "";
+  display: block;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  top: 50%;
+  margin-top: -11.5px;
+  left: -25px;
+  background: transparent -50px 0 url('/i/icons.png?1385727758') no-repeat;
+}
+/* line 82, ../scss/_mixins.scss */
+.icon-location:hover:before {
+  background-position: -50px -25px;
+}
+/* line 14, ../scss/_icons.scss */
+.icon-location:hover:before {
+  background-position: -55px 0;
+}
+
+/* line 20, ../scss/_icons.scss */
+.icon-github {
+  position: relative;
+  margin-left: 23px;
+  *display: inline;
+  zoom: 1;
+}
+/* line 69, ../scss/_mixins.scss */
+.icon-github:before {
+  content: "";
+  display: block;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  top: 50%;
+  margin-top: -11.5px;
+  left: -25px;
+  background: transparent -73px 0 url('/i/icons.png?1385727758') no-repeat;
+}
+/* line 82, ../scss/_mixins.scss */
+.icon-github:hover:before {
+  background-position: -73px -25px;
+}
+
+/* line 25, ../scss/_icons.scss */
+.icon-bitbucket {
+  position: relative;
+  margin-left: 23px;
+  *display: inline;
+  zoom: 1;
+}
+/* line 69, ../scss/_mixins.scss */
+.icon-bitbucket:before {
+  content: "";
+  display: block;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  top: 50%;
+  margin-top: -11.5px;
+  left: -25px;
+  background: transparent -100px 0 url('/i/icons.png?1385727758') no-repeat;
+}
+/* line 82, ../scss/_mixins.scss */
+.icon-bitbucket:hover:before {
+  background-position: -100px -25px;
+}
+
+/* line 29, ../scss/_icons.scss */
+.icon-linkedin {
+  position: relative;
+  margin-left: 23px;
+  *display: inline;
+  zoom: 1;
+}
+/* line 69, ../scss/_mixins.scss */
+.icon-linkedin:before {
+  content: "";
+  display: block;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  top: 50%;
+  margin-top: -11.5px;
+  left: -25px;
+  background: transparent -130px 0 url('/i/icons.png?1385727758') no-repeat;
+}
+/* line 82, ../scss/_mixins.scss */
+.icon-linkedin:hover:before {
+  background-position: -130px -25px;
+}
+
+/* line 33, ../scss/_icons.scss */
+.icon-moikrug {
+  position: relative;
+  margin-left: 23px;
+  *display: inline;
+  zoom: 1;
+}
+/* line 69, ../scss/_mixins.scss */
+.icon-moikrug:before {
+  content: "";
+  display: block;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  top: 50%;
+  margin-top: -11.5px;
+  left: -25px;
+  background: transparent -155px 0 url('/i/icons.png?1385727758') no-repeat;
+}
+/* line 82, ../scss/_mixins.scss */
+.icon-moikrug:hover:before {
+  background-position: -155px -25px;
 }
 
 @media print {

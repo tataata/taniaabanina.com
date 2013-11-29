@@ -69,3 +69,11 @@ margin-bottom : 0;
 padding-bottom : 0;
 border-bottom-width : 0; }
 }
+
+// List inline
+.list__inline {
+	li {
+		display: inline-block;
+		margin-right: 0.6em;
+	}
+}

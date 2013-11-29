@@ -1,0 +1,35 @@
+
+.icon-flickr {
+	@include icon-left(0, 0);
+}
+
+.icon-twitter {
+	@include icon-left(-25px, 0);
+}
+
+.icon-location {
+	@include icon-left(-50px, 0);
+
+	&:hover {
+		&:before {
+			background-position: -55px 0;
+		}
+	}
+}
+
+.icon-github {
+	@include icon-left(-73px, 0);
+}
+
+
+.icon-bitbucket {
+	@include icon-left(-100px, 0);
+}
+
+.icon-linkedin {
+	@include icon-left(-130px, 0);
+}
+
+.icon-moikrug {
+	@include icon-left(-155px, 0);
+}
