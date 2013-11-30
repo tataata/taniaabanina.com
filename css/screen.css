@@ -35,16 +35,16 @@ article, aside, figure, footer, header, hgroup, nav, section {
 
 /* Variables =================================================== */
 /* Mixins =================================================== */
-/* line 115, ../scss/_mixins.scss */
+/* line 116, ../scss/_mixins.scss */
 .clearfix {
   *zoom: 1;
 }
-/* line 108, ../scss/_mixins.scss */
+/* line 109, ../scss/_mixins.scss */
 .clearfix:before, .clearfix:after {
   display: table;
   content: "";
 }
-/* line 111, ../scss/_mixins.scss */
+/* line 112, ../scss/_mixins.scss */
 .clearfix:after {
   clear: both;
 }
@@ -816,23 +816,23 @@ dl dt {
 /* line 2, ../scss/_icons.scss */
 .icon-flickr {
   position: relative;
-  margin-left: 23px;
+  margin-left: 20px;
   *display: inline;
   zoom: 1;
 }
-/* line 69, ../scss/_mixins.scss */
+/* line 70, ../scss/_mixins.scss */
 .icon-flickr:before {
   content: "";
   display: block;
-  width: 23px;
-  height: 23px;
+  width: 16px;
+  height: 16px;
   position: absolute;
   top: 50%;
-  margin-top: -11.5px;
-  left: -25px;
-  background: transparent 0 0 url('/i/icons.png?1385752886') no-repeat;
+  margin-top: -8px;
+  left: -20px;
+  background: transparent 0 0 url('/i/icons.png?1385829932') no-repeat;
 }
-/* line 82, ../scss/_mixins.scss */
+/* line 83, ../scss/_mixins.scss */
 .icon-flickr:hover:before {
   background-position: 0 -25px;
 }
@@ -840,47 +840,47 @@ dl dt {
 /* line 6, ../scss/_icons.scss */
 .icon-twitter {
   position: relative;
-  margin-left: 23px;
+  margin-left: 20px;
   *display: inline;
   zoom: 1;
 }
-/* line 69, ../scss/_mixins.scss */
+/* line 70, ../scss/_mixins.scss */
 .icon-twitter:before {
   content: "";
   display: block;
-  width: 23px;
-  height: 23px;
+  width: 16px;
+  height: 16px;
   position: absolute;
   top: 50%;
-  margin-top: -11.5px;
-  left: -25px;
-  background: transparent -25px 0 url('/i/icons.png?1385752886') no-repeat;
+  margin-top: -8px;
+  left: -20px;
+  background: transparent -30px 0 url('/i/icons.png?1385829932') no-repeat;
 }
-/* line 82, ../scss/_mixins.scss */
+/* line 83, ../scss/_mixins.scss */
 .icon-twitter:hover:before {
-  background-position: -25px -25px;
+  background-position: -30px -25px;
 }
 
 /* line 10, ../scss/_icons.scss */
 .icon-location {
   position: relative;
-  margin-left: 23px;
+  margin-left: 20px;
   *display: inline;
   zoom: 1;
 }
-/* line 69, ../scss/_mixins.scss */
+/* line 70, ../scss/_mixins.scss */
 .icon-location:before {
   content: "";
   display: block;
-  width: 23px;
-  height: 23px;
+  width: 16px;
+  height: 16px;
   position: absolute;
   top: 50%;
-  margin-top: -11.5px;
-  left: -25px;
-  background: transparent -48px 0 url('/i/icons.png?1385752886') no-repeat;
+  margin-top: -8px;
+  left: -20px;
+  background: transparent -48px 0 url('/i/icons.png?1385829932') no-repeat;
 }
-/* line 82, ../scss/_mixins.scss */
+/* line 83, ../scss/_mixins.scss */
 .icon-location:hover:before {
   background-position: -48px -25px;
 }
@@ -892,121 +892,121 @@ dl dt {
 /* line 20, ../scss/_icons.scss */
 .icon-github {
   position: relative;
-  margin-left: 23px;
+  margin-left: 20px;
   *display: inline;
   zoom: 1;
 }
-/* line 69, ../scss/_mixins.scss */
+/* line 70, ../scss/_mixins.scss */
 .icon-github:before {
   content: "";
   display: block;
-  width: 23px;
-  height: 23px;
+  width: 16px;
+  height: 16px;
   position: absolute;
   top: 50%;
-  margin-top: -11.5px;
-  left: -25px;
-  background: transparent -73px 0 url('/i/icons.png?1385752886') no-repeat;
+  margin-top: -8px;
+  left: -20px;
+  background: transparent -76px 0 url('/i/icons.png?1385829932') no-repeat;
 }
-/* line 82, ../scss/_mixins.scss */
+/* line 83, ../scss/_mixins.scss */
 .icon-github:hover:before {
-  background-position: -73px -25px;
+  background-position: -76px -25px;
 }
 
 /* line 25, ../scss/_icons.scss */
 .icon-bitbucket {
   position: relative;
-  margin-left: 23px;
+  margin-left: 20px;
   *display: inline;
   zoom: 1;
 }
-/* line 69, ../scss/_mixins.scss */
+/* line 70, ../scss/_mixins.scss */
 .icon-bitbucket:before {
   content: "";
   display: block;
-  width: 23px;
-  height: 23px;
+  width: 16px;
+  height: 16px;
   position: absolute;
   top: 50%;
-  margin-top: -11.5px;
-  left: -25px;
-  background: transparent -100px 0 url('/i/icons.png?1385752886') no-repeat;
+  margin-top: -8px;
+  left: -20px;
+  background: transparent -105px 0 url('/i/icons.png?1385829932') no-repeat;
 }
-/* line 82, ../scss/_mixins.scss */
+/* line 83, ../scss/_mixins.scss */
 .icon-bitbucket:hover:before {
-  background-position: -100px -25px;
+  background-position: -105px -25px;
 }
 
 /* line 29, ../scss/_icons.scss */
 .icon-linkedin {
   position: relative;
-  margin-left: 23px;
+  margin-left: 20px;
   *display: inline;
   zoom: 1;
 }
-/* line 69, ../scss/_mixins.scss */
+/* line 70, ../scss/_mixins.scss */
 .icon-linkedin:before {
   content: "";
   display: block;
-  width: 23px;
-  height: 23px;
+  width: 16px;
+  height: 16px;
   position: absolute;
   top: 50%;
-  margin-top: -11.5px;
-  left: -25px;
-  background: transparent -130px 0 url('/i/icons.png?1385752886') no-repeat;
+  margin-top: -8px;
+  left: -20px;
+  background: transparent -132px 0 url('/i/icons.png?1385829932') no-repeat;
 }
-/* line 82, ../scss/_mixins.scss */
+/* line 83, ../scss/_mixins.scss */
 .icon-linkedin:hover:before {
-  background-position: -130px -25px;
+  background-position: -132px -25px;
 }
 
 /* line 33, ../scss/_icons.scss */
 .icon-moikrug {
   position: relative;
-  margin-left: 23px;
+  margin-left: 20px;
   *display: inline;
   zoom: 1;
 }
-/* line 69, ../scss/_mixins.scss */
+/* line 70, ../scss/_mixins.scss */
 .icon-moikrug:before {
   content: "";
   display: block;
-  width: 23px;
-  height: 23px;
+  width: 16px;
+  height: 16px;
   position: absolute;
   top: 50%;
-  margin-top: -11.5px;
-  left: -25px;
-  background: transparent -155px 0 url('/i/icons.png?1385752886') no-repeat;
+  margin-top: -8px;
+  left: -20px;
+  background: transparent -158px 0 url('/i/icons.png?1385829932') no-repeat;
 }
-/* line 82, ../scss/_mixins.scss */
+/* line 83, ../scss/_mixins.scss */
 .icon-moikrug:hover:before {
-  background-position: -155px -25px;
+  background-position: -158px -25px;
 }
 
 /* line 37, ../scss/_icons.scss */
 .icon-8tracks {
   position: relative;
-  margin-left: 23px;
+  margin-left: 20px;
   *display: inline;
   zoom: 1;
 }
-/* line 69, ../scss/_mixins.scss */
+/* line 70, ../scss/_mixins.scss */
 .icon-8tracks:before {
   content: "";
   display: block;
-  width: 23px;
-  height: 23px;
+  width: 16px;
+  height: 16px;
   position: absolute;
   top: 50%;
-  margin-top: -11.5px;
-  left: -25px;
-  background: transparent -177px 0 url('/i/icons.png?1385752886') no-repeat;
+  margin-top: -8px;
+  left: -20px;
+  background: transparent -179px 0 url('/i/icons.png?1385829932') no-repeat;
 }
-/* line 82, ../scss/_mixins.scss */
+/* line 83, ../scss/_mixins.scss */
 .icon-8tracks:hover:before {
-  background-position: -177px -25px;
+  background-position: -179px -25px;
 }
 
 @media print {
