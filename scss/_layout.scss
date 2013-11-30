@@ -23,34 +23,33 @@
 		right: 0;
 		z-index: 10;	
 
-		.nav__item {
-			a {
-				display:block;
-
-			}
+		> .nav {
+			position: static;
+			margin: 0;
 		}
 	}
+
 	.nav {
-		position: static;
+		//position: static;
 		margin: 0;
+		position: absolute;
+		top: 0;
 	}
 
-
-
-
-		.nav__list {
-			list-style: none;
+	.nav__list {
+		list-style: none;
+	}
+	.nav__item {
+		a {
+			display: block;
+			padding: $base-line-height / 1.5 $base-line-height * 1.25;
+			background: $red;
+			color: $white;
+			text-decoration: none;
+			line-height: 1;
+			border-bottom: none;
 		}
-		.nav__item {
-			a {
-				padding: $base-line-height / 2 $base-line-height;
-				background: $red;
-				color: $white;
-				text-decoration: none;
-				line-height: 1;
-				border-bottom: none;
-			}
-		}
+	}
 	
 
 	.content {

@@ -117,51 +117,54 @@ body {
   right: 0;
   z-index: 10;
 }
-/* line 27, ../scss/_layout.scss */
-.wrap .sticky-wrapper .nav__item a {
-  display: block;
-}
-/* line 33, ../scss/_layout.scss */
-.wrap .nav {
+/* line 26, ../scss/_layout.scss */
+.wrap .sticky-wrapper > .nav {
   position: static;
   margin: 0;
 }
-/* line 41, ../scss/_layout.scss */
+/* line 32, ../scss/_layout.scss */
+.wrap .nav {
+  margin: 0;
+  position: absolute;
+  top: 0;
+}
+/* line 39, ../scss/_layout.scss */
 .wrap .nav__list {
   list-style: none;
 }
-/* line 45, ../scss/_layout.scss */
+/* line 43, ../scss/_layout.scss */
 .wrap .nav__item a {
-  padding: 12px 24px;
+  display: block;
+  padding: 16px 30px;
   background: #a62820;
   color: white;
   text-decoration: none;
   line-height: 1;
   border-bottom: none;
 }
-/* line 56, ../scss/_layout.scss */
+/* line 55, ../scss/_layout.scss */
 .wrap .content {
   padding: 24px 0;
 }
 
-/* line 66, ../scss/_layout.scss */
+/* line 65, ../scss/_layout.scss */
 .projects {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 71, ../scss/_layout.scss */
+/* line 70, ../scss/_layout.scss */
 .projects .projects__item {
   background: transparent;
   position: relative;
   display: block;
   padding: 12px 6px;
 }
-/* line 79, ../scss/_layout.scss */
+/* line 78, ../scss/_layout.scss */
 .projects .projects__item:hover, .projects .projects__item:focus {
   background: white url('/i/pattern.png?1379512586') center center repeat;
 }
-/* line 83, ../scss/_layout.scss */
+/* line 82, ../scss/_layout.scss */
 .projects .projects__item .thumb {
   display: block;
   padding-bottom: 6px;
@@ -169,26 +172,26 @@ body {
   color: black;
   position: relative;
 }
-/* line 91, ../scss/_layout.scss */
+/* line 90, ../scss/_layout.scss */
 .projects .projects__item .thumb img {
   margin-bottom: 4px;
 }
-/* line 96, ../scss/_layout.scss */
+/* line 95, ../scss/_layout.scss */
 .projects .projects__item .thumb:hover {
   color: black;
 }
 
-/* line 104, ../scss/_layout.scss */
+/* line 103, ../scss/_layout.scss */
 .collaborations {
   list-style: none;
 }
-/* line 107, ../scss/_layout.scss */
+/* line 106, ../scss/_layout.scss */
 .collaborations .collaborations__item {
   display: inline-block;
   *display: inline;
   zoom: 1;
 }
-/* line 112, ../scss/_layout.scss */
+/* line 111, ../scss/_layout.scss */
 .collaborations .collaborations__item .collaborations__link {
   text-indent: -9878px;
   display: block;
@@ -198,57 +201,57 @@ body {
   margin: 0 36px 24px 0;
   border-bottom: none;
 }
-/* line 121, ../scss/_layout.scss */
+/* line 120, ../scss/_layout.scss */
 .collaborations .collaborations__item .upstream {
   background-position: -555px -60px;
   width: 194px;
 }
-/* line 125, ../scss/_layout.scss */
+/* line 124, ../scss/_layout.scss */
 .collaborations .collaborations__item .upstream:hover {
   background-position: -555px 0;
 }
-/* line 129, ../scss/_layout.scss */
+/* line 128, ../scss/_layout.scss */
 .collaborations .collaborations__item .intaxi {
   background-position: 0 -61px;
   width: 156px;
 }
-/* line 133, ../scss/_layout.scss */
+/* line 132, ../scss/_layout.scss */
 .collaborations .collaborations__item .intaxi:hover {
   background-position: 0 0;
 }
-/* line 137, ../scss/_layout.scss */
+/* line 136, ../scss/_layout.scss */
 .collaborations .collaborations__item .kidsters {
   background-position: -165px -60px;
   width: 169px;
 }
-/* line 141, ../scss/_layout.scss */
+/* line 140, ../scss/_layout.scss */
 .collaborations .collaborations__item .kidsters:hover {
   background-position: -165px 0;
 }
-/* line 145, ../scss/_layout.scss */
+/* line 144, ../scss/_layout.scss */
 .collaborations .collaborations__item .centrida {
   background-position: -345px -62px;
   width: 200px;
 }
-/* line 149, ../scss/_layout.scss */
+/* line 148, ../scss/_layout.scss */
 .collaborations .collaborations__item .centrida:hover {
   background-position: -346px 0;
 }
 
-/* line 159, ../scss/_layout.scss */
+/* line 158, ../scss/_layout.scss */
 .cv dl dt {
   margin-top: 1em;
 }
-/* line 162, ../scss/_layout.scss */
+/* line 161, ../scss/_layout.scss */
 .cv dl dd {
   margin-bottom: 0;
 }
-/* line 168, ../scss/_layout.scss */
+/* line 167, ../scss/_layout.scss */
 .cv .experience .period,
 .cv .experience .description {
   color: #404040;
 }
-/* line 173, ../scss/_layout.scss */
+/* line 172, ../scss/_layout.scss */
 .cv .lang ul {
   list-style: none;
 }
@@ -1115,22 +1118,22 @@ dl dt {
   .wrap {
     max-width: 100%;
   }
-  /* line 30, ../scss/_768.scss */
+  /* line 27, ../scss/_768.scss */
   .wrap .entry .text {
     float: left;
     width: 64%;
   }
-  /* line 34, ../scss/_768.scss */
+  /* line 31, ../scss/_768.scss */
   .wrap .entry .aside {
     float: right;
     width: 32%;
   }
 
-  /* line 41, ../scss/_768.scss */
+  /* line 38, ../scss/_768.scss */
   .projects {
     list-style: none;
   }
-  /* line 44, ../scss/_768.scss */
+  /* line 41, ../scss/_768.scss */
   .projects .projects__item {
     width: 31%;
     margin: 0 1.9% 32px 0;
@@ -1141,14 +1144,14 @@ dl dt {
     vertical-align: top;
   }
 
-  /* line 60, ../scss/_768.scss */
+  /* line 57, ../scss/_768.scss */
   .cv .aside {
     float: right;
     margin-left: 4%;
     margin-bottom: 30px;
     padding-top: 16px;
   }
-  /* line 67, ../scss/_768.scss */
+  /* line 64, ../scss/_768.scss */
   .cv .goal,
   .cv .spec {
     overflow: auto;
