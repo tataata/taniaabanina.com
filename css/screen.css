@@ -135,7 +135,7 @@ body {
 /* line 43, ../scss/_layout.scss */
 .wrap .nav__item a {
   display: block;
-  padding: 16px 30px;
+  padding: 15.6px 24px;
   background: #a62820;
   color: white;
   text-decoration: none;
