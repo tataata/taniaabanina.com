@@ -121,20 +121,12 @@ h6,
 
   a {
     display : block;
-    position : relative;
-    top : 6px;
-    float : right;
-    padding : 4px 12px;
-//    @include font-size(14);
-    background-color : lighten($basecolor, 75%); 
+    text-decoration: none;
+    color: $basecolor;
   }
 }
 
-.header h1 {
-  .small {
-//    @include font-size(32);
-  }
-}
+
 
 .projects h2 {
 //  @include font-size(21);

@@ -174,3 +174,24 @@
 		}
 	}
 }
+
+.project {
+	background: $greyLight;
+	background-image: image-url("bg-bw.png");
+
+	.wrap .nav__item a {
+		background: $grey;
+		background: rgba($grey, 0.5);
+
+		&:hover {
+			//background: $greyLight;
+		}
+	}
+	.wrap .sticky-wrapper > .nav {
+		overflow: hidden;
+	}
+
+	.nav__list .nav__item {
+		float: left;
+	}
+}

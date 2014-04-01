@@ -43,6 +43,10 @@ background-color : lighten($basecolor, 65%);
 color : $basecolor;
 text-shadow : none; }
 
+.mute {
+	color: $greyLight;
+}
+
 // swatches
 
 .swatch {

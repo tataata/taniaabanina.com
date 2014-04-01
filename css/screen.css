@@ -256,6 +256,25 @@ body {
   list-style: none;
 }
 
+/* line 178, ../scss/_layout.scss */
+.project {
+  background: #b3b3b3;
+  background-image: url('/i/bg-bw.png?1396370299');
+}
+/* line 182, ../scss/_layout.scss */
+.project .wrap .nav__item a {
+  background: gray;
+  background: rgba(128, 128, 128, 0.5);
+}
+/* line 190, ../scss/_layout.scss */
+.project .wrap .sticky-wrapper > .nav {
+  overflow: hidden;
+}
+/* line 194, ../scss/_layout.scss */
+.project .nav__list .nav__item {
+  float: left;
+}
+
 /* Typography =================================================== */
 /* line 61, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 * html {
@@ -298,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 .small,
 h2 .small {
   font-weight: normal;
-  color: #bfbfbf;
+  color: #b3b3b3;
 }
 
 /* line 47, ../scss/_typography.scss */
@@ -371,19 +390,16 @@ h6,
 .header h2 a,
 .header h3 a {
   display: block;
-  position: relative;
-  top: 6px;
-  float: right;
-  padding: 4px 12px;
-  background-color: #f3f5f6;
+  text-decoration: none;
+  color: #2d353e;
 }
 
-/* line 139, ../scss/_typography.scss */
+/* line 131, ../scss/_typography.scss */
 .projects h2 {
   margin-bottom: 0;
 }
 
-/* line 147, ../scss/_typography.scss */
+/* line 139, ../scss/_typography.scss */
 .header .a-rss,
 .header .a-rss:hover {
   float: left;
@@ -396,7 +412,7 @@ h6,
   overflow: hidden;
 }
 
-/* line 162, ../scss/_typography.scss */
+/* line 154, ../scss/_typography.scss */
 p,
 ol,
 ul,
@@ -406,38 +422,38 @@ address {
   line-height: 32px;
 }
 
-/* line 169, ../scss/_typography.scss */
+/* line 161, ../scss/_typography.scss */
 .cv .aside p {
   margin-bottom: 16px;
 }
 
-/* line 176, ../scss/_typography.scss */
+/* line 168, ../scss/_typography.scss */
 .scope,
 small {
   font-size: 0.88889em;
   line-height: 1.5em;
 }
 
-/* line 181, ../scss/_typography.scss */
+/* line 173, ../scss/_typography.scss */
 .scope {
   margin-bottom: 0;
 }
 
-/* line 186, ../scss/_typography.scss */
+/* line 178, ../scss/_typography.scss */
 ul,
 ol {
   margin: 0 0 32px -24px;
   padding: 0 0 0 24px;
 }
 
-/* line 192, ../scss/_typography.scss */
+/* line 184, ../scss/_typography.scss */
 li ul,
 li ol {
   margin: 0;
   /*@include font-size(16); */
 }
 
-/* line 199, ../scss/_typography.scss */
+/* line 191, ../scss/_typography.scss */
 blockquote {
   margin: 0 0 32px -24px;
   padding-left: 24px;
@@ -446,12 +462,12 @@ blockquote {
   font-style: normal;
 }
 
-/* line 206, ../scss/_typography.scss */
+/* line 198, ../scss/_typography.scss */
 q {
   quotes: none;
 }
 
-/* line 212, ../scss/_typography.scss */
+/* line 204, ../scss/_typography.scss */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -460,58 +476,58 @@ q:after {
   content: none;
 }
 
-/* line 216, ../scss/_typography.scss */
+/* line 208, ../scss/_typography.scss */
 cite {
   font-style: normal;
 }
 
-/* line 222, ../scss/_typography.scss */
+/* line 214, ../scss/_typography.scss */
 dl,
 dd {
   margin-bottom: 32px;
 }
 
-/* line 225, ../scss/_typography.scss */
+/* line 217, ../scss/_typography.scss */
 dt {
   font-weight: bold;
 }
 
-/* line 230, ../scss/_typography.scss */
+/* line 222, ../scss/_typography.scss */
 .dl-horizontal dt {
   float: left;
   clear: left;
   width: 20.25%;
   text-align: right;
 }
-/* line 236, ../scss/_typography.scss */
+/* line 228, ../scss/_typography.scss */
 .dl-horizontal dd {
   margin-left: 22.78%;
 }
 
-/* line 242, ../scss/_typography.scss */
+/* line 234, ../scss/_typography.scss */
 abbr[title] {
   border-bottom: 1px dotted #c7ced6;
   cursor: help;
 }
 
-/* line 246, ../scss/_typography.scss */
+/* line 238, ../scss/_typography.scss */
 b, strong {
   font-weight: bold;
 }
 
-/* line 249, ../scss/_typography.scss */
+/* line 241, ../scss/_typography.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 252, ../scss/_typography.scss */
+/* line 244, ../scss/_typography.scss */
 ins {
   background-color: #f3f5f6;
   color: black;
   text-decoration: none;
 }
 
-/* line 257, ../scss/_typography.scss */
+/* line 249, ../scss/_typography.scss */
 mark {
   background-color: #f3f5f6;
   color: black;
@@ -519,7 +535,7 @@ mark {
   font-weight: bold;
 }
 
-/* line 266, ../scss/_typography.scss */
+/* line 258, ../scss/_typography.scss */
 pre,
 code,
 kbd,
@@ -528,14 +544,14 @@ samp {
   line-height: 32px;
 }
 
-/* line 271, ../scss/_typography.scss */
+/* line 263, ../scss/_typography.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-/* line 277, ../scss/_typography.scss */
+/* line 269, ../scss/_typography.scss */
 sub,
 sup {
   position: relative;
@@ -543,12 +559,12 @@ sup {
   vertical-align: baselineheight;
 }
 
-/* line 283, ../scss/_typography.scss */
+/* line 275, ../scss/_typography.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 286, ../scss/_typography.scss */
+/* line 278, ../scss/_typography.scss */
 sub {
   bottom: -0.25em;
 }
@@ -591,13 +607,18 @@ a:hover, a:active {
   text-shadow: none;
 }
 
-/* line 48, ../scss/_colour.scss */
+/* line 46, ../scss/_colour.scss */
+.mute {
+  color: #b3b3b3;
+}
+
+/* line 52, ../scss/_colour.scss */
 .swatch {
   margin: 0 0 32px 0;
   padding: 0;
 }
 
-/* line 52, ../scss/_colour.scss */
+/* line 56, ../scss/_colour.scss */
 .swatch-row {
   display: block;
   margin: 0;
@@ -605,17 +626,17 @@ a:hover, a:active {
   width: 200px;
 }
 
-/* line 58, ../scss/_colour.scss */
+/* line 62, ../scss/_colour.scss */
 .swatch-row-one {
   background-color: black;
 }
 
-/* line 61, ../scss/_colour.scss */
+/* line 65, ../scss/_colour.scss */
 .swatch-row-two {
   background-color: white;
 }
 
-/* line 64, ../scss/_colour.scss */
+/* line 68, ../scss/_colour.scss */
 .swatch-row span {
   display: block;
   float: left;
@@ -623,122 +644,122 @@ a:hover, a:active {
   height: 50px;
 }
 
-/* line 72, ../scss/_colour.scss */
+/* line 76, ../scss/_colour.scss */
 .swatch-base span:nth-child(1) {
   background-color: rgba(45, 53, 62, 0.9);
 }
 
-/* line 75, ../scss/_colour.scss */
+/* line 79, ../scss/_colour.scss */
 .swatch-base span:nth-child(2) {
   background-color: rgba(45, 53, 62, 0.8);
 }
 
-/* line 78, ../scss/_colour.scss */
+/* line 82, ../scss/_colour.scss */
 .swatch-base span:nth-child(3) {
   background-color: rgba(45, 53, 62, 0.7);
 }
 
-/* line 81, ../scss/_colour.scss */
+/* line 85, ../scss/_colour.scss */
 .swatch-base span:nth-child(4) {
   background-color: rgba(45, 53, 62, 0.6);
 }
 
-/* line 86, ../scss/_colour.scss */
+/* line 90, ../scss/_colour.scss */
 .swatch-alert span:nth-child(1) {
   background-color: rgba(252, 248, 227, 0.9);
 }
 
-/* line 89, ../scss/_colour.scss */
+/* line 93, ../scss/_colour.scss */
 .swatch-alert span:nth-child(2) {
   background-color: rgba(252, 248, 227, 0.8);
 }
 
-/* line 92, ../scss/_colour.scss */
+/* line 96, ../scss/_colour.scss */
 .swatch-alert span:nth-child(3) {
   background-color: rgba(252, 248, 227, 0.7);
 }
 
-/* line 95, ../scss/_colour.scss */
+/* line 99, ../scss/_colour.scss */
 .swatch-alert span:nth-child(4) {
   background-color: rgba(252, 248, 227, 0.6);
 }
 
-/* line 100, ../scss/_colour.scss */
+/* line 104, ../scss/_colour.scss */
 .swatch-error span:nth-child(1) {
   background-color: rgba(218, 79, 73, 0.9);
 }
 
-/* line 103, ../scss/_colour.scss */
+/* line 107, ../scss/_colour.scss */
 .swatch-error span:nth-child(2) {
   background-color: rgba(218, 79, 73, 0.8);
 }
 
-/* line 106, ../scss/_colour.scss */
+/* line 110, ../scss/_colour.scss */
 .swatch-error span:nth-child(3) {
   background-color: rgba(218, 79, 73, 0.7);
 }
 
-/* line 109, ../scss/_colour.scss */
+/* line 113, ../scss/_colour.scss */
 .swatch-error span:nth-child(4) {
   background-color: rgba(218, 79, 73, 0.6);
 }
 
-/* line 114, ../scss/_colour.scss */
+/* line 118, ../scss/_colour.scss */
 .swatch-info span:nth-child(1) {
   background-color: rgba(217, 237, 247, 0.9);
 }
 
-/* line 117, ../scss/_colour.scss */
+/* line 121, ../scss/_colour.scss */
 .swatch-info span:nth-child(2) {
   background-color: rgba(217, 237, 247, 0.8);
 }
 
-/* line 120, ../scss/_colour.scss */
+/* line 124, ../scss/_colour.scss */
 .swatch-info span:nth-child(3) {
   background-color: rgba(217, 237, 247, 0.7);
 }
 
-/* line 123, ../scss/_colour.scss */
+/* line 127, ../scss/_colour.scss */
 .swatch-info span:nth-child(4) {
   background-color: rgba(217, 237, 247, 0.6);
 }
 
-/* line 128, ../scss/_colour.scss */
+/* line 132, ../scss/_colour.scss */
 .swatch-success span:nth-child(1) {
   background-color: rgba(91, 183, 91, 0.9);
 }
 
-/* line 131, ../scss/_colour.scss */
+/* line 135, ../scss/_colour.scss */
 .swatch-success span:nth-child(2) {
   background-color: rgba(91, 183, 91, 0.8);
 }
 
-/* line 134, ../scss/_colour.scss */
+/* line 138, ../scss/_colour.scss */
 .swatch-success span:nth-child(3) {
   background-color: rgba(91, 183, 91, 0.7);
 }
 
-/* line 137, ../scss/_colour.scss */
+/* line 141, ../scss/_colour.scss */
 .swatch-success span:nth-child(4) {
   background-color: rgba(91, 183, 91, 0.6);
 }
 
-/* line 142, ../scss/_colour.scss */
+/* line 146, ../scss/_colour.scss */
 .swatch-warning span:nth-child(1) {
   background-color: rgba(250, 167, 50, 0.9);
 }
 
-/* line 145, ../scss/_colour.scss */
+/* line 149, ../scss/_colour.scss */
 .swatch-warning span:nth-child(2) {
   background-color: rgba(250, 167, 50, 0.8);
 }
 
-/* line 148, ../scss/_colour.scss */
+/* line 152, ../scss/_colour.scss */
 .swatch-warning span:nth-child(3) {
   background-color: rgba(250, 167, 50, 0.7);
 }
 
-/* line 151, ../scss/_colour.scss */
+/* line 155, ../scss/_colour.scss */
 .swatch-warning span:nth-child(4) {
   background-color: rgba(250, 167, 50, 0.6);
 }
@@ -830,7 +851,7 @@ dl dt {
   top: 50%;
   margin-top: -8px;
   left: -20px;
-  background: transparent 0 0 url('/i/icons.png?1385831577') no-repeat;
+  background: transparent 0 0 url('/i/icons.png?1385832075') no-repeat;
 }
 /* line 83, ../scss/_mixins.scss */
 .icon-flickr:hover:before {
@@ -854,7 +875,7 @@ dl dt {
   top: 50%;
   margin-top: -8px;
   left: -20px;
-  background: transparent -30px 0 url('/i/icons.png?1385831577') no-repeat;
+  background: transparent -30px 0 url('/i/icons.png?1385832075') no-repeat;
 }
 /* line 83, ../scss/_mixins.scss */
 .icon-twitter:hover:before {
@@ -879,7 +900,7 @@ dl dt {
   top: 50%;
   margin-top: -8px;
   left: -20px;
-  background: transparent -53px 0 url('/i/icons.png?1385831577') no-repeat;
+  background: transparent -53px 0 url('/i/icons.png?1385832075') no-repeat;
 }
 /* line 83, ../scss/_mixins.scss */
 .icon-location:hover:before {
@@ -907,7 +928,7 @@ dl dt {
   top: 50%;
   margin-top: -8px;
   left: -20px;
-  background: transparent -76px 0 url('/i/icons.png?1385831577') no-repeat;
+  background: transparent -76px 0 url('/i/icons.png?1385832075') no-repeat;
 }
 /* line 83, ../scss/_mixins.scss */
 .icon-github:hover:before {
@@ -931,7 +952,7 @@ dl dt {
   top: 50%;
   margin-top: -8px;
   left: -20px;
-  background: transparent -105px 0 url('/i/icons.png?1385831577') no-repeat;
+  background: transparent -105px 0 url('/i/icons.png?1385832075') no-repeat;
 }
 /* line 83, ../scss/_mixins.scss */
 .icon-bitbucket:hover:before {
@@ -955,7 +976,7 @@ dl dt {
   top: 50%;
   margin-top: -8px;
   left: -20px;
-  background: transparent -132px 0 url('/i/icons.png?1385831577') no-repeat;
+  background: transparent -132px 0 url('/i/icons.png?1385832075') no-repeat;
 }
 /* line 83, ../scss/_mixins.scss */
 .icon-linkedin:hover:before {
@@ -979,7 +1000,7 @@ dl dt {
   top: 50%;
   margin-top: -8px;
   left: -20px;
-  background: transparent -158px 0 url('/i/icons.png?1385831577') no-repeat;
+  background: transparent -158px 0 url('/i/icons.png?1385832075') no-repeat;
 }
 /* line 83, ../scss/_mixins.scss */
 .icon-moikrug:hover:before {
@@ -1003,7 +1024,7 @@ dl dt {
   top: 50%;
   margin-top: -8px;
   left: -20px;
-  background: transparent -179px 0 url('/i/icons.png?1385831577') no-repeat;
+  background: transparent -179px 0 url('/i/icons.png?1385832075') no-repeat;
 }
 /* line 83, ../scss/_mixins.scss */
 .icon-8tracks:hover:before {
