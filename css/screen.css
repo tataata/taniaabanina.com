@@ -202,6 +202,13 @@ body {
   border-bottom: none;
 }
 /* line 120, ../scss/_layout.scss */
+.collaborations .collaborations__item .soundcloud {
+  background-position: -762px -60px;
+  width: 160px;
+}
+.collaborations .collaborations__item .soundcloud:hover {
+  background-position: -762px 0;
+}
 .collaborations .collaborations__item .upstream {
   background-position: -555px -60px;
   width: 194px;
@@ -276,12 +283,12 @@ body {
 }
 
 /* Typography =================================================== */
-/* line 61, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 61, ../../../.rvm/gems/ruby-2.1.1/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 * html {
   font-size: 112.5%;
 }
 
-/* line 64, ../../../../../../usr/local/rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 64, ../../../.rvm/gems/ruby-2.1.1/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 18px;
   line-height: 1.77778em;
