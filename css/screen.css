@@ -23,7 +23,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
   display: block;
 }
 
-/* line 19, ../scss/_reset.scss */
+/* line 17, ../scss/_reset.scss */
 *,
 *:after,
 *:before {
@@ -39,7 +39,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 .clearfix {
   *zoom: 1;
 }
-/* line 109, ../scss/_mixins.scss */
+/* line 108, ../scss/_mixins.scss */
 .clearfix:before, .clearfix:after {
   display: table;
   content: "";
@@ -53,23 +53,18 @@ article, aside, figure, footer, header, hgroup, nav, section {
 @-webkit-viewport {
   width: device-width;
 }
-
 @-moz-viewport {
   width: device-width;
 }
-
 @-ms-viewport {
   width: device-width;
 }
-
 @-o-viewport {
   width: device-width;
 }
-
 @viewport {
   width: device-width;
 }
-
 /* line 29, ../scss/_site.scss */
 html {
   background: white;
@@ -160,7 +155,7 @@ body {
   display: block;
   padding: 12px 6px;
 }
-/* line 78, ../scss/_layout.scss */
+/* line 77, ../scss/_layout.scss */
 .projects .projects__item:hover, .projects .projects__item:focus {
   background: white url('/i/pattern.png?1379512586') center center repeat;
 }
@@ -195,7 +190,7 @@ body {
 .collaborations .collaborations__item .collaborations__link {
   text-indent: -9878px;
   display: block;
-  background-image: url('/i/logo-sprite.png?1379511942');
+  background-image: url('/i/logo-sprite.png?1407096686');
   background-repeat: no-repeat;
   height: 50px;
   margin: 0 36px 24px 0;
@@ -204,18 +199,11 @@ body {
 /* line 120, ../scss/_layout.scss */
 .collaborations .collaborations__item .soundcloud {
   background-position: -762px -60px;
-  width: 160px;
-}
-.collaborations .collaborations__item .soundcloud:hover {
-  background-position: -762px 0;
-}
-.collaborations .collaborations__item .upstream {
-  background-position: -555px -60px;
-  width: 194px;
+  width: 158px;
 }
 /* line 124, ../scss/_layout.scss */
-.collaborations .collaborations__item .upstream:hover {
-  background-position: -555px 0;
+.collaborations .collaborations__item .soundcloud:hover {
+  background-position: -762px 0;
 }
 /* line 128, ../scss/_layout.scss */
 .collaborations .collaborations__item .intaxi {
@@ -227,70 +215,83 @@ body {
   background-position: 0 0;
 }
 /* line 136, ../scss/_layout.scss */
+.collaborations .collaborations__item .upstream {
+  background-position: -555px -60px;
+  width: 194px;
+}
+/* line 140, ../scss/_layout.scss */
+.collaborations .collaborations__item .upstream:hover {
+  background-position: -555px 0;
+}
+/* line 144, ../scss/_layout.scss */
+.collaborations .collaborations__item .intaxi {
+  background-position: 0 -61px;
+  width: 156px;
+}
+/* line 148, ../scss/_layout.scss */
+.collaborations .collaborations__item .intaxi:hover {
+  background-position: 0 0;
+}
+/* line 152, ../scss/_layout.scss */
 .collaborations .collaborations__item .kidsters {
   background-position: -165px -60px;
   width: 169px;
 }
-/* line 140, ../scss/_layout.scss */
+/* line 156, ../scss/_layout.scss */
 .collaborations .collaborations__item .kidsters:hover {
   background-position: -165px 0;
 }
-/* line 144, ../scss/_layout.scss */
+/* line 160, ../scss/_layout.scss */
 .collaborations .collaborations__item .centrida {
   background-position: -345px -62px;
   width: 200px;
 }
-/* line 148, ../scss/_layout.scss */
+/* line 164, ../scss/_layout.scss */
 .collaborations .collaborations__item .centrida:hover {
   background-position: -346px 0;
 }
 
-/* line 158, ../scss/_layout.scss */
+/* line 174, ../scss/_layout.scss */
 .cv dl dt {
   margin-top: 1em;
 }
-/* line 161, ../scss/_layout.scss */
+/* line 177, ../scss/_layout.scss */
 .cv dl dd {
   margin-bottom: 0;
 }
-/* line 167, ../scss/_layout.scss */
+/* line 182, ../scss/_layout.scss */
 .cv .experience .period,
 .cv .experience .description {
   color: #404040;
 }
-/* line 172, ../scss/_layout.scss */
+/* line 188, ../scss/_layout.scss */
 .cv .lang ul {
   list-style: none;
 }
 
-/* line 178, ../scss/_layout.scss */
+/* line 194, ../scss/_layout.scss */
 .project {
   background: #b3b3b3;
   background-image: url('/i/bg-bw.png?1396370299');
 }
-/* line 182, ../scss/_layout.scss */
+/* line 198, ../scss/_layout.scss */
 .project .wrap .nav__item a {
   background: gray;
   background: rgba(128, 128, 128, 0.5);
 }
-/* line 190, ../scss/_layout.scss */
+/* line 206, ../scss/_layout.scss */
 .project .wrap .sticky-wrapper > .nav {
   overflow: hidden;
 }
-/* line 194, ../scss/_layout.scss */
+/* line 210, ../scss/_layout.scss */
 .project .nav__list .nav__item {
   float: left;
 }
 
 /* Typography =================================================== */
-/* line 61, ../../../.rvm/gems/ruby-2.1.1/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
-* html {
-  font-size: 112.5%;
-}
-
-/* line 64, ../../../.rvm/gems/ruby-2.1.1/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, ../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
-  font-size: 18px;
+  font-size: 112.5%;
   line-height: 1.77778em;
 }
 
@@ -320,14 +321,14 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizelegibility;
 }
 
-/* line 39, ../scss/_typography.scss */
+/* line 38, ../scss/_typography.scss */
 h1 .small,
 h2 .small {
   font-weight: normal;
   color: #b3b3b3;
 }
 
-/* line 47, ../scss/_typography.scss */
+/* line 46, ../scss/_typography.scss */
 .header h1,
 .header .h1 {
   font-size: 3.44444em;
@@ -341,7 +342,7 @@ h2 .small {
   margin: 0 auto 1em 0em;
 }
 
-/* line 60, ../scss/_typography.scss */
+/* line 59, ../scss/_typography.scss */
 .aside h1,
 .aside .h1 {
   font-size: 1.77778em;
@@ -355,28 +356,28 @@ h1 {
   line-height: 1.77778em;
 }
 
-/* line 71, ../scss/_typography.scss */
+/* line 70, ../scss/_typography.scss */
 h2,
 .h2 {
   font-size: 1.77778em;
   line-height: 2em;
 }
 
-/* line 76, ../scss/_typography.scss */
+/* line 75, ../scss/_typography.scss */
 .projects h2,
 .projects .h2 {
   font-size: 1.33333em;
   line-height: 1.33333em;
 }
 
-/* line 82, ../scss/_typography.scss */
+/* line 81, ../scss/_typography.scss */
 h3,
 .h3 {
   font-size: 1.33333em;
   line-height: 1.33333em;
 }
 
-/* line 100, ../scss/_typography.scss */
+/* line 99, ../scss/_typography.scss */
 h6,
 .h6 {
   font-weight: normal;
@@ -384,7 +385,7 @@ h6,
   text-transform: uppercase;
 }
 
-/* line 110, ../scss/_typography.scss */
+/* line 108, ../scss/_typography.scss */
 .cv .period,
 .cv .description,
 .cv .company {
@@ -406,7 +407,7 @@ h6,
   margin-bottom: 0;
 }
 
-/* line 139, ../scss/_typography.scss */
+/* line 138, ../scss/_typography.scss */
 .header .a-rss,
 .header .a-rss:hover {
   float: left;
@@ -419,7 +420,7 @@ h6,
   overflow: hidden;
 }
 
-/* line 154, ../scss/_typography.scss */
+/* line 150, ../scss/_typography.scss */
 p,
 ol,
 ul,
@@ -434,7 +435,7 @@ address {
   margin-bottom: 16px;
 }
 
-/* line 168, ../scss/_typography.scss */
+/* line 167, ../scss/_typography.scss */
 .scope,
 small {
   font-size: 0.88889em;
@@ -446,14 +447,14 @@ small {
   margin-bottom: 0;
 }
 
-/* line 178, ../scss/_typography.scss */
+/* line 177, ../scss/_typography.scss */
 ul,
 ol {
   margin: 0 0 32px -24px;
   padding: 0 0 0 24px;
 }
 
-/* line 184, ../scss/_typography.scss */
+/* line 183, ../scss/_typography.scss */
 li ul,
 li ol {
   margin: 0;
@@ -474,7 +475,7 @@ q {
   quotes: none;
 }
 
-/* line 204, ../scss/_typography.scss */
+/* line 201, ../scss/_typography.scss */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -488,7 +489,7 @@ cite {
   font-style: normal;
 }
 
-/* line 214, ../scss/_typography.scss */
+/* line 213, ../scss/_typography.scss */
 dl,
 dd {
   margin-bottom: 32px;
@@ -542,7 +543,7 @@ mark {
   font-weight: bold;
 }
 
-/* line 258, ../scss/_typography.scss */
+/* line 255, ../scss/_typography.scss */
 pre,
 code,
 kbd,
@@ -558,7 +559,7 @@ pre {
   word-wrap: break-word;
 }
 
-/* line 269, ../scss/_typography.scss */
+/* line 268, ../scss/_typography.scss */
 sub,
 sup {
   position: relative;
@@ -595,7 +596,7 @@ a:focus {
   outline: thin dotted;
   color: #262626;
 }
-/* line 32, ../scss/_colour.scss */
+/* line 31, ../scss/_colour.scss */
 a:hover, a:active {
   outline: 0;
 }
@@ -1052,8 +1053,7 @@ dl dt {
 
   @page {
     margin: 0.5cm;
-}
-
+  }
   /* line 27, ../scss/print.scss */
   h2, h3 {
     orphans: 3;
@@ -1088,7 +1088,7 @@ dl dt {
     content: " (" attr(href) ")";
   }
 
-  /* line 52, ../scss/print.scss */
+  /* line 51, ../scss/print.scss */
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
@@ -1180,7 +1180,7 @@ dl dt {
     margin-bottom: 30px;
     padding-top: 16px;
   }
-  /* line 64, ../scss/_768.scss */
+  /* line 63, ../scss/_768.scss */
   .cv .goal,
   .cv .spec {
     overflow: auto;

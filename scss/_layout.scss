@@ -117,6 +117,22 @@
 			margin: 0 $base-line-height * 1.5 $base-line-height 0;
 			border-bottom: none;
 		}
+		.soundcloud {
+			background-position: -762px -60px;
+			width:158px;
+
+			&:hover {
+				background-position: -762px 0;
+			}
+		}
+		.intaxi {
+			background-position: 0 -61px;
+			width:156px;
+
+			&:hover {
+				background-position: 0 0;
+			}
+		}
 		.upstream {
 			background-position: -555px -60px;
 			width:194px;
