@@ -1,0 +1,25 @@
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - scss
+
+Backtrace:
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1/gems/sass-3.4.0.rc.3/lib/sass/plugin/compiler.rb:476:in `read'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1/gems/sass-3.4.0.rc.3/lib/sass/plugin/compiler.rb:476:in `update_stylesheet'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1/gems/sass-3.4.0.rc.3/lib/sass/plugin/compiler.rb:214:in `block in update_stylesheets'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1/gems/sass-3.4.0.rc.3/lib/sass/plugin/compiler.rb:208:in `each'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1/gems/sass-3.4.0.rc.3/lib/sass/plugin/compiler.rb:208:in `update_stylesheets'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1/gems/sass-3.4.0.rc.3/lib/sass/plugin/compiler.rb:291:in `watch'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1/gems/sass-3.4.0.rc.3/lib/sass/plugin.rb:108:in `method_missing'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1/gems/sass-3.4.0.rc.3/lib/sass/exec/sass_scss.rb:349:in `watch_or_update'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1/gems/sass-3.4.0.rc.3/lib/sass/exec/sass_scss.rb:50:in `process_result'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1/gems/sass-3.4.0.rc.3/lib/sass/exec/base.rb:40:in `parse'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1/gems/sass-3.4.0.rc.3/lib/sass/exec/base.rb:19:in `parse!'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1/gems/sass-3.4.0.rc.3/bin/sass:13:in `<top (required)>'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1/bin/sass:23:in `load'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1/bin/sass:23:in `<main>'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - scss"; }
