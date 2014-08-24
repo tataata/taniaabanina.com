@@ -107,14 +107,16 @@
 		display: inline-block;
 		*display: inline;
 		zoom: 1;
+		width: 24%;
 
 		.collaborations__link {
 			text-indent: -9878px;
 			display: block;
+			margin: 0 auto $base-line-height;
 			background-image: image-url("logo-sprite.png");
 			background-repeat: no-repeat;
 			height: 50px;
-			margin: 0 $base-line-height * 1.5 $base-line-height 0;
+			//margin: 0 $base-line-height * 1.5 $base-line-height 0;
 			border-bottom: none;
 		}
 		.soundcloud {
@@ -125,12 +127,12 @@
 				background-position: -762px 0;
 			}
 		}
-		.intaxi {
-			background-position: 0 -61px;
-			width:156px;
+		.neq4 {
+			background-position: -930px -60px;
+			width:75px;
 
 			&:hover {
-				background-position: 0 0;
+				background-position: -930px 0;
 			}
 		}
 		.upstream {
