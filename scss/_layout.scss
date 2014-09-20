@@ -119,12 +119,22 @@
 			//margin: 0 $base-line-height * 1.5 $base-line-height 0;
 			border-bottom: none;
 		}
+		
 		.soundcloud {
 			background-position: -762px -60px;
 			width:158px;
 
 			&:hover {
 				background-position: -762px 0;
+			}
+		}
+
+		.careerfoundry {
+			background-position: -1020px -60px;
+			width:150px;
+
+			&:hover {
+				background-position: -1020px 0;
 			}
 		}
 		.neq4 {

@@ -192,105 +192,114 @@ body {
   text-indent: -9878px;
   display: block;
   margin: 0 auto 24px;
-  background-image: url('/i/logo-sprite.png?1408871032');
+  background-image: url('/i/logo-sprite.png?1411228700');
   background-repeat: no-repeat;
   height: 50px;
   border-bottom: none;
 }
-/* line 122, ../scss/_layout.scss */
+/* line 123, ../scss/_layout.scss */
 .collaborations .collaborations__item .soundcloud {
   background-position: -762px -60px;
   width: 158px;
 }
-/* line 126, ../scss/_layout.scss */
+/* line 127, ../scss/_layout.scss */
 .collaborations .collaborations__item .soundcloud:hover {
   background-position: -762px 0;
 }
-/* line 130, ../scss/_layout.scss */
+/* line 132, ../scss/_layout.scss */
+.collaborations .collaborations__item .careerfoundry {
+  background-position: -1020px -60px;
+  width: 150px;
+}
+/* line 136, ../scss/_layout.scss */
+.collaborations .collaborations__item .careerfoundry:hover {
+  background-position: -1020px 0;
+}
+/* line 140, ../scss/_layout.scss */
 .collaborations .collaborations__item .neq4 {
   background-position: -930px -60px;
   width: 75px;
 }
-/* line 134, ../scss/_layout.scss */
+/* line 144, ../scss/_layout.scss */
 .collaborations .collaborations__item .neq4:hover {
   background-position: -930px 0;
 }
-/* line 138, ../scss/_layout.scss */
+/* line 148, ../scss/_layout.scss */
 .collaborations .collaborations__item .upstream {
   background-position: -555px -60px;
   width: 194px;
 }
-/* line 142, ../scss/_layout.scss */
+/* line 152, ../scss/_layout.scss */
 .collaborations .collaborations__item .upstream:hover {
   background-position: -555px 0;
 }
-/* line 146, ../scss/_layout.scss */
+/* line 156, ../scss/_layout.scss */
 .collaborations .collaborations__item .intaxi {
   background-position: 0 -61px;
   width: 156px;
 }
-/* line 150, ../scss/_layout.scss */
+/* line 160, ../scss/_layout.scss */
 .collaborations .collaborations__item .intaxi:hover {
   background-position: 0 0;
 }
-/* line 154, ../scss/_layout.scss */
+/* line 164, ../scss/_layout.scss */
 .collaborations .collaborations__item .kidsters {
   background-position: -165px -60px;
   width: 169px;
 }
-/* line 158, ../scss/_layout.scss */
+/* line 168, ../scss/_layout.scss */
 .collaborations .collaborations__item .kidsters:hover {
   background-position: -165px 0;
 }
-/* line 162, ../scss/_layout.scss */
+/* line 172, ../scss/_layout.scss */
 .collaborations .collaborations__item .centrida {
   background-position: -345px -62px;
   width: 200px;
 }
-/* line 166, ../scss/_layout.scss */
+/* line 176, ../scss/_layout.scss */
 .collaborations .collaborations__item .centrida:hover {
   background-position: -346px 0;
 }
 
-/* line 176, ../scss/_layout.scss */
+/* line 186, ../scss/_layout.scss */
 .cv dl dt {
   margin-top: 1em;
 }
-/* line 179, ../scss/_layout.scss */
+/* line 189, ../scss/_layout.scss */
 .cv dl dd {
   margin-bottom: 0;
 }
-/* line 184, ../scss/_layout.scss */
+/* line 194, ../scss/_layout.scss */
 .cv .experience .period,
 .cv .experience .description {
   color: #404040;
 }
-/* line 190, ../scss/_layout.scss */
+/* line 200, ../scss/_layout.scss */
 .cv .lang ul {
   list-style: none;
 }
 
-/* line 196, ../scss/_layout.scss */
+/* line 206, ../scss/_layout.scss */
 .project {
   background: #b3b3b3;
   background-image: url('/i/bg-bw.png?1396370299');
 }
-/* line 200, ../scss/_layout.scss */
+/* line 210, ../scss/_layout.scss */
 .project .wrap .nav__item a {
   background: gray;
   background: rgba(128, 128, 128, 0.5);
 }
-/* line 208, ../scss/_layout.scss */
+/* line 218, ../scss/_layout.scss */
 .project .wrap .sticky-wrapper > .nav {
   overflow: hidden;
 }
-/* line 212, ../scss/_layout.scss */
+/* line 222, ../scss/_layout.scss */
 .project .nav__list .nav__item {
   float: left;
 }
 
 /* Typography =================================================== */
-/* line 106, ../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, ../../../.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 112.5%;
   line-height: 1.77778em;
