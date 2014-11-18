@@ -1,0 +1,12 @@
+/* Custom css for taniaaabanina.com */
+/* Variables */
+/* Layout */
+body {
+  margin: 30px;
+  padding: 0;
+  background: url("../../i/bg.png") 0 0 repeat;
+}
+.container-fluid {
+  background: #ffffff;
+  border: blue;
+}

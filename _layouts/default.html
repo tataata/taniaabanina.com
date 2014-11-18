@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
 	<title>Tania Abanina &mdash; Web & UX designer</title>
+
 	<meta name="description" content="My portfolio as a web & UX designer">
 	<meta name="keywords" content="tania abanina, tatiana abanina, таня абанина, татьяна абанина, 
 	web designer, ux designer, berlin, веб дизайнер, web design, html, css, freelance, freelance web designer, resume, portfolio">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- Open graph tags -->
-	<meta property="og:title" content="Tania Abanina - Web & UX designer"> 
-	<meta property="og:description" content="My portfolio as a web & UX designer with front-end developing background"> 
-	<meta property="og:image" content="http://taniaabanina.com/i/bg.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
 
 	<link rel="shortcut icon" href="fav.ico">
+	<link rel="stylesheet" media="all" type="text/css" href="vendors/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" media="all" type="text/css" href="vendors/bootstrap/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" media="all" type="text/css" href="css/screen.css">
+
+	{% include open-graph.html %}
 
 	<!-- Google font: PT Serif -->
 	<link href='http://fonts.googleapis.com/css?family=PT+Serif&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
@@ -23,31 +23,9 @@
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery.sticky.js"></script>
 
-	<!-- <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <link href="/css/print.css" media="print" rel="stylesheet" type="text/css" /> -->
   <!--[if IE]>
     <link href="/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <![endif]-->
-
-	<!--[if IE]>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	<!--[if lte IE 6]>
-	<link rel="stylesheet" type="text/css" media="all" href="css/ie6.css">
-	<![endif]-->
-	<!-- OLD Google analytics snippet 
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-23211754-1']);
-		_gaq.push(['_trackPageview']);
-		
-		(function() {
-		  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	</script>
-	/google analytics -->
 
 
 	<script>
@@ -60,21 +38,34 @@
 	  ga('send', 'pageview');
 
 	</script>
-	
-</head>
-<body class="page index">
-	<div class="wrap">
 
-		<nav class="nav" id="sticker">
+</head>
+
+
+
+
+<body class="">
+
+	<div class="wrap container-fluid">
+
+		<div class="row">
+			<header class="col-xs-12 col-sm-8 col-md-8 col-lg-6">
+				<h1>Tania Abanina <span class="small">web &amp; UX designer</span></h1>
+			</header>
+
+			<nav class="col-xs-12 col-sm-4 col-md-4 col-lg-6 nav">
 				<ul class="nav__list">
-					<li class="nav__item"><a href="resume.html" title="cv">cv</a></li>
+					<li class="nav__item"><a href="#" title="About">About</a></li>
+					<li class="nav__item"><a href="" title="Services">Services</a></li>
+					<li class="nav__item"><a href="" title="Notes">Notes</a></li>
+					<li class="nav__item"><a href="" title="Contact">Contact</a></li>
 				</ul>
 			</nav>
 
-		<header class="header">
-				<h1>Tania Abanina<span class="small">web and UX designer</span></h1>
-		</header><!-- /header -->
+		</div>
 		
+
+
 		<section class="content">
 
 			<section class="entry clearfix">
