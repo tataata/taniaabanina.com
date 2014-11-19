@@ -317,16 +317,16 @@ body {
 /* line 18, ../scss/_typography.scss */
 a {
   text-decoration: none;
-  border-bottom: 1px solid;
   transition: all 0.2s linear;
+  border-bottom: 1px solid;
 }
-/* line 23, ../scss/_typography.scss */
+/* line 24, ../scss/_typography.scss */
 a:hover {
   border-bottom: 1px solid;
   text-decoration: none;
 }
 
-/* line 31, ../scss/_typography.scss */
+/* line 32, ../scss/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-family: "PT Serif", Georgia, Times, "Times New Roman";
@@ -335,28 +335,28 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizelegibility;
 }
 
-/* line 39, ../scss/_typography.scss */
+/* line 40, ../scss/_typography.scss */
 h1 .small,
 h2 .small {
   font-weight: normal;
   color: #b3b3b3;
 }
 
-/* line 47, ../scss/_typography.scss */
+/* line 48, ../scss/_typography.scss */
 .header h1,
 .header .h1 {
   font-size: 3.44444em;
   line-height: 1.29032em;
   margin: 0 auto 0em;
 }
-/* line 52, ../scss/_typography.scss */
+/* line 53, ../scss/_typography.scss */
 .header h1 .small {
   font-size: 0.51613em;
   line-height: 1.25em;
   margin: 0 auto 1em 0em;
 }
 
-/* line 60, ../scss/_typography.scss */
+/* line 61, ../scss/_typography.scss */
 .aside h1,
 .aside .h1 {
   font-size: 1.77778em;
@@ -364,34 +364,34 @@ h2 .small {
   margin: 0 auto 0em;
 }
 
-/* line 66, ../scss/_typography.scss */
+/* line 67, ../scss/_typography.scss */
 h1 {
   font-size: 2em;
   line-height: 1.77778em;
 }
 
-/* line 71, ../scss/_typography.scss */
+/* line 72, ../scss/_typography.scss */
 h2,
 .h2 {
   font-size: 1.77778em;
   line-height: 2em;
 }
 
-/* line 76, ../scss/_typography.scss */
+/* line 77, ../scss/_typography.scss */
 .projects h2,
 .projects .h2 {
   font-size: 1.33333em;
   line-height: 1.33333em;
 }
 
-/* line 82, ../scss/_typography.scss */
+/* line 83, ../scss/_typography.scss */
 h3,
 .h3 {
   font-size: 1.33333em;
   line-height: 1.33333em;
 }
 
-/* line 100, ../scss/_typography.scss */
+/* line 101, ../scss/_typography.scss */
 h6,
 .h6 {
   font-weight: normal;
@@ -399,7 +399,7 @@ h6,
   text-transform: uppercase;
 }
 
-/* line 109, ../scss/_typography.scss */
+/* line 110, ../scss/_typography.scss */
 .cv .period,
 .cv .description,
 .cv .company {
@@ -407,7 +407,7 @@ h6,
   line-height: 1.78em;
 }
 
-/* line 123, ../scss/_typography.scss */
+/* line 124, ../scss/_typography.scss */
 .header h1 a,
 .header h2 a,
 .header h3 a {
@@ -416,12 +416,12 @@ h6,
   color: #2d353e;
 }
 
-/* line 132, ../scss/_typography.scss */
+/* line 133, ../scss/_typography.scss */
 .projects h2 {
   margin-bottom: 0;
 }
 
-/* line 139, ../scss/_typography.scss */
+/* line 140, ../scss/_typography.scss */
 .header .a-rss,
 .header .a-rss:hover {
   float: left;
@@ -434,7 +434,7 @@ h6,
   overflow: hidden;
 }
 
-/* line 151, ../scss/_typography.scss */
+/* line 152, ../scss/_typography.scss */
 p,
 ol,
 ul,
@@ -444,38 +444,38 @@ address {
   line-height: 32px;
 }
 
-/* line 162, ../scss/_typography.scss */
+/* line 163, ../scss/_typography.scss */
 .cv .aside p {
   margin-bottom: 16px;
 }
 
-/* line 168, ../scss/_typography.scss */
+/* line 169, ../scss/_typography.scss */
 .scope,
 small {
   font-size: 0.88889em;
   line-height: 1.5em;
 }
 
-/* line 174, ../scss/_typography.scss */
+/* line 175, ../scss/_typography.scss */
 .scope {
   margin-bottom: 0;
 }
 
-/* line 178, ../scss/_typography.scss */
+/* line 179, ../scss/_typography.scss */
 ul,
 ol {
   margin: 0 0 32px -24px;
   padding: 0 0 0 24px;
 }
 
-/* line 184, ../scss/_typography.scss */
+/* line 185, ../scss/_typography.scss */
 li ul,
 li ol {
   margin: 0;
   /*@include font-size(16); */
 }
 
-/* line 192, ../scss/_typography.scss */
+/* line 193, ../scss/_typography.scss */
 blockquote {
   margin: 0 0 32px -24px;
   padding-left: 24px;
@@ -484,12 +484,12 @@ blockquote {
   font-style: normal;
 }
 
-/* line 199, ../scss/_typography.scss */
+/* line 200, ../scss/_typography.scss */
 q {
   quotes: none;
 }
 
-/* line 202, ../scss/_typography.scss */
+/* line 203, ../scss/_typography.scss */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -498,58 +498,58 @@ q:after {
   content: none;
 }
 
-/* line 209, ../scss/_typography.scss */
+/* line 210, ../scss/_typography.scss */
 cite {
   font-style: normal;
 }
 
-/* line 214, ../scss/_typography.scss */
+/* line 215, ../scss/_typography.scss */
 dl,
 dd {
   margin-bottom: 32px;
 }
 
-/* line 218, ../scss/_typography.scss */
+/* line 219, ../scss/_typography.scss */
 dt {
   font-weight: bold;
 }
 
-/* line 223, ../scss/_typography.scss */
+/* line 224, ../scss/_typography.scss */
 .dl-horizontal dt {
   float: left;
   clear: left;
   width: 20.25%;
   text-align: right;
 }
-/* line 229, ../scss/_typography.scss */
+/* line 230, ../scss/_typography.scss */
 .dl-horizontal dd {
   margin-left: 22.78%;
 }
 
-/* line 235, ../scss/_typography.scss */
+/* line 236, ../scss/_typography.scss */
 abbr[title] {
   border-bottom: 1px dotted #c7ced6;
   cursor: help;
 }
 
-/* line 239, ../scss/_typography.scss */
+/* line 240, ../scss/_typography.scss */
 b, strong {
   font-weight: bold;
 }
 
-/* line 242, ../scss/_typography.scss */
+/* line 243, ../scss/_typography.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 245, ../scss/_typography.scss */
+/* line 246, ../scss/_typography.scss */
 ins {
   background-color: #f3f5f6;
   color: black;
   text-decoration: none;
 }
 
-/* line 250, ../scss/_typography.scss */
+/* line 251, ../scss/_typography.scss */
 mark {
   background-color: #f3f5f6;
   color: black;
@@ -557,7 +557,7 @@ mark {
   font-weight: bold;
 }
 
-/* line 256, ../scss/_typography.scss */
+/* line 257, ../scss/_typography.scss */
 pre,
 code,
 kbd,
@@ -566,14 +566,14 @@ samp {
   line-height: 32px;
 }
 
-/* line 264, ../scss/_typography.scss */
+/* line 265, ../scss/_typography.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-/* line 269, ../scss/_typography.scss */
+/* line 270, ../scss/_typography.scss */
 sub,
 sup {
   position: relative;
@@ -581,12 +581,12 @@ sup {
   vertical-align: baselineheight;
 }
 
-/* line 276, ../scss/_typography.scss */
+/* line 277, ../scss/_typography.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 279, ../scss/_typography.scss */
+/* line 280, ../scss/_typography.scss */
 sub {
   bottom: -0.25em;
 }
