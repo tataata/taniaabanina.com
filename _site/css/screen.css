@@ -107,9 +107,9 @@ body {
 /* line 19, ../scss/_layout.scss */
 .wrap .sticky-wrapper {
   position: absolute;
-  top: 0;
   margin-top: 0;
   right: 0;
+  top: -24px;
   z-index: 10;
 }
 /* line 26, ../scss/_layout.scss */
@@ -127,7 +127,11 @@ body {
 .wrap .nav__list {
   list-style: none;
 }
-/* line 43, ../scss/_layout.scss */
+/* line 42, ../scss/_layout.scss */
+.wrap .nav__item {
+  float: left;
+}
+/* line 44, ../scss/_layout.scss */
 .wrap .nav__item a {
   display: block;
   padding: 15.6px 24px;
@@ -137,29 +141,37 @@ body {
   line-height: 1;
   border-bottom: none;
 }
-/* line 55, ../scss/_layout.scss */
+/* line 53, ../scss/_layout.scss */
+.wrap .nav__item a:hover {
+  background: #95241d;
+}
+/* line 57, ../scss/_layout.scss */
+.wrap .nav__item .active {
+  /*background: green;*/
+}
+/* line 63, ../scss/_layout.scss */
 .wrap .content {
   padding: 24px 0;
 }
 
-/* line 65, ../scss/_layout.scss */
+/* line 73, ../scss/_layout.scss */
 .projects {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 70, ../scss/_layout.scss */
+/* line 78, ../scss/_layout.scss */
 .projects .projects__item {
   background: transparent;
   position: relative;
   display: block;
   padding: 12px 6px;
 }
-/* line 77, ../scss/_layout.scss */
+/* line 85, ../scss/_layout.scss */
 .projects .projects__item:hover, .projects .projects__item:focus {
   background: white url('/i/pattern.png?1379512586') center center repeat;
 }
-/* line 82, ../scss/_layout.scss */
+/* line 90, ../scss/_layout.scss */
 .projects .projects__item .thumb {
   display: block;
   padding-bottom: 6px;
@@ -167,130 +179,130 @@ body {
   color: black;
   position: relative;
 }
-/* line 90, ../scss/_layout.scss */
+/* line 98, ../scss/_layout.scss */
 .projects .projects__item .thumb img {
   margin-bottom: 4px;
 }
-/* line 95, ../scss/_layout.scss */
+/* line 103, ../scss/_layout.scss */
 .projects .projects__item .thumb:hover {
   color: black;
 }
 
-/* line 103, ../scss/_layout.scss */
+/* line 111, ../scss/_layout.scss */
 .collaborations {
   list-style: none;
 }
-/* line 106, ../scss/_layout.scss */
+/* line 114, ../scss/_layout.scss */
 .collaborations .collaborations__item {
   display: inline-block;
   *display: inline;
   zoom: 1;
   width: 24%;
 }
-/* line 112, ../scss/_layout.scss */
+/* line 120, ../scss/_layout.scss */
 .collaborations .collaborations__item .collaborations__link {
   text-indent: -9878px;
   display: block;
   margin: 0 auto 24px;
-  background-image: url('/i/logo-sprite.png?1408871032');
+  background-image: url('/i/logo-sprite.png?1416354208');
   background-repeat: no-repeat;
   height: 50px;
   border-bottom: none;
 }
-/* line 122, ../scss/_layout.scss */
+/* line 130, ../scss/_layout.scss */
 .collaborations .collaborations__item .soundcloud {
   background-position: -762px -60px;
   width: 158px;
 }
-/* line 126, ../scss/_layout.scss */
+/* line 134, ../scss/_layout.scss */
 .collaborations .collaborations__item .soundcloud:hover {
   background-position: -762px 0;
 }
-/* line 130, ../scss/_layout.scss */
+/* line 138, ../scss/_layout.scss */
 .collaborations .collaborations__item .neq4 {
   background-position: -930px -60px;
   width: 75px;
 }
-/* line 134, ../scss/_layout.scss */
+/* line 142, ../scss/_layout.scss */
 .collaborations .collaborations__item .neq4:hover {
   background-position: -930px 0;
 }
-/* line 138, ../scss/_layout.scss */
+/* line 146, ../scss/_layout.scss */
 .collaborations .collaborations__item .upstream {
   background-position: -555px -60px;
   width: 194px;
 }
-/* line 142, ../scss/_layout.scss */
+/* line 150, ../scss/_layout.scss */
 .collaborations .collaborations__item .upstream:hover {
   background-position: -555px 0;
 }
-/* line 146, ../scss/_layout.scss */
+/* line 154, ../scss/_layout.scss */
 .collaborations .collaborations__item .intaxi {
   background-position: 0 -61px;
   width: 156px;
 }
-/* line 150, ../scss/_layout.scss */
+/* line 158, ../scss/_layout.scss */
 .collaborations .collaborations__item .intaxi:hover {
   background-position: 0 0;
 }
-/* line 154, ../scss/_layout.scss */
+/* line 162, ../scss/_layout.scss */
 .collaborations .collaborations__item .kidsters {
   background-position: -165px -60px;
   width: 169px;
 }
-/* line 158, ../scss/_layout.scss */
+/* line 166, ../scss/_layout.scss */
 .collaborations .collaborations__item .kidsters:hover {
   background-position: -165px 0;
 }
-/* line 162, ../scss/_layout.scss */
+/* line 170, ../scss/_layout.scss */
 .collaborations .collaborations__item .centrida {
   background-position: -345px -62px;
   width: 200px;
 }
-/* line 166, ../scss/_layout.scss */
+/* line 174, ../scss/_layout.scss */
 .collaborations .collaborations__item .centrida:hover {
   background-position: -346px 0;
 }
 
-/* line 176, ../scss/_layout.scss */
+/* line 184, ../scss/_layout.scss */
 .cv dl dt {
   margin-top: 1em;
 }
-/* line 179, ../scss/_layout.scss */
+/* line 187, ../scss/_layout.scss */
 .cv dl dd {
   margin-bottom: 0;
 }
-/* line 184, ../scss/_layout.scss */
+/* line 192, ../scss/_layout.scss */
 .cv .experience .period,
 .cv .experience .description {
   color: #404040;
 }
-/* line 190, ../scss/_layout.scss */
+/* line 198, ../scss/_layout.scss */
 .cv .lang ul {
   list-style: none;
 }
 
-/* line 196, ../scss/_layout.scss */
+/* line 204, ../scss/_layout.scss */
 .project {
   background: #b3b3b3;
   background-image: url('/i/bg-bw.png?1396370299');
 }
-/* line 200, ../scss/_layout.scss */
+/* line 208, ../scss/_layout.scss */
 .project .wrap .nav__item a {
   background: gray;
   background: rgba(128, 128, 128, 0.5);
 }
-/* line 208, ../scss/_layout.scss */
+/* line 216, ../scss/_layout.scss */
 .project .wrap .sticky-wrapper > .nav {
   overflow: hidden;
 }
-/* line 212, ../scss/_layout.scss */
+/* line 220, ../scss/_layout.scss */
 .project .nav__list .nav__item {
   float: left;
 }
 
 /* Typography =================================================== */
-/* line 106, ../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, ../../../.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 112.5%;
   line-height: 1.77778em;
@@ -306,14 +318,15 @@ body {
 a {
   text-decoration: none;
   border-bottom: 1px solid;
+  transition: all 0.2s linear;
 }
-/* line 22, ../scss/_typography.scss */
+/* line 23, ../scss/_typography.scss */
 a:hover {
   border-bottom: 1px solid;
   text-decoration: none;
 }
 
-/* line 30, ../scss/_typography.scss */
+/* line 31, ../scss/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-family: "PT Serif", Georgia, Times, "Times New Roman";
@@ -322,28 +335,28 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizelegibility;
 }
 
-/* line 38, ../scss/_typography.scss */
+/* line 39, ../scss/_typography.scss */
 h1 .small,
 h2 .small {
   font-weight: normal;
   color: #b3b3b3;
 }
 
-/* line 46, ../scss/_typography.scss */
+/* line 47, ../scss/_typography.scss */
 .header h1,
 .header .h1 {
   font-size: 3.44444em;
   line-height: 1.29032em;
   margin: 0 auto 0em;
 }
-/* line 51, ../scss/_typography.scss */
+/* line 52, ../scss/_typography.scss */
 .header h1 .small {
   font-size: 0.51613em;
   line-height: 1.25em;
   margin: 0 auto 1em 0em;
 }
 
-/* line 59, ../scss/_typography.scss */
+/* line 60, ../scss/_typography.scss */
 .aside h1,
 .aside .h1 {
   font-size: 1.77778em;
@@ -351,34 +364,34 @@ h2 .small {
   margin: 0 auto 0em;
 }
 
-/* line 65, ../scss/_typography.scss */
+/* line 66, ../scss/_typography.scss */
 h1 {
   font-size: 2em;
   line-height: 1.77778em;
 }
 
-/* line 70, ../scss/_typography.scss */
+/* line 71, ../scss/_typography.scss */
 h2,
 .h2 {
   font-size: 1.77778em;
   line-height: 2em;
 }
 
-/* line 75, ../scss/_typography.scss */
+/* line 76, ../scss/_typography.scss */
 .projects h2,
 .projects .h2 {
   font-size: 1.33333em;
   line-height: 1.33333em;
 }
 
-/* line 81, ../scss/_typography.scss */
+/* line 82, ../scss/_typography.scss */
 h3,
 .h3 {
   font-size: 1.33333em;
   line-height: 1.33333em;
 }
 
-/* line 99, ../scss/_typography.scss */
+/* line 100, ../scss/_typography.scss */
 h6,
 .h6 {
   font-weight: normal;
@@ -386,7 +399,7 @@ h6,
   text-transform: uppercase;
 }
 
-/* line 108, ../scss/_typography.scss */
+/* line 109, ../scss/_typography.scss */
 .cv .period,
 .cv .description,
 .cv .company {
@@ -394,7 +407,7 @@ h6,
   line-height: 1.78em;
 }
 
-/* line 122, ../scss/_typography.scss */
+/* line 123, ../scss/_typography.scss */
 .header h1 a,
 .header h2 a,
 .header h3 a {
@@ -403,12 +416,12 @@ h6,
   color: #2d353e;
 }
 
-/* line 131, ../scss/_typography.scss */
+/* line 132, ../scss/_typography.scss */
 .projects h2 {
   margin-bottom: 0;
 }
 
-/* line 138, ../scss/_typography.scss */
+/* line 139, ../scss/_typography.scss */
 .header .a-rss,
 .header .a-rss:hover {
   float: left;
@@ -421,7 +434,7 @@ h6,
   overflow: hidden;
 }
 
-/* line 150, ../scss/_typography.scss */
+/* line 151, ../scss/_typography.scss */
 p,
 ol,
 ul,
@@ -431,38 +444,38 @@ address {
   line-height: 32px;
 }
 
-/* line 161, ../scss/_typography.scss */
+/* line 162, ../scss/_typography.scss */
 .cv .aside p {
   margin-bottom: 16px;
 }
 
-/* line 167, ../scss/_typography.scss */
+/* line 168, ../scss/_typography.scss */
 .scope,
 small {
   font-size: 0.88889em;
   line-height: 1.5em;
 }
 
-/* line 173, ../scss/_typography.scss */
+/* line 174, ../scss/_typography.scss */
 .scope {
   margin-bottom: 0;
 }
 
-/* line 177, ../scss/_typography.scss */
+/* line 178, ../scss/_typography.scss */
 ul,
 ol {
   margin: 0 0 32px -24px;
   padding: 0 0 0 24px;
 }
 
-/* line 183, ../scss/_typography.scss */
+/* line 184, ../scss/_typography.scss */
 li ul,
 li ol {
   margin: 0;
   /*@include font-size(16); */
 }
 
-/* line 191, ../scss/_typography.scss */
+/* line 192, ../scss/_typography.scss */
 blockquote {
   margin: 0 0 32px -24px;
   padding-left: 24px;
@@ -471,12 +484,12 @@ blockquote {
   font-style: normal;
 }
 
-/* line 198, ../scss/_typography.scss */
+/* line 199, ../scss/_typography.scss */
 q {
   quotes: none;
 }
 
-/* line 201, ../scss/_typography.scss */
+/* line 202, ../scss/_typography.scss */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -485,58 +498,58 @@ q:after {
   content: none;
 }
 
-/* line 208, ../scss/_typography.scss */
+/* line 209, ../scss/_typography.scss */
 cite {
   font-style: normal;
 }
 
-/* line 213, ../scss/_typography.scss */
+/* line 214, ../scss/_typography.scss */
 dl,
 dd {
   margin-bottom: 32px;
 }
 
-/* line 217, ../scss/_typography.scss */
+/* line 218, ../scss/_typography.scss */
 dt {
   font-weight: bold;
 }
 
-/* line 222, ../scss/_typography.scss */
+/* line 223, ../scss/_typography.scss */
 .dl-horizontal dt {
   float: left;
   clear: left;
   width: 20.25%;
   text-align: right;
 }
-/* line 228, ../scss/_typography.scss */
+/* line 229, ../scss/_typography.scss */
 .dl-horizontal dd {
   margin-left: 22.78%;
 }
 
-/* line 234, ../scss/_typography.scss */
+/* line 235, ../scss/_typography.scss */
 abbr[title] {
   border-bottom: 1px dotted #c7ced6;
   cursor: help;
 }
 
-/* line 238, ../scss/_typography.scss */
+/* line 239, ../scss/_typography.scss */
 b, strong {
   font-weight: bold;
 }
 
-/* line 241, ../scss/_typography.scss */
+/* line 242, ../scss/_typography.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 244, ../scss/_typography.scss */
+/* line 245, ../scss/_typography.scss */
 ins {
   background-color: #f3f5f6;
   color: black;
   text-decoration: none;
 }
 
-/* line 249, ../scss/_typography.scss */
+/* line 250, ../scss/_typography.scss */
 mark {
   background-color: #f3f5f6;
   color: black;
@@ -544,7 +557,7 @@ mark {
   font-weight: bold;
 }
 
-/* line 255, ../scss/_typography.scss */
+/* line 256, ../scss/_typography.scss */
 pre,
 code,
 kbd,
@@ -553,14 +566,14 @@ samp {
   line-height: 32px;
 }
 
-/* line 263, ../scss/_typography.scss */
+/* line 264, ../scss/_typography.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-/* line 268, ../scss/_typography.scss */
+/* line 269, ../scss/_typography.scss */
 sub,
 sup {
   position: relative;
@@ -568,12 +581,12 @@ sup {
   vertical-align: baselineheight;
 }
 
-/* line 275, ../scss/_typography.scss */
+/* line 276, ../scss/_typography.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 278, ../scss/_typography.scss */
+/* line 279, ../scss/_typography.scss */
 sub {
   bottom: -0.25em;
 }
@@ -1113,6 +1126,10 @@ dl dt {
 }
 @media only screen and (min-width: 30em) {
   /* 480 =================================================== */
+  /* line 21, ../scss/_480.scss */
+  .wrap .sticky-wrapper {
+    top: -32px;
+  }
 }
 @media only screen and (min-width: 600px) {
   /* 600 =================================================== */
@@ -1124,14 +1141,15 @@ dl dt {
   .wrap .sticky-wrapper {
     position: absolute;
     right: 32px;
+    top: -32px;
     margin-top: 0;
   }
 
-  /* line 29, ../scss/_600.scss */
+  /* line 30, ../scss/_600.scss */
   .projects {
     list-style: none;
   }
-  /* line 32, ../scss/_600.scss */
+  /* line 33, ../scss/_600.scss */
   .projects .projects__item {
     width: 46%;
     margin: 0 2.9% 32px 0;
