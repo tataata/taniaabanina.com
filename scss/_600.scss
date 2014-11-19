@@ -22,6 +22,7 @@
 	.sticky-wrapper {
 		position: absolute;
 		right: $base-line-height;
+		top: -$base-line-height;
 		margin-top: 0;
 	}
 }

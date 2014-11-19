@@ -15,7 +15,9 @@ body {
 
 a {
   text-decoration: none;
+  transition: all 0.2s linear;
   border-bottom: 1px solid;
+
 
   &:hover {
     border-bottom: 1px solid;
