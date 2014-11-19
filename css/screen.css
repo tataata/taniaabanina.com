@@ -94,18 +94,18 @@ body {
 .wrap {
   padding: 32px;
   background: white;
-  margin: 0;
   position: relative;
+  margin: 0;
 }
-/* line 8, ../scss/_layout.scss */
+/* line 9, ../scss/_layout.scss */
 .wrap .header {
   border-bottom: 4px solid black;
 }
-/* line 12, ../scss/_layout.scss */
+/* line 13, ../scss/_layout.scss */
 .wrap .header h1 .small {
   display: block;
 }
-/* line 19, ../scss/_layout.scss */
+/* line 20, ../scss/_layout.scss */
 .wrap .sticky-wrapper {
   position: absolute;
   margin-top: 0;
@@ -113,26 +113,26 @@ body {
   top: -24px;
   z-index: 10;
 }
-/* line 26, ../scss/_layout.scss */
+/* line 27, ../scss/_layout.scss */
 .wrap .sticky-wrapper > .nav {
   position: static;
   margin: 0;
 }
-/* line 32, ../scss/_layout.scss */
+/* line 33, ../scss/_layout.scss */
 .wrap .nav {
   margin: 0;
   position: absolute;
   top: 0;
 }
-/* line 39, ../scss/_layout.scss */
+/* line 40, ../scss/_layout.scss */
 .wrap .nav__list {
   list-style: none;
 }
-/* line 42, ../scss/_layout.scss */
+/* line 43, ../scss/_layout.scss */
 .wrap .nav__item {
   float: left;
 }
-/* line 44, ../scss/_layout.scss */
+/* line 45, ../scss/_layout.scss */
 .wrap .nav__item a {
   display: block;
   padding: 15.6px 24px;
@@ -142,37 +142,37 @@ body {
   line-height: 1;
   border-bottom: none;
 }
-/* line 53, ../scss/_layout.scss */
+/* line 54, ../scss/_layout.scss */
 .wrap .nav__item a:hover {
   background: #95241d;
 }
-/* line 57, ../scss/_layout.scss */
+/* line 58, ../scss/_layout.scss */
 .wrap .nav__item .active {
   /*background: green;*/
 }
-/* line 63, ../scss/_layout.scss */
+/* line 64, ../scss/_layout.scss */
 .wrap .content {
   padding: 24px 0;
 }
 
-/* line 73, ../scss/_layout.scss */
+/* line 74, ../scss/_layout.scss */
 .projects {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 78, ../scss/_layout.scss */
+/* line 79, ../scss/_layout.scss */
 .projects .projects__item {
   background: transparent;
   position: relative;
   display: block;
   padding: 12px 6px;
 }
-/* line 85, ../scss/_layout.scss */
+/* line 86, ../scss/_layout.scss */
 .projects .projects__item:hover, .projects .projects__item:focus {
   background: white url('/i/pattern.png?1379512586') center center repeat;
 }
-/* line 90, ../scss/_layout.scss */
+/* line 91, ../scss/_layout.scss */
 .projects .projects__item .thumb {
   display: block;
   padding-bottom: 6px;
@@ -180,217 +180,133 @@ body {
   color: black;
   position: relative;
 }
-/* line 98, ../scss/_layout.scss */
+/* line 99, ../scss/_layout.scss */
 .projects .projects__item .thumb img {
   margin-bottom: 4px;
 }
-/* line 103, ../scss/_layout.scss */
+/* line 104, ../scss/_layout.scss */
 .projects .projects__item .thumb:hover {
   color: black;
 }
 
-/* line 111, ../scss/_layout.scss */
+/* line 112, ../scss/_layout.scss */
 .collaborations {
   list-style: none;
 }
-/* line 114, ../scss/_layout.scss */
+/* line 115, ../scss/_layout.scss */
 .collaborations .collaborations__item {
   display: inline-block;
   *display: inline;
   zoom: 1;
   width: 24%;
 }
-/* line 120, ../scss/_layout.scss */
+/* line 121, ../scss/_layout.scss */
 .collaborations .collaborations__item .collaborations__link {
   text-indent: -9878px;
   display: block;
   margin: 0 auto 24px;
-<<<<<<< HEAD
-  background-image: url('/i/logo-sprite.png?1411228700');
-=======
-  background-image: url('/i/logo-sprite.png?1416354208');
->>>>>>> master
+  background-image: url('/i/logo-sprite.png?1416385716');
   background-repeat: no-repeat;
   height: 50px;
   border-bottom: none;
 }
-<<<<<<< HEAD
-/* line 123, ../scss/_layout.scss */
-=======
-/* line 130, ../scss/_layout.scss */
->>>>>>> master
+/* line 132, ../scss/_layout.scss */
 .collaborations .collaborations__item .soundcloud {
   background-position: -762px -60px;
   width: 158px;
 }
-<<<<<<< HEAD
-/* line 127, ../scss/_layout.scss */
+/* line 136, ../scss/_layout.scss */
 .collaborations .collaborations__item .soundcloud:hover {
   background-position: -762px 0;
 }
-/* line 132, ../scss/_layout.scss */
+/* line 141, ../scss/_layout.scss */
 .collaborations .collaborations__item .careerfoundry {
   background-position: -1020px -60px;
   width: 150px;
 }
-/* line 136, ../scss/_layout.scss */
+/* line 145, ../scss/_layout.scss */
 .collaborations .collaborations__item .careerfoundry:hover {
   background-position: -1020px 0;
 }
-/* line 140, ../scss/_layout.scss */
-=======
-/* line 134, ../scss/_layout.scss */
-.collaborations .collaborations__item .soundcloud:hover {
-  background-position: -762px 0;
-}
-/* line 138, ../scss/_layout.scss */
->>>>>>> master
+/* line 149, ../scss/_layout.scss */
 .collaborations .collaborations__item .neq4 {
   background-position: -930px -60px;
   width: 75px;
 }
-<<<<<<< HEAD
-/* line 144, ../scss/_layout.scss */
+/* line 153, ../scss/_layout.scss */
 .collaborations .collaborations__item .neq4:hover {
   background-position: -930px 0;
 }
-/* line 148, ../scss/_layout.scss */
-=======
-/* line 142, ../scss/_layout.scss */
-.collaborations .collaborations__item .neq4:hover {
-  background-position: -930px 0;
-}
-/* line 146, ../scss/_layout.scss */
->>>>>>> master
+/* line 157, ../scss/_layout.scss */
 .collaborations .collaborations__item .upstream {
   background-position: -555px -60px;
   width: 194px;
 }
-<<<<<<< HEAD
-/* line 152, ../scss/_layout.scss */
+/* line 161, ../scss/_layout.scss */
 .collaborations .collaborations__item .upstream:hover {
   background-position: -555px 0;
 }
-/* line 156, ../scss/_layout.scss */
-=======
-/* line 150, ../scss/_layout.scss */
-.collaborations .collaborations__item .upstream:hover {
-  background-position: -555px 0;
-}
-/* line 154, ../scss/_layout.scss */
->>>>>>> master
+/* line 165, ../scss/_layout.scss */
 .collaborations .collaborations__item .intaxi {
   background-position: 0 -61px;
   width: 156px;
 }
-<<<<<<< HEAD
-/* line 160, ../scss/_layout.scss */
+/* line 169, ../scss/_layout.scss */
 .collaborations .collaborations__item .intaxi:hover {
   background-position: 0 0;
 }
-/* line 164, ../scss/_layout.scss */
-=======
-/* line 158, ../scss/_layout.scss */
-.collaborations .collaborations__item .intaxi:hover {
-  background-position: 0 0;
-}
-/* line 162, ../scss/_layout.scss */
->>>>>>> master
+/* line 173, ../scss/_layout.scss */
 .collaborations .collaborations__item .kidsters {
   background-position: -165px -60px;
   width: 169px;
 }
-<<<<<<< HEAD
-/* line 168, ../scss/_layout.scss */
+/* line 177, ../scss/_layout.scss */
 .collaborations .collaborations__item .kidsters:hover {
   background-position: -165px 0;
 }
-/* line 172, ../scss/_layout.scss */
-=======
-/* line 166, ../scss/_layout.scss */
-.collaborations .collaborations__item .kidsters:hover {
-  background-position: -165px 0;
-}
-/* line 170, ../scss/_layout.scss */
->>>>>>> master
+/* line 181, ../scss/_layout.scss */
 .collaborations .collaborations__item .centrida {
   background-position: -345px -62px;
   width: 200px;
 }
-<<<<<<< HEAD
-/* line 176, ../scss/_layout.scss */
-=======
-/* line 174, ../scss/_layout.scss */
->>>>>>> master
+/* line 185, ../scss/_layout.scss */
 .collaborations .collaborations__item .centrida:hover {
   background-position: -346px 0;
 }
 
-<<<<<<< HEAD
-/* line 186, ../scss/_layout.scss */
+/* line 195, ../scss/_layout.scss */
 .cv dl dt {
   margin-top: 1em;
 }
-/* line 189, ../scss/_layout.scss */
+/* line 198, ../scss/_layout.scss */
 .cv dl dd {
   margin-bottom: 0;
 }
-/* line 194, ../scss/_layout.scss */
-=======
-/* line 184, ../scss/_layout.scss */
-.cv dl dt {
-  margin-top: 1em;
-}
-/* line 187, ../scss/_layout.scss */
-.cv dl dd {
-  margin-bottom: 0;
-}
-/* line 192, ../scss/_layout.scss */
->>>>>>> master
+/* line 203, ../scss/_layout.scss */
 .cv .experience .period,
 .cv .experience .description {
   color: #404040;
 }
-<<<<<<< HEAD
-/* line 200, ../scss/_layout.scss */
-=======
-/* line 198, ../scss/_layout.scss */
->>>>>>> master
+/* line 209, ../scss/_layout.scss */
 .cv .lang ul {
   list-style: none;
 }
 
-<<<<<<< HEAD
-/* line 206, ../scss/_layout.scss */
-=======
-/* line 204, ../scss/_layout.scss */
->>>>>>> master
+/* line 215, ../scss/_layout.scss */
 .project {
   background: #b3b3b3;
   background-image: url('/i/bg-bw.png?1396370299');
 }
-<<<<<<< HEAD
-/* line 210, ../scss/_layout.scss */
-=======
-/* line 208, ../scss/_layout.scss */
->>>>>>> master
+/* line 219, ../scss/_layout.scss */
 .project .wrap .nav__item a {
   background: gray;
   background: rgba(128, 128, 128, 0.5);
 }
-<<<<<<< HEAD
-/* line 218, ../scss/_layout.scss */
+/* line 227, ../scss/_layout.scss */
 .project .wrap .sticky-wrapper > .nav {
   overflow: hidden;
 }
-/* line 222, ../scss/_layout.scss */
-=======
-/* line 216, ../scss/_layout.scss */
-.project .wrap .sticky-wrapper > .nav {
-  overflow: hidden;
-}
-/* line 220, ../scss/_layout.scss */
->>>>>>> master
+/* line 231, ../scss/_layout.scss */
 .project .nav__list .nav__item {
   float: left;
 }
@@ -414,21 +330,13 @@ a {
   transition: all 0.2s linear;
   border-bottom: 1px solid;
 }
-<<<<<<< HEAD
-/* line 20, ../scss/_typography.scss */
-=======
-/* line 24, ../scss/_typography.scss */
->>>>>>> master
+/* line 22, ../scss/_typography.scss */
 a:hover {
   border-bottom: 1px solid;
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-/* line 28, ../scss/_typography.scss */
-=======
-/* line 32, ../scss/_typography.scss */
->>>>>>> master
+/* line 30, ../scss/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-family: "PT Serif", Georgia, Times, "Times New Roman";
@@ -437,44 +345,28 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizelegibility;
 }
 
-<<<<<<< HEAD
-/* line 36, ../scss/_typography.scss */
-=======
-/* line 40, ../scss/_typography.scss */
->>>>>>> master
+/* line 38, ../scss/_typography.scss */
 h1 .small,
 h2 .small {
   font-weight: normal;
   color: #b3b3b3;
 }
 
-<<<<<<< HEAD
-/* line 44, ../scss/_typography.scss */
-=======
-/* line 48, ../scss/_typography.scss */
->>>>>>> master
+/* line 46, ../scss/_typography.scss */
 .header h1,
 .header .h1 {
   font-size: 3.44444em;
   line-height: 1.29032em;
   margin: 0 auto 0em;
 }
-<<<<<<< HEAD
-/* line 49, ../scss/_typography.scss */
-=======
-/* line 53, ../scss/_typography.scss */
->>>>>>> master
+/* line 51, ../scss/_typography.scss */
 .header h1 .small {
   font-size: 0.51613em;
   line-height: 1.25em;
   margin: 0 auto 1em 0em;
 }
 
-<<<<<<< HEAD
-/* line 57, ../scss/_typography.scss */
-=======
-/* line 61, ../scss/_typography.scss */
->>>>>>> master
+/* line 59, ../scss/_typography.scss */
 .aside h1,
 .aside .h1 {
   font-size: 1.77778em;
@@ -482,54 +374,34 @@ h2 .small {
   margin: 0 auto 0em;
 }
 
-<<<<<<< HEAD
-/* line 63, ../scss/_typography.scss */
-=======
-/* line 67, ../scss/_typography.scss */
->>>>>>> master
+/* line 65, ../scss/_typography.scss */
 h1 {
   font-size: 2em;
   line-height: 1.77778em;
 }
 
-<<<<<<< HEAD
-/* line 68, ../scss/_typography.scss */
-=======
-/* line 72, ../scss/_typography.scss */
->>>>>>> master
+/* line 70, ../scss/_typography.scss */
 h2,
 .h2 {
   font-size: 1.77778em;
   line-height: 2em;
 }
 
-<<<<<<< HEAD
-/* line 73, ../scss/_typography.scss */
-=======
-/* line 77, ../scss/_typography.scss */
->>>>>>> master
+/* line 75, ../scss/_typography.scss */
 .projects h2,
 .projects .h2 {
   font-size: 1.33333em;
   line-height: 1.33333em;
 }
 
-<<<<<<< HEAD
-/* line 79, ../scss/_typography.scss */
-=======
-/* line 83, ../scss/_typography.scss */
->>>>>>> master
+/* line 81, ../scss/_typography.scss */
 h3,
 .h3 {
   font-size: 1.33333em;
   line-height: 1.33333em;
 }
 
-<<<<<<< HEAD
-/* line 97, ../scss/_typography.scss */
-=======
-/* line 101, ../scss/_typography.scss */
->>>>>>> master
+/* line 99, ../scss/_typography.scss */
 h6,
 .h6 {
   font-weight: normal;
@@ -537,11 +409,7 @@ h6,
   text-transform: uppercase;
 }
 
-<<<<<<< HEAD
-/* line 106, ../scss/_typography.scss */
-=======
-/* line 110, ../scss/_typography.scss */
->>>>>>> master
+/* line 108, ../scss/_typography.scss */
 .cv .period,
 .cv .description,
 .cv .company {
@@ -549,11 +417,7 @@ h6,
   line-height: 1.78em;
 }
 
-<<<<<<< HEAD
-/* line 120, ../scss/_typography.scss */
-=======
-/* line 124, ../scss/_typography.scss */
->>>>>>> master
+/* line 122, ../scss/_typography.scss */
 .header h1 a,
 .header h2 a,
 .header h3 a {
@@ -562,20 +426,12 @@ h6,
   color: #2d353e;
 }
 
-<<<<<<< HEAD
-/* line 129, ../scss/_typography.scss */
-=======
-/* line 133, ../scss/_typography.scss */
->>>>>>> master
+/* line 131, ../scss/_typography.scss */
 .projects h2 {
   margin-bottom: 0;
 }
 
-<<<<<<< HEAD
-/* line 136, ../scss/_typography.scss */
-=======
-/* line 140, ../scss/_typography.scss */
->>>>>>> master
+/* line 138, ../scss/_typography.scss */
 .header .a-rss,
 .header .a-rss:hover {
   float: left;
@@ -588,11 +444,7 @@ h6,
   overflow: hidden;
 }
 
-<<<<<<< HEAD
-/* line 148, ../scss/_typography.scss */
-=======
-/* line 152, ../scss/_typography.scss */
->>>>>>> master
+/* line 150, ../scss/_typography.scss */
 p,
 ol,
 ul,
@@ -602,14 +454,13 @@ address {
   line-height: 32px;
 }
 
-<<<<<<< HEAD
-/* line 159, ../scss/_typography.scss */
+/* line 161, ../scss/_typography.scss */
 .list li {
   list-style: none;
   padding-left: 1.25em;
   position: relative;
 }
-/* line 164, ../scss/_typography.scss */
+/* line 166, ../scss/_typography.scss */
 .list li:before {
   content: '—';
   position: absolute;
@@ -617,61 +468,38 @@ address {
   top: 0;
 }
 
-/* line 174, ../scss/_typography.scss */
-=======
-/* line 163, ../scss/_typography.scss */
->>>>>>> master
+/* line 176, ../scss/_typography.scss */
 .cv .aside p {
   margin-bottom: 16px;
 }
 
-<<<<<<< HEAD
-/* line 180, ../scss/_typography.scss */
-=======
-/* line 169, ../scss/_typography.scss */
->>>>>>> master
+/* line 182, ../scss/_typography.scss */
 .scope,
 small {
   font-size: 0.88889em;
   line-height: 1.5em;
 }
 
-<<<<<<< HEAD
-/* line 186, ../scss/_typography.scss */
-=======
-/* line 175, ../scss/_typography.scss */
->>>>>>> master
+/* line 188, ../scss/_typography.scss */
 .scope {
   margin-bottom: 0;
 }
 
-<<<<<<< HEAD
-/* line 190, ../scss/_typography.scss */
-=======
-/* line 179, ../scss/_typography.scss */
->>>>>>> master
+/* line 192, ../scss/_typography.scss */
 ul,
 ol {
   margin: 0 0 32px -24px;
   padding: 0 0 0 24px;
 }
 
-<<<<<<< HEAD
-/* line 196, ../scss/_typography.scss */
-=======
-/* line 185, ../scss/_typography.scss */
->>>>>>> master
+/* line 198, ../scss/_typography.scss */
 li ul,
 li ol {
   margin: 0;
   /*@include font-size(16); */
 }
 
-<<<<<<< HEAD
-/* line 204, ../scss/_typography.scss */
-=======
-/* line 193, ../scss/_typography.scss */
->>>>>>> master
+/* line 206, ../scss/_typography.scss */
 blockquote {
   margin: 0 0 32px -24px;
   padding-left: 24px;
@@ -680,20 +508,12 @@ blockquote {
   font-style: normal;
 }
 
-<<<<<<< HEAD
-/* line 211, ../scss/_typography.scss */
-=======
-/* line 200, ../scss/_typography.scss */
->>>>>>> master
+/* line 213, ../scss/_typography.scss */
 q {
   quotes: none;
 }
 
-<<<<<<< HEAD
-/* line 214, ../scss/_typography.scss */
-=======
-/* line 203, ../scss/_typography.scss */
->>>>>>> master
+/* line 216, ../scss/_typography.scss */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -702,98 +522,58 @@ q:after {
   content: none;
 }
 
-<<<<<<< HEAD
-/* line 221, ../scss/_typography.scss */
-=======
-/* line 210, ../scss/_typography.scss */
->>>>>>> master
+/* line 223, ../scss/_typography.scss */
 cite {
   font-style: normal;
 }
 
-<<<<<<< HEAD
-/* line 226, ../scss/_typography.scss */
-=======
-/* line 215, ../scss/_typography.scss */
->>>>>>> master
+/* line 228, ../scss/_typography.scss */
 dl,
 dd {
   margin-bottom: 32px;
 }
 
-<<<<<<< HEAD
-/* line 230, ../scss/_typography.scss */
-=======
-/* line 219, ../scss/_typography.scss */
->>>>>>> master
+/* line 232, ../scss/_typography.scss */
 dt {
   font-weight: bold;
 }
 
-<<<<<<< HEAD
-/* line 235, ../scss/_typography.scss */
-=======
-/* line 224, ../scss/_typography.scss */
->>>>>>> master
+/* line 237, ../scss/_typography.scss */
 .dl-horizontal dt {
   float: left;
   clear: left;
   width: 20.25%;
   text-align: right;
 }
-<<<<<<< HEAD
-/* line 241, ../scss/_typography.scss */
-=======
-/* line 230, ../scss/_typography.scss */
->>>>>>> master
+/* line 243, ../scss/_typography.scss */
 .dl-horizontal dd {
   margin-left: 22.78%;
 }
 
-<<<<<<< HEAD
-/* line 247, ../scss/_typography.scss */
-=======
-/* line 236, ../scss/_typography.scss */
->>>>>>> master
+/* line 249, ../scss/_typography.scss */
 abbr[title] {
   border-bottom: 1px dotted #c7ced6;
   cursor: help;
 }
 
-<<<<<<< HEAD
-/* line 251, ../scss/_typography.scss */
-=======
-/* line 240, ../scss/_typography.scss */
->>>>>>> master
+/* line 253, ../scss/_typography.scss */
 b, strong {
   font-weight: bold;
 }
 
-<<<<<<< HEAD
-/* line 254, ../scss/_typography.scss */
-=======
-/* line 243, ../scss/_typography.scss */
->>>>>>> master
+/* line 256, ../scss/_typography.scss */
 dfn {
   font-style: italic;
 }
 
-<<<<<<< HEAD
-/* line 257, ../scss/_typography.scss */
-=======
-/* line 246, ../scss/_typography.scss */
->>>>>>> master
+/* line 259, ../scss/_typography.scss */
 ins {
   background-color: #f3f5f6;
   color: black;
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-/* line 262, ../scss/_typography.scss */
-=======
-/* line 251, ../scss/_typography.scss */
->>>>>>> master
+/* line 264, ../scss/_typography.scss */
 mark {
   background-color: #f3f5f6;
   color: black;
@@ -801,11 +581,7 @@ mark {
   font-weight: bold;
 }
 
-<<<<<<< HEAD
-/* line 268, ../scss/_typography.scss */
-=======
-/* line 257, ../scss/_typography.scss */
->>>>>>> master
+/* line 270, ../scss/_typography.scss */
 pre,
 code,
 kbd,
@@ -814,22 +590,14 @@ samp {
   line-height: 32px;
 }
 
-<<<<<<< HEAD
-/* line 276, ../scss/_typography.scss */
-=======
-/* line 265, ../scss/_typography.scss */
->>>>>>> master
+/* line 278, ../scss/_typography.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-<<<<<<< HEAD
-/* line 281, ../scss/_typography.scss */
-=======
-/* line 270, ../scss/_typography.scss */
->>>>>>> master
+/* line 283, ../scss/_typography.scss */
 sub,
 sup {
   position: relative;
@@ -837,20 +605,12 @@ sup {
   vertical-align: baselineheight;
 }
 
-<<<<<<< HEAD
-/* line 288, ../scss/_typography.scss */
-=======
-/* line 277, ../scss/_typography.scss */
->>>>>>> master
+/* line 290, ../scss/_typography.scss */
 sup {
   top: -0.5em;
 }
 
-<<<<<<< HEAD
-/* line 291, ../scss/_typography.scss */
-=======
-/* line 280, ../scss/_typography.scss */
->>>>>>> master
+/* line 293, ../scss/_typography.scss */
 sub {
   bottom: -0.25em;
 }
