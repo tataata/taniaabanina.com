@@ -15,7 +15,10 @@
 	<link rel="shortcut icon" href="fav.ico">
 	<link rel="stylesheet" media="all" type="text/css" href="css/screen.css">
 
-	{% include open-graph.html %}
+		<!-- Open graph tags -->
+	<meta property="og:title" content="Tania Abanina - Web & UX designer"> 
+	<meta property="og:description" content="My portfolio as a web & UX designer with front-end developing background"> 
+	<meta property="og:image" content="/i/bg.png">
 
 	<!-- Google font: PT Serif -->
 	<link href='http://fonts.googleapis.com/css?family=PT+Serif&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
@@ -122,3 +125,72 @@
     
 >>>>>>> gh-pages
 </head>
+
+		<div class="content__wrap">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-8 col-lg-9 ">
+
+					<!-- 
+    Solution: http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/#building_site_navigation
+ -->
+
+
+        <nav class="nav" id="sticker">
+            <ul class="nav__list">
+                <!-- <li class="nav__item "><a href="/blog" title="notes" >notes</a></li> -->
+                <li class="nav__item "><a href="resume.html" title="cv">cv</a></li>
+            </ul>
+        </nav>
+				
+
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col">
+
+							<section>
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+			  
+			    <div class="post">
+			      <!-- <a href="/2014/11/18/Hello-world!.html">Hello, world!</a> -->
+			      <div class="mute">18-11-2014</div>
+
+			      <h1 id="hello-world">Hello World!</h1>
+
+<p>Here I will be keep notes with small notes about everything relative to web / UX design, managment, organising workflow and some things around.</p>
+
+
+			    </div>
+			  
+
+		</div>
+
+		
+	</div>
+	
+</section>
+
+						</div>
+						
+					</div>
+
+				</div>
+					
+
+				
+			</div>
+		</div>
+
+
+	</div><!-- /container -->
+
+
+	<script>
+    $(window).load(function(){
+      $("#sticker").sticky({ topSpacing: 0, className:"hey" });
+    });
+  </script>
+  
+</body>
+</html>

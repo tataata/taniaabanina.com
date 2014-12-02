@@ -1,0 +1,26 @@
+---
+layout: page
+title: Blog
+---
+
+<section>
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+			  {% for post in site.posts %}
+			    <div class="post">
+			      <!-- <a href="{{ post.url }}">{{ post.title }}</a> -->
+			      <div class="mute">{{ post.date | date: "%d-%m-%Y" }}</div>
+
+			      {{ post.content }}
+
+			    </div>
+			  {% endfor %}
+
+		</div>
+
+		
+	</div>
+	
+</section>
