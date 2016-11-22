@@ -37,9 +37,12 @@ port:    4000
 host:    0.0.0.0
 baseurl: "" # does not include hostname
 
+<<<<<<< HEAD
 # Backwards-compatibility
 # relative_permalinks: false
 
+=======
+>>>>>>> 438988f0a02349214a72599c514ab48448bbbe2b
 # Outputting
 permalink:     date
 paginate_path: /page:num
