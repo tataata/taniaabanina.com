@@ -38,7 +38,7 @@ host:    0.0.0.0
 baseurl: "" # does not include hostname
 
 # Backwards-compatibility
-relative_permalinks: false
+# relative_permalinks: false
 
 # Outputting
 permalink:     date
