@@ -196,123 +196,121 @@ body {
 /* line 115, ../scss/_layout.scss */
 .collaborations .collaborations__item {
   display: inline-block;
-  *display: inline;
-  zoom: 1;
-  width: 24%;
+  margin-right: 30px;
 }
-/* line 121, ../scss/_layout.scss */
+/* line 119, ../scss/_layout.scss */
 .collaborations .collaborations__item .collaborations__link {
   text-indent: -9878px;
   display: block;
   margin: 0 auto 24px;
-  background-image: url('/i/logo-sprite.png?1416385716');
+  background-image: url('/i/logo-sprite.png?1417099570');
   background-repeat: no-repeat;
   height: 50px;
   border-bottom: none;
 }
-/* line 132, ../scss/_layout.scss */
+/* line 130, ../scss/_layout.scss */
 .collaborations .collaborations__item .soundcloud {
   background-position: -762px -60px;
   width: 158px;
 }
-/* line 136, ../scss/_layout.scss */
+/* line 134, ../scss/_layout.scss */
 .collaborations .collaborations__item .soundcloud:hover {
   background-position: -762px 0;
 }
-/* line 141, ../scss/_layout.scss */
+/* line 139, ../scss/_layout.scss */
 .collaborations .collaborations__item .careerfoundry {
   background-position: -1020px -60px;
   width: 150px;
 }
-/* line 145, ../scss/_layout.scss */
+/* line 143, ../scss/_layout.scss */
 .collaborations .collaborations__item .careerfoundry:hover {
   background-position: -1020px 0;
 }
-/* line 149, ../scss/_layout.scss */
+/* line 147, ../scss/_layout.scss */
 .collaborations .collaborations__item .neq4 {
   background-position: -930px -60px;
   width: 75px;
 }
-/* line 153, ../scss/_layout.scss */
+/* line 151, ../scss/_layout.scss */
 .collaborations .collaborations__item .neq4:hover {
   background-position: -930px 0;
 }
-/* line 157, ../scss/_layout.scss */
+/* line 155, ../scss/_layout.scss */
 .collaborations .collaborations__item .upstream {
   background-position: -555px -60px;
   width: 194px;
 }
-/* line 161, ../scss/_layout.scss */
+/* line 159, ../scss/_layout.scss */
 .collaborations .collaborations__item .upstream:hover {
   background-position: -555px 0;
 }
-/* line 165, ../scss/_layout.scss */
+/* line 163, ../scss/_layout.scss */
 .collaborations .collaborations__item .intaxi {
   background-position: 0 -61px;
   width: 156px;
 }
-/* line 169, ../scss/_layout.scss */
+/* line 167, ../scss/_layout.scss */
 .collaborations .collaborations__item .intaxi:hover {
   background-position: 0 0;
 }
-/* line 173, ../scss/_layout.scss */
+/* line 171, ../scss/_layout.scss */
 .collaborations .collaborations__item .kidsters {
   background-position: -165px -60px;
   width: 169px;
 }
-/* line 177, ../scss/_layout.scss */
+/* line 175, ../scss/_layout.scss */
 .collaborations .collaborations__item .kidsters:hover {
   background-position: -165px 0;
 }
-/* line 181, ../scss/_layout.scss */
+/* line 179, ../scss/_layout.scss */
 .collaborations .collaborations__item .centrida {
   background-position: -345px -62px;
   width: 200px;
 }
-/* line 185, ../scss/_layout.scss */
+/* line 183, ../scss/_layout.scss */
 .collaborations .collaborations__item .centrida:hover {
   background-position: -346px 0;
 }
 
-/* line 195, ../scss/_layout.scss */
+/* line 193, ../scss/_layout.scss */
 .cv dl dt {
   margin-top: 1em;
 }
-/* line 198, ../scss/_layout.scss */
+/* line 196, ../scss/_layout.scss */
 .cv dl dd {
   margin-bottom: 0;
 }
-/* line 203, ../scss/_layout.scss */
+/* line 201, ../scss/_layout.scss */
 .cv .experience .period,
 .cv .experience .description {
   color: #404040;
 }
-/* line 209, ../scss/_layout.scss */
+/* line 207, ../scss/_layout.scss */
 .cv .lang ul {
   list-style: none;
 }
 
-/* line 215, ../scss/_layout.scss */
+/* line 213, ../scss/_layout.scss */
 .project {
   background: #b3b3b3;
   background-image: url('/i/bg-bw.png?1396370299');
 }
-/* line 219, ../scss/_layout.scss */
+/* line 217, ../scss/_layout.scss */
 .project .wrap .nav__item a {
   background: gray;
   background: rgba(128, 128, 128, 0.5);
 }
-/* line 227, ../scss/_layout.scss */
+/* line 225, ../scss/_layout.scss */
 .project .wrap .sticky-wrapper > .nav {
   overflow: hidden;
 }
-/* line 231, ../scss/_layout.scss */
+/* line 229, ../scss/_layout.scss */
 .project .nav__list .nav__item {
   float: left;
 }
 
 /* Typography =================================================== */
-/* line 106, ../../../.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, ../../../.rvm/gems/ruby-2.1.1@global/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 112.5%;
   line-height: 1.77778em;
