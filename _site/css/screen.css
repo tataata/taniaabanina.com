@@ -289,22 +289,26 @@ body {
 .cv .lang ul {
   list-style: none;
 }
+/* line 212, ../scss/_layout.scss */
+.cv .description ul {
+  margin-left: 0;
+}
 
-/* line 213, ../scss/_layout.scss */
+/* line 218, ../scss/_layout.scss */
 .project {
   background: #b3b3b3;
   background-image: url('/i/bg-bw.png?1396370299');
 }
-/* line 217, ../scss/_layout.scss */
+/* line 222, ../scss/_layout.scss */
 .project .wrap .nav__item a {
   background: gray;
   background: rgba(128, 128, 128, 0.5);
 }
-/* line 225, ../scss/_layout.scss */
+/* line 230, ../scss/_layout.scss */
 .project .wrap .sticky-wrapper > .nav {
   overflow: hidden;
 }
-/* line 229, ../scss/_layout.scss */
+/* line 234, ../scss/_layout.scss */
 .project .nav__list .nav__item {
   float: left;
 }
