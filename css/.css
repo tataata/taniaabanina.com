@@ -1,0 +1,28 @@
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - /Volumes/data-hd/Users/tataata/Sites/taniaabanina.com/scss:css
+
+Backtrace:
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1@global/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:484:in `read'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1@global/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:484:in `update_stylesheet'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1@global/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1@global/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1@global/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1@global/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:294:in `watch'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1@global/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1@global/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1@global/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1@global/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1@global/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1@global/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1@global/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1@global/gems/compass-1.0.3/bin/compass:44:in `call'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1@global/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1/bin/compass:23:in `load'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1/bin/compass:23:in `<main>'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+/Volumes/data-hd/Users/tataata/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - /Volumes/data-hd/Users/tataata/Sites/taniaabanina.com/scss:css"; }
