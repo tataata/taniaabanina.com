@@ -18,7 +18,7 @@ Hi! I'm a web designer and front-end developer. In the field since 2005.
 
 
 ## Believes
-- move
+- moving
 - love
 - education
 
@@ -32,7 +32,7 @@ Hi! I'm a web designer and front-end developer. In the field since 2005.
 ## Important
 - understanding of the end users, orientation on their needs
 - cross functional collaboration
-- meeting bisuness needs
+- meeting business needs
 
 
 ## Focus on lately
