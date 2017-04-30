@@ -13,19 +13,19 @@ permalink: /cv/
 
 ## Profile
 
-- UX/I design and development
+- <abbr title="User Experience">UX</abbr>/I design and development
 - design of information and content architecture
-- templating and integrating UI in a context of different frameworks (Wordpress/Magento, Rails, Node.js, Django, Jekyll, Bootstrap, <abbr title="Procedural Language/Structured Query Language">PL/SQL</abbr>✌ and etc)
+- templating and integrating <abbr title="User Interface">UI</abbr> in a context of different frameworks (Wordpress/Magento, Rails, Node.js, Django, Jekyll, Bootstrap, <abbr title="Procedural Language/Structured Query Language">PL/SQL</abbr>✌ and etc)
 - refactoring and optimisation of existing code
-- building design systems and UI styleguides
+- building design systems and <abbr title="User Interface">UI</abbr> styleguides
 - page speed optimisation
 - communication with stakeholders, coordination between them and developers
-- coaching on web development (HTML/CSS and best practices) 
+- coaching on web development (<abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr> and best practices) 
 - writing documentation and technical requirements
 
 ### Writing
 
-<abbr title="HyperText Markup Language">HTML</abbr>/HTML5 &amp; <abbr title="Cascading Style Sheets">CSS</abbr>/CSS3 with preprocessors, JavaScript (jQuery)
+<abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="HyperText Markup Language Version 5">HTML5</abbr> &amp; <abbr title="Cascading Style Sheets">CSS</abbr>/<abbr title="Cascading Style Sheets, Level 3">CSS3</abbr> with preprocessors, JavaScript (jQuery)
 
 ### Methods and approaches
 Atomic design, design in the browser, mobile first, responsive web design, progressive enhansment, <abbr title="Block Element Modifier">BEM</abbr>, Pomodoro Technique
@@ -47,20 +47,20 @@ Jan 2015 &ndash; present
 Work in a semi-remote team of developers on e-commerce project (Magento) in agile environment. 
 
 In particular: 
-- front-end development: implementation of new functionalities and features; optimisation, maintenance and further development of existing code
-- close work with UX/I designers and project owners: providing feedback, participation in design process and planing of further implementation
-- creating and maintaining of UI Styleguide
+- front-end development: implementation of new functionalities and features; optimisation and maintenance of existing code
+- close work with <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> designers and project owners: providing feedback, participation in design process and planing of further implementation
+- creating and maintaining of <abbr title="User Interface">UI</abbr> Styleguide
 - coordination between team members and stakeholders
-- coaching and training collegues on web development (HTML, CSS and best practices)
+- coaching and training collegues on web development (<abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> and best practices)
 
 
-### Freelance web/UX designer and front-end developer
+### Freelance <abbr title="User Interface">UI</abbr>/<abbr title="User Experience">UX</abbr> designer and front-end developer
 2009 &ndash; 2014 (5&nbsp;years)
 
-Work on projects in&nbsp;a&nbsp;role&nbsp;of&nbsp;web/UX desiger and/or front-end developer in&nbsp;different fields: education, culture, media, online shops and etc.
+Work on projects in&nbsp;a&nbsp;role&nbsp;of&nbsp;web/<abbr title="User Experience">UX</abbr> desiger and/or front-end developer in&nbsp;different fields: education, culture, media, online shops and etc.
 
 Focus on:
-- UX &amp; UI design (websites, web/iOS applications)
+- <abbr title="User Experience">UX</abbr> &amp; <abbr title="User Interface">UI</abbr> design (websites, web/iOS applications)
 - front-end development
 - design of user workflows and scenarios
 - interface audit
@@ -81,7 +81,7 @@ Selected clients and projects:
 May 2005 &ndash; Oct 2009 (4&nbsp;years 6&nbsp;months)
 
 Part of a team in charge of internal informational infrastructure:
-- UX/I design and development
+- <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> design and development
 - data bases design
 - project management: communication and coordination of processes with stakeholders
 - content management
@@ -91,8 +91,9 @@ Part of a team in charge of internal informational infrastructure:
 
 
 ### Teacher at Sunday computer school at&nbsp;Biysk technological institute
-Oct 2008 &ndash; May 2009 / (8 months) 
-Instructor of&nbsp;course «Multimedia technology» (Adobe Photoshop, Adobe Flash, Adobe Premiere, 3ds Max) for children 11-13&nbsp;years
+Oct 2008 &ndash; May 2009 / (8 months)
+
+Instructor of&nbsp;the&nbsp;course «Multimedia technology» (Adobe Photoshop/Flash/Premiere, 3ds Max) for children 11-13&nbsp;years
 
 
 ## Education
