@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+/*  */
+@import "less/style.css"
+=======
 @charset "UTF-8";
 /* ============================================================
 
@@ -1248,3 +1252,4 @@ dl dt {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* 2x =================================================== */
 }
+>>>>>>> gh-pages
