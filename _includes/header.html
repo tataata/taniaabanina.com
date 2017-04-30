@@ -3,15 +3,8 @@
  -->
 {% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
 
-  <nav class="nav" id="sticker">
-    <ul class="nav__list">
-      <!-- <li class="nav__item {% if location == '/' or page.layout == 'default' %}active {% endif %}"><a href="/blog" title="notes" >notes</a></li> -->
-      <li class="nav__item {% if location == '/' or page.layout == 'default' %}active {% endif %}"><a href="cv" title="cv">cv</a></li>
-    </ul>
-  </nav>
+<header>
+	<h1>Tania Abanina / <span class="small">front-end developer</span></h1>
+</header>
 
-
-		
-	<header class="header">
-			<h1>Tania Abanina<span class="small">web and UX designer</span></h1>
-	</header>
+<main>
