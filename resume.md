@@ -13,7 +13,7 @@ permalink: /cv/
 
 ## Profile
 
-- <abbr title="User Experience">UX</abbr>/I design and development
+- <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> design and development
 - design of information and content architecture
 - templating and integrating <abbr title="User Interface">UI</abbr> in a context of different frameworks (Wordpress/Magento, Rails, Node.js, Django, Jekyll, Bootstrap, <abbr title="Procedural Language/Structured Query Language">PL/SQL</abbr>✌ and etc)
 - refactoring and optimisation of existing code
