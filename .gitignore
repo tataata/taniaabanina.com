@@ -1,2 +1,3 @@
-.sass-cache // Compass ignored folder
-.sass-cache/* // Compass ignored folder
+_site
+.sass-cache
+.jekyll-metadata

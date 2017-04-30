@@ -1,6 +1,6 @@
 
 .wrap {
-	padding: $baselineheight;
+	padding: $baselineheight*1.5;
 	background: $white;
 	
 	position: relative;
@@ -114,9 +114,7 @@
 
 	.collaborations__item {
 		display: inline-block;
-		*display: inline;
-		zoom: 1;
-		width: 24%;
+		margin-right: 30px;
 
 		.collaborations__link {
 			text-indent: -9878px;
@@ -208,6 +206,11 @@
 	.lang {
 		ul {
 			list-style: none;
+		}
+	}
+	.description {
+		ul {
+			margin-left: 0;
 		}
 	}
 }
