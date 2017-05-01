@@ -19,7 +19,7 @@ Hi! I'm a web designer and front-end developer. In the field since 2005.
 
 ## Believes
 - moving
-- love
+- health is contagious
 - education
 
 
