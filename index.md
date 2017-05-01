@@ -5,7 +5,6 @@
 
 permalink: /
 layout: default
-
 ---
 
 <nav>

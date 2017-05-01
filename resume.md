@@ -10,7 +10,6 @@ permalink: /cv/
   </ul>
 </nav>
 
-
 ## Profile
 
 - <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> design and development
