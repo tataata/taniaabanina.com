@@ -4,17 +4,26 @@ title: About
 permalink: /cv/
 --- 
 
-<nav>
-  <ul>
-    <li class="nav__item {% if location == '/' or page.layout == 'default' %}active {% endif %}"><a href="/">back home</a></li>
-  </ul>
-</nav>
+<style>
+	h3 {
+		font-family: Arial, sans-serif;
+	}
+</style>
+
+<div class="ignore-pdf">
+	<nav>
+	  <ul>
+	    <li class="nav__item {% if location == '/' or page.layout == 'default' %}active {% endif %}"><a href="/">back home</a></li>
+	    <li class="nav__item"><a href="/" class="download-pdf">download as a PDF</a></li>
+	  </ul>
+	</nav>
+</div>
 
 ## Profile
 
 - <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> design and development
 - design of information and content architecture
-- templating and integrating <abbr title="User Interface">UI</abbr> in a context of different frameworks (Wordpress/Magento, Rails, Node.js, Django, Jekyll, Bootstrap, <abbr title="Procedural Language/Structured Query Language">PL/SQL</abbr>✌ and etc)
+- templating and integrating <abbr title="User Interface">UI</abbr> in a context of different frameworks (Wordpress/Magento, Rails, Node.js, Django, Jekyll, Bootstrap, <abbr title="Procedural Language/Structured Query Language">PL/SQL</abbr> and etc)
 - refactoring and optimisation of existing code
 - building design systems and <abbr title="User Interface">UI</abbr> styleguides
 - page speed optimisation
@@ -32,10 +41,17 @@ Atomic design, design in the browser, mobile first, responsive web design, progr
 ### Tools
 Paper & pencil, text editor, Chrome Developer Tools, version control (git), package manager (npm), task runner (grunt), Sketch
 
+<div id="ignore-pdf">
 ### Public repos and code snippets
 - [github](https://github.com/tataata)
 - [bitbucket](https://bitbucket.org/tataata)
 - [codepen](http://codepen.io/tataata/)
+</div>
+
+### Public repos and code snippets
+- https://github.com/tataata
+- https://bitbucket.org/tataata
+- http://codepen.io/tataata/
 
 
 ## Experience
@@ -139,5 +155,24 @@ Instructor of&nbsp;the&nbsp;course «Multimedia technology» (Adobe Photoshop/Fl
 
 <a href="http://www.linkedin.com/in/taniaabanina">Linkedin</a>
 
-<a href="http://taniaabanina.moikrug.ru/">Мойкруг</a>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
+<script type="text/javascript">
+	// Default export is a4 paper, portrait, using milimeters for units
+	var doc = new jsPDF();          
+	var elementHandler = {
+	  '.ignore-pdf, #ignore-pdf': function (element, renderer) {
+	    return true;
+	  }
+	};
+	var source = window.document.getElementsByTagName("body")[0];
+	doc.fromHTML(
+	    source,
+	    15,
+	    15,
+	    {
+	      'width': 180,'elementHandlers': elementHandler
+	    });
+	doc.save('abanina-tania-cv.pdf');
+	doc.output("dataurlnewwindow");
+</script>
