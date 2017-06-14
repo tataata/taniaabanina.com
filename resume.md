@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /cv/
 --- 
@@ -139,5 +139,5 @@ Instructor of&nbsp;the&nbsp;course «Multimedia technology» (Adobe Photoshop/Fl
 
 <a href="http://www.linkedin.com/in/taniaabanina">Linkedin</a>
 
-<a href="http://taniaabanina.moikrug.ru/">Мойкруг</a>
+<!-- <a href="http://taniaabanina.moikrug.ru/">Мойкруг</a> -->
 

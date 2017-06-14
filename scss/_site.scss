@@ -28,7 +28,7 @@ width : device-width; }
 
 html {
 	background : $bodycolor;
-	//font-size : 62.5%;
+	// font-size : 62.5%;
 	-webkit-overflow-scrolling : touch;
 	-webkit-tap-highlight-color : lighten($basecolor, 75%);
 	-webkit-text-size-adjust : 100%;
@@ -37,25 +37,31 @@ html {
 
 body {
 	margin : 0;
-	padding : $base-line-height * 2 0;
 	width : 100%;
 	background-color : transparent;
 	font-family : $basefont;
-//	@include font-size();
-	//line-height : $base-line-height;
 	color : $textcolor; 
-	background-color: $highlight;
-	background-position: top left;
-	background-image: image-url("bg.png");
-	background-repeat: repeat;
-	background-attachment:fixed;
 }
 
-// 2. TYPOGRAPHY 			==============================
-// 3. COLOUR 				==============================
-// 4. TEXTURE 				==============================
-// 5. ELEMENTS 				==============================
-// 6. LAYOUT 				==============================
-// 7. VENDOR-SPECIFIC 		==============================
-// 8. MODERNIZR 			==============================
-// 9. TEMPLATE SPECIFICS 	==============================
+
+
+
+a {
+	text-decoration : underline;
+	color: #0fbb27;
+}
+
+
+
+::-moz-selection {
+	background-color : lighten($basecolor, 65%);
+	color : $basecolor;
+	text-shadow : none; 
+}
+
+::selection {
+	background-color : lighten($basecolor, 65%);
+	color : $basecolor;
+	text-shadow : none; 
+}
+
