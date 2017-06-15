@@ -16,7 +16,7 @@ layout: default
 Hi! I'm a web designer and front-end developer. In the field since 2005.
 
 
-## Believes
+## Beliefs
 - moving
 - health is contagious
 - education
@@ -34,10 +34,10 @@ Hi! I'm a web designer and front-end developer. In the field since 2005.
 - meeting business needs
 
 
-## Focus on lately
+## Current focus
 - building design systems and UI styleguides
 - page speed optimisation
-- coaching on web development (HTML/CSS and best practices)
+- coaching on web development (HTML/CSS, best practices)
 
 ## Dry long read
 [Full CV you can read here](cv)
