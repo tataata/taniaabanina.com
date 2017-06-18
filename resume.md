@@ -69,7 +69,7 @@ Focus on:
 Selected clients and projects:
 
 - [School of machines, making &amp; make-believe](http://schoolofma.org/)
-- [Все свободны](http://vse-svobodny.com/)
+- [Vse svobodny: book store](http://vse-svobodny.com/)
 - [Careerfoundry](https://careerfoundry.com/)
 - [Soundcloud](https://soundcloud.com/)
 - [Upstream](http://upstre.am/)

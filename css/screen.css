@@ -103,10 +103,10 @@ html {
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
   html {
-    font-size: 1.2rem; }
+    font-size: 1.1rem; }
     @media screen and (min-width: 20rem) {
       html {
-        font-size: calc(1.2rem + 0.2 * ((100vw - 20rem) / 44)); } }
+        font-size: calc(1.1rem + 0.3 * ((100vw - 20rem) / 44)); } }
     @media screen and (min-width: 64rem) {
       html {
         font-size: 1.4rem; } }
@@ -132,7 +132,7 @@ ul {
 
 ul li,
 dl dd {
-  margin-left: 1.5rem; }
+  margin-left: 0.99rem; }
 
 dl dt {
   margin-top: 0.75rem; }
