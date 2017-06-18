@@ -41,7 +41,7 @@ Paper & pencil, text editor, Chrome Developer Tools, version control (git), pack
 ## Experience
 
 ### Front-end developer at [Amorelie](https://amorelie.de)
-Jan 2015 &ndash; present
+<p class="mute">Jan 2015 &ndash; present</p>
 
 Work in a semi-remote team of developers on e-commerce project (Magento) in agile environment. 
 
@@ -54,7 +54,7 @@ In particular:
 
 
 ### Freelance <abbr title="User Interface">UI</abbr>/<abbr title="User Experience">UX</abbr> designer and front-end developer
-2009 &ndash; 2014 (5&nbsp;years)
+<p class="mute">2009 &ndash; 2014 (5&nbsp;years)</p>
 
 Work on projects in&nbsp;a&nbsp;role&nbsp;of&nbsp;web/<abbr title="User Experience">UX</abbr> desiger and/or front-end developer in&nbsp;different fields: education, culture, media, online shops and etc.
 
@@ -77,7 +77,7 @@ Selected clients and projects:
 
 
 ### Programmer / Web designer at [Biysk technological institute](http://www.bti.secna.ru)
-May 2005 &ndash; Oct 2009 (4&nbsp;years 6&nbsp;months)
+<p class="mute">May 2005 &ndash; Oct 2009 (4&nbsp;years 6&nbsp;months)</p>
 
 Part of a team in charge of internal informational infrastructure:
 - <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> design and development
@@ -90,7 +90,7 @@ Part of a team in charge of internal informational infrastructure:
 
 
 ### Teacher at Sunday computer school at&nbsp;Biysk technological institute
-Oct 2008 &ndash; May 2009 / (8 months)
+<p class="mute">Oct 2008 &ndash; May 2009 / (8 months)</p>
 
 Instructor of&nbsp;the&nbsp;course «Multimedia technology» (Adobe Photoshop/Flash/Premiere, 3ds Max) for children 11-13&nbsp;years
 
@@ -118,7 +118,7 @@ Instructor of&nbsp;the&nbsp;course «Multimedia technology» (Adobe Photoshop/Fl
 
 <dl>
 	<dt>Biysk Technological Institute (branch) <a href="http://www.en.altstu.ru/">Altai State Technical University</a></dt>
-	<dd>2002 &ndash; 2007</dd>
+	<dd class="mute">2002 &ndash; 2007</dd>
 	<dd>Specialist</dd>
 	<dd>Special subject: Quality management</dd>
 	<dd>Qualification: Engineer&ndash;manager</dd>

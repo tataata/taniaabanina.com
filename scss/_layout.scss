@@ -1,19 +1,23 @@
+html {
+	background: #f5f5f5;
+	color: $textColor;
+}
+
 body {
 	padding: 2vh 3vw;
-	background: #f5f5f5;
-	color: #333;
 }
 
 header,
 main {
-	max-width: 95vw;
+	width: 95vw;
 
 	@media (min-width: 720px) {
-			max-width: 85vw;	
+		width: 80vw;	
 	}
 
 	@media (min-width: 1025px) {
-			max-width: 70vw;	
+		width: 70vw;
+		max-width: 800px;
 	}
 }
 

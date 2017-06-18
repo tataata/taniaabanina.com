@@ -27,8 +27,6 @@ width : device-width; }
 width : device-width; }
 
 html {
-	background : $bodycolor;
-	// font-size : 62.5%;
 	-webkit-overflow-scrolling : touch;
 	-webkit-tap-highlight-color : lighten($basecolor, 75%);
 	-webkit-text-size-adjust : 100%;
@@ -38,20 +36,14 @@ html {
 body {
 	margin : 0;
 	width : 100%;
-	background-color : transparent;
+	background: transparent;
 	font-family : $basefont;
-	color : $textcolor; 
 }
-
-
-
 
 a {
-	text-decoration : underline;
+	text-decoration: underline;
 	color: #0fbb27;
 }
-
-
 
 ::-moz-selection {
 	background-color : lighten($basecolor, 65%);

@@ -21,11 +21,6 @@ $white 			: rgb(255,255,255);
 
 
 
-// 1. ROOT 					==============================
-
-$bodycolor : $white;
-$textcolor : $black;
-
 // 2. TYPOGRAPHY 			==============================
 
 $basefont :  "PT Serif", Georgia, Times, "Times New Roman", sans-serif;
@@ -35,15 +30,10 @@ $baseheadingfont : inherit;
 $baseheadingfontweight : normal;
 $baseheadingfontcolor : inherit;
 
-$altfont : Cambria, Georgia, Times, "Times New Roman";
-$altlineheight : 1.35em;
-
-$headlineFont : "PT Serif", Georgia, Times, "Times New Roman";
-
-$codefont : Monaco, Courier New, monospace;
-
 // 3. COLOUR 				==============================
 
+$textColor		: #333;
+$textMute			: lighten($textColor, 40%);
 $basecolor 		: rgb(45,53,62);
 $compcolor 		: adjust-hue($basecolor, 180);
 $bordercolor  : lighten($basecolor, 60%);
@@ -65,16 +55,3 @@ $infocolor 		: rgb(217,237,247);
 $inverscolor 	: rgb(65,65,65);
 $successcolor 	: rgb(91,183,91);
 $warningcolor 	: rgb(250,167,50);
-
-
-// 6. LAYOUT 				==============================
-
-$baseline : $baselineheight;
-$gutterwidth : 24px;
-
-// Icons
-$iconWidth: 16px;
-$iconHeight: 16px;
-
-//  7. VENDOR-SPECIFIC 		==============================
-//  9. TEMPLATE SPECIFICS 	==============================

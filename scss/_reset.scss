@@ -28,6 +28,7 @@ audio, video {
 	background : transparent; 
 }
 */
+
 article, aside, figure, footer, header, hgroup, nav, section { display : block; }
 
 /* apply a natural box layout model to all elements, but allowing components to change */
@@ -37,4 +38,10 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+a {
+	&:focus {
+		outline: 1px dotted;
+	}
 }
