@@ -39,6 +39,7 @@ Hi! I'm a web designer and front-end developer. In the field since 2005.
 - page speed optimisation
 - coaching on web development (HTML/CSS, best practices)
 
+
 ## Dry long read
 [Full CV you can read here](cv)
 

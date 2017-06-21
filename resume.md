@@ -10,7 +10,15 @@ permalink: /cv/
   </ul>
 </nav>
 
-## Profile
+## Profile 
+
+In short:
+
+- front-end developement
+- managing workflow
+- sharing knowledge, mentoring
+
+More detailed:
 
 - <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> design and development
 - design of information and content architecture
@@ -27,10 +35,10 @@ permalink: /cv/
 <abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="HyperText Markup Language Version 5">HTML5</abbr> &amp; <abbr title="Cascading Style Sheets">CSS</abbr>/<abbr title="Cascading Style Sheets, Level 3">CSS3</abbr> with preprocessors, JavaScript (jQuery)
 
 ### Methods and approaches
-Atomic design, design in the browser, mobile first, responsive web design, progressive enhansment, <abbr title="Block Element Modifier">BEM</abbr>, Pomodoro Technique
+Atomic/component based design, design in the browser, mobile first, responsive web design, progressive enhansment, <abbr title="Block Element Modifier">BEM</abbr>, Pomodoros
 
 ### Tools
-Paper & pencil, text editor, Chrome Developer Tools, version control (git), package manager (npm), task runner (grunt), Sketch
+Paper & pencil, text editor, Chrome Developer Tools, version control (git), package manager (npm), task runner (grunt), Sketch, Adobe Creative Suite, Github/Bitbucket, Stackoverflow
 
 ### Public repos and code snippets
 - [github](https://github.com/tataata)
@@ -47,7 +55,7 @@ Work in a semi-remote team of developers on e-commerce project (Magento) in agil
 
 In particular: 
 - front-end development: implementation of new functionalities and features; optimisation and maintenance of existing code
-- close work with <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> designers and project owners: providing feedback, participation in design process and planing of further implementation
+- close work with <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> designers and project owners: providing feedback, participation in design process and planning of further implementation
 - creating and maintaining of <abbr title="User Interface">UI</abbr> Styleguide
 - coordination between team members and stakeholders
 - coaching and training collegues on web development (<abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> and best practices)
