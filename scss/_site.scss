@@ -43,6 +43,15 @@ body {
 a {
 	text-decoration: underline;
 	color: #0fbb27;
+
+	&:hover,
+	&:focus {
+		color: darken(#0fbb27, 7%);
+	}
+
+	&:active {
+		color: darken(#0fbb27, 15%);
+	}
 }
 
 ::-moz-selection {

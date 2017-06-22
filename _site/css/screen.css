@@ -66,6 +66,10 @@ body {
 a {
   text-decoration: underline;
   color: #0fbb27; }
+  a:hover, a:focus {
+    color: #0c9a20; }
+  a:active {
+    color: #097418; }
 
 ::-moz-selection {
   background-color: #d6dbe1;
@@ -100,27 +104,31 @@ main {
 header {
   padding: 0 60px 0 0; }
 
-nav {
-  	/*position: fixed;
-  	z-index: 1;
-  	top: 24vh;
-  	left: 0;
-  */
-  	/*@media (min-width: 720px) {
-  		left: 80vw;
-  		right: auto;	
-  	}
-  
-  	@media (min-width: 1025px) {
-  		left: 800px;
-  	}*/ }
-  nav ul,
-  nav ul li {
-    padding: 0;
-    list-style: none; }
-  nav a {
+nav ul,
+nav ul li {
+  padding: 0;
+  list-style: none; }
+nav li {
+  display: inline-block; }
+nav a {
+  display: inline-block;
+  padding: 5px 15px;
+  position: relative; }
+  nav a .icon {
     display: inline-block;
-    padding: 5px 15px; }
+    position: relative;
+    top: 0;
+    left: -0.5rem; }
+nav .download {
+  margin: 0; }
+  nav .download a {
+    color: #999;
+    /*border: 1px solid;
+    text-decoration: none;*/ }
+    nav .download a:hover, nav .download a:focus {
+      color: #6e6e6e; }
+    nav .download a:active {
+      color: #545454; }
 
 html {
   box-sizing: border-box;

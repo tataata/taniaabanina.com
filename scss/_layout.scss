@@ -26,19 +26,6 @@ header {
 }
 
 nav {
-	/*position: fixed;
-	z-index: 1;
-	top: 24vh;
-	left: 0;
-*/
-	/*@media (min-width: 720px) {
-		left: 80vw;
-		right: auto;	
-	}
-
-	@media (min-width: 1025px) {
-		left: 800px;
-	}*/
 
 	ul,
 	ul li {
@@ -46,9 +33,41 @@ nav {
 		list-style: none;
 	}
 
+	li {
+		display: inline-block;
+	}
+
 	a {
 		display: inline-block;
 		padding: 5px 15px;
+		position: relative;
+
+		.icon {
+			display: inline-block;
+			position: relative;
+			top: 0;
+			left: -0.5rem;
+		}
+	}
+
+	.download {
+		margin: 0;
+
+		a {
+			color: #999;
+			/*border: 1px solid;
+			text-decoration: none;*/
+
+			&:hover,
+			&:focus {
+				color: darken(#999, 17%);
+			}
+
+			&:active {
+				color: darken(#999, 27%);
+			}
+		}
+		
 	}
 }
 

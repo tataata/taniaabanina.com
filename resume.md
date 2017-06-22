@@ -6,7 +6,8 @@ permalink: /cv/
 
 <nav>
   <ul>
-    <li class="nav__item {% if location == '/' or page.layout == 'default' %}active {% endif %}"><a href="/">back home</a></li>
+    <li class="nav__item {% if location == '/' or page.layout == 'default' %}active {% endif %}"><a href="/"><span class="icon">&larr; </span>back home</a></li>
+    <li class="download"><a href="/tania-abanina-cv.pdf">download PDF</a></li>
   </ul>
 </nav>
 
@@ -14,7 +15,7 @@ permalink: /cv/
 
 In short:
 
-- front-end developement
+- user interface development
 - managing workflow
 - sharing knowledge, mentoring
 
@@ -38,7 +39,8 @@ More detailed:
 Atomic/component based design, design in the browser, mobile first, responsive web design, progressive enhansment, <abbr title="Block Element Modifier">BEM</abbr>, Pomodoros
 
 ### Tools
-Paper & pencil, text editor, Chrome Developer Tools, version control (git), package manager (npm), task runner (grunt), Sketch, Adobe Creative Suite, Github/Bitbucket, Stackoverflow
+Paper & pencil, text editor, Chrome Developer Tools, version control (git), package manager (npm), task runner (grunt), Sketch, Adobe Creative Suite, Github/Bitbucket, Stackoverflow, task management systems (Trello, Leankit, Basecamp)
+
 
 ### Public repos and code snippets
 - [github](https://github.com/tataata)

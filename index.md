@@ -41,7 +41,7 @@ Hi! I'm a web designer and front-end developer. In the field since 2005.
 
 
 ## Dry long read
-[Full CV you can read here](cv)
+[Full CV you can read here](cv) or download it [as a PDF](/tania-abanina-cv.pdf)
 
 
 {% include contact.md %}
