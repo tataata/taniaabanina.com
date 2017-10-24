@@ -2,7 +2,7 @@
 layout: default
 title: About
 permalink: /cv/
---- 
+---
 
 <nav>
   <ul>
@@ -11,7 +11,7 @@ permalink: /cv/
   </ul>
 </nav>
 
-## Profile 
+## Profile
 
 In short:
 
@@ -28,7 +28,7 @@ More detailed:
 - building design systems and <abbr title="User Interface">UI</abbr> styleguides
 - page speed optimisation
 - communication with stakeholders, coordination between them and developers
-- coaching on web development (<abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr> and best practices) 
+- coaching on web development (<abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr> and best practices)
 - writing documentation and technical requirements
 
 ### Writing
@@ -36,7 +36,7 @@ More detailed:
 <abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="HyperText Markup Language Version 5">HTML5</abbr> &amp; <abbr title="Cascading Style Sheets">CSS</abbr>/<abbr title="Cascading Style Sheets, Level 3">CSS3</abbr> with preprocessors, JavaScript (jQuery)
 
 ### Methods and approaches
-Atomic/component based design, design in the browser, mobile first, responsive web design, progressive enhansment, <abbr title="Block Element Modifier">BEM</abbr>, Pomodoros
+Atomic/component based design, design in the browser, mobile first, responsive web design, progressive enhancement, <abbr title="Block Element Modifier">BEM</abbr>, Pomodoros
 
 ### Tools
 Paper & pencil, text editor, Chrome Developer Tools, version control (git), package manager (npm), task runner (grunt), Sketch, Adobe Creative Suite, Github/Bitbucket, Stackoverflow, task management systems (Trello, Leankit, Basecamp)
@@ -53,9 +53,10 @@ Paper & pencil, text editor, Chrome Developer Tools, version control (git), pack
 ### Front-end developer at [Amorelie](https://amorelie.de)
 <p class="mute">Jan 2015 &ndash; present</p>
 
-Work in a semi-remote team of developers on e-commerce project (Magento) in agile environment. 
+Work in a semi-remote team of developers on e-commerce project (Magento) in agile environment.
 
-In particular: 
+In particular:
+- project management in semi-distributed team: structuring and planning workload, coordination stakeholders and developers during working process;
 - front-end development: implementation of new functionalities and features; optimisation and maintenance of existing code
 - close work with <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> designers and project owners: providing feedback, participation in design process and planning of further implementation
 - creating and maintaining of <abbr title="User Interface">UI</abbr> Styleguide
@@ -139,7 +140,7 @@ Instructor of&nbsp;the&nbsp;course «Multimedia technology» (Adobe Photoshop/Fl
 ## Languages
 - Russian &mdash; mother tongue
 - English &mdash; fluent
-- German &mdash; intermediate	
+- German &mdash; intermediate
 
 
 {% include contact.md %}
