@@ -23,7 +23,7 @@ More detailed:
 
 - <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> design and development
 - design of information and content architecture
-- templating and integrating <abbr title="User Interface">UI</abbr> in a context of different frameworks (Wordpress/Magento, Rails, Node.js, Django, Jekyll, Bootstrap, <abbr title="Procedural Language/Structured Query Language">PL/SQL</abbr>✌ and etc)
+- templating and integrating <abbr title="User Interface">UI</abbr> in a context of different frameworks (Wordpress/Magento, Rails, Node.js, Django, Jekyll, Bootstrap, <abbr title="Procedural Language/Structured Query Language">PL/SQL</abbr>✌, etc)
 - refactoring and optimisation of existing code
 - building design systems and <abbr title="User Interface">UI</abbr> styleguides
 - page speed optimisation
@@ -53,21 +53,20 @@ Paper & pencil, text editor, Chrome Developer Tools, version control (git), pack
 ### Front-end developer at [Amorelie](https://amorelie.de)
 <p class="mute">Jan 2015 &ndash; present</p>
 
-Work in a semi-remote team of developers on e-commerce project (Magento) in agile environment.
+Work on e-commerce project (Magento) in an agile environment.
 
 In particular:
-- project management in semi-distributed team: structuring and planning workload, coordination stakeholders and developers during working process;
+- project management in a semi-distributed team: structuring and planning workload, coordination of  stakeholders and developers during the working process;
 - front-end development: implementation of new functionalities and features; optimisation and maintenance of existing code
 - close work with <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> designers and project owners: providing feedback, participation in design process and planning of further implementation
 - creating and maintaining of <abbr title="User Interface">UI</abbr> Styleguide
-- coordination between team members and stakeholders
-- coaching and training collegues on web development (<abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> and best practices)
+- coaching and training colleagues on web development (<abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> and best practices)
 
 
 ### Freelance <abbr title="User Interface">UI</abbr>/<abbr title="User Experience">UX</abbr> designer and front-end developer
 <p class="mute">2009 &ndash; 2014 (5&nbsp;years)</p>
 
-Work on projects in&nbsp;a&nbsp;role&nbsp;of&nbsp;web/<abbr title="User Experience">UX</abbr> desiger and/or front-end developer in&nbsp;different fields: education, culture, media, online shops and etc.
+Work on projects in&nbsp;a&nbsp;role&nbsp;of&nbsp;web/<abbr title="User Experience">UX</abbr> designer and/or front-end developer in&nbsp;different fields: education, culture, media, online shops, etc.
 
 Focus on:
 - <abbr title="User Experience">UX</abbr> &amp; <abbr title="User Interface">UI</abbr> design (websites, web/iOS applications)
@@ -75,7 +74,7 @@ Focus on:
 - design of user workflows and scenarios
 - interface audit
 - consulting on brand and content strategy
-- writing expression of requirements
+- writing an expression of requirements
 
 Selected clients and projects:
 
@@ -96,7 +95,7 @@ Part of a team in charge of internal informational infrastructure:
 - project management: communication and coordination of processes with stakeholders
 - content management
 - writing documentation
-- speaking on conferences
+- speaking at conferences
 - coaching colleagues about web design and front-end development
 
 
