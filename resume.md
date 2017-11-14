@@ -50,27 +50,27 @@ Paper & pencil, text editor, Chrome Developer Tools, version control (git), pack
 
 ## Experience
 
-### Front-end developer at [Amorelie](https://amorelie.de)
+### Frontend developer at [Amorelie](https://amorelie.de)
 <p class="mute">Jan 2015 &ndash; present</p>
 
 Work on e-commerce project (Magento) in an agile environment.
 
 In particular:
 - project management in a semi-distributed team: structuring and planning workload, coordination of  stakeholders and developers during the working process;
-- front-end development: implementation of new functionalities and features; optimisation and maintenance of existing code
+- frontend development: implementation of new functionalities and features; optimisation and maintenance of existing code
 - close work with <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> designers and project owners: providing feedback, participation in design process and planning of further implementation
 - creating and maintaining of <abbr title="User Interface">UI</abbr> Styleguide
 - coaching and training colleagues on web development (<abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> and best practices)
 
 
-### Freelance <abbr title="User Interface">UI</abbr>/<abbr title="User Experience">UX</abbr> designer and front-end developer
+### Freelance <abbr title="User Interface">UI</abbr>/<abbr title="User Experience">UX</abbr> designer and frontend developer
 <p class="mute">2009 &ndash; 2014 (5&nbsp;years)</p>
 
-Work on projects in&nbsp;a&nbsp;role&nbsp;of&nbsp;web/<abbr title="User Experience">UX</abbr> designer and/or front-end developer in&nbsp;different fields: education, culture, media, online shops, etc.
+Work on projects in&nbsp;a&nbsp;role&nbsp;of&nbsp;web/<abbr title="User Experience">UX</abbr> designer and/or frontend developer in&nbsp;different fields: education, culture, media, online shops, etc.
 
 Focus on:
 - <abbr title="User Experience">UX</abbr> &amp; <abbr title="User Interface">UI</abbr> design (websites, web/iOS applications)
-- front-end development
+- frontend development
 - design of user workflows and scenarios
 - interface audit
 - consulting on brand and content strategy
@@ -96,7 +96,7 @@ Part of a team in charge of internal informational infrastructure:
 - content management
 - writing documentation
 - speaking at conferences
-- coaching colleagues about web design and front-end development
+- coaching colleagues about web design and frontend development
 
 
 ### Teacher at Sunday computer school at&nbsp;Biysk technological institute
@@ -110,7 +110,9 @@ Instructor of&nbsp;the&nbsp;course «Multimedia technology» (Adobe Photoshop/Fl
 ### Courses and workshops
 
 <dl>
-	<dt><em>Scalable Design Systems</em> at <a href="https://smashingconf.com/">Smashingconf</a></dt>
+	<dt><em>Inspired Leadership Specialization</em> at <a href="https://www.coursera.org/specializations/inspired-leadership">Case Western Reserve University (Coursera)</a></dt>
+	<dd>February &ndash; November 2017</dd>
+  <dt><em>Scalable Design Systems</em> at <a href="https://smashingconf.com/">Smashingconf</a></dt>
 	<dd>with <a href="https://medium.com/@nathanacurtis">Nathan Curtis</a></dd>
 	<dd>September 2016</dd>
 	<dt><em>Design Think, Think Design</em> at <a href="http://esdipberlin.com/">ESDIP Berlin</a></dt>

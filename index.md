@@ -13,7 +13,7 @@ layout: default
   </ul>
 </nav>
 
-Hi! I'm a web designer and front-end developer. In the field since 2005.
+Hi! I'm a frontend designer and developer. In the field since 2005.
 
 
 ## Beliefs
@@ -23,7 +23,7 @@ Hi! I'm a web designer and front-end developer. In the field since 2005.
 
 
 ## Intentions
-- continuous improvement 
+- continuous improvement
 - spreading good
 - laugh and giving smiles
 
@@ -46,7 +46,7 @@ Hi! I'm a web designer and front-end developer. In the field since 2005.
 
 {% include contact.md %}
 
-<!-- 
+<!--
 
 ## Another place on the web
 - [tataata](http://tataata.com) -->
