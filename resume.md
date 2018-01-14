@@ -23,7 +23,7 @@ More detailed:
 
 - <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> design and development
 - design of information and content architecture
-- templating and integrating <abbr title="User Interface">UI</abbr> in a context of different frameworks (Wordpress/Magento, Rails, Node.js, Django, Jekyll, Bootstrap, <abbr title="Procedural Language/Structured Query Language">PL/SQL</abbr>✌, etc)
+- templating and integrating <abbr title="User Interface">UI</abbr> in a context of different frameworks (Wordpress/Magento, Rails, Angular, Django, Jekyll, Bootstrap, <abbr title="Procedural Language/Structured Query Language">PL/SQL</abbr>, etc)
 - refactoring and optimisation of existing code
 - building design systems and <abbr title="User Interface">UI</abbr> styleguides
 - page speed optimisation
@@ -32,14 +32,13 @@ More detailed:
 - writing documentation and technical requirements
 
 ### Writing
-
-<abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="HyperText Markup Language Version 5">HTML5</abbr> &amp; <abbr title="Cascading Style Sheets">CSS</abbr>/<abbr title="Cascading Style Sheets, Level 3">CSS3</abbr> with preprocessors, JavaScript (jQuery)
+<abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="HyperText Markup Language Version 5">HTML5</abbr> &amp; <abbr title="Cascading Style Sheets">CSS</abbr>/<abbr title="Cascading Style Sheets, Level 3">CSS3</abbr> with preprocessors, JavaScript (jQuery, ES6, React)
 
 ### Methods and approaches
-Atomic/component based design, design in the browser, mobile first, responsive web design, progressive enhancement, <abbr title="Block Element Modifier">BEM</abbr>, Pomodoros
+Atomic/component based design, design in the browser, mobile first, responsive web design, progressive enhancement, <abbr title="Block Element Modifier">BEM</abbr>, time boxing, Pomodoros
 
 ### Tools
-Paper & pencil, text editor, Chrome Developer Tools, version control (git), package manager (npm), task runner (grunt), Sketch, Adobe Creative Suite, Github/Bitbucket, Stackoverflow, task management systems (Trello, Leankit, Basecamp)
+Paper & pencil, IDE, Chrome Developer Tools, version control (git), package manager (npm, yarn), task runner (grunt, gulp), Sketch, Adobe Creative Suite, Github/Bitbucket, task management systems (Trello, Leankit, Basecamp), Stackoverflow, Google.
 
 
 ### Public repos and code snippets
@@ -53,14 +52,13 @@ Paper & pencil, text editor, Chrome Developer Tools, version control (git), pack
 ### Frontend developer at [Amorelie](https://amorelie.de)
 <p class="mute">Jan 2015 &ndash; present</p>
 
-Work on e-commerce project (Magento) in an agile environment.
+Work on e-commerce project (Magento) in an agile environment:
 
-In particular:
 - project management in a semi-distributed team: structuring and planning workload, coordination of  stakeholders and developers during the working process;
-- frontend development: implementation of new functionalities and features; optimisation and maintenance of existing code
+- frontend development: implementation of new features; optimisation and maintenance of existing code
 - close work with <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> designers and project owners: providing feedback, participation in design process and planning of further implementation
 - creating and maintaining of <abbr title="User Interface">UI</abbr> Styleguide
-- coaching and training colleagues on web development (<abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> and best practices)
+- coaching and training colleagues on best practices of web development (<abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, new tools and methods)
 
 
 ### Freelance <abbr title="User Interface">UI</abbr>/<abbr title="User Experience">UX</abbr> designer and frontend developer
@@ -110,6 +108,8 @@ Instructor of&nbsp;the&nbsp;course «Multimedia technology» (Adobe Photoshop/Fl
 ### Courses and workshops
 
 <dl>
+  <dt><em>Agile Development Specialization</em> at <a href="https://www.coursera.org/specializations/agile-development">University of Virginia (Coursera)</a></dt>
+	<dd>January 2018 &ndash; ongoing</dd>
 	<dt><em>Inspired Leadership Specialization</em> at <a href="https://www.coursera.org/specializations/inspired-leadership">Case Western Reserve University (Coursera)</a></dt>
 	<dd>February &ndash; November 2017</dd>
   <dt><em>Scalable Design Systems</em> at <a href="https://smashingconf.com/">Smashingconf</a></dt>

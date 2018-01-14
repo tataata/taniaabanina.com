@@ -35,9 +35,9 @@ Hi! I'm a frontend designer and developer. In the field since 2005.
 
 
 ## Current focus
-- building design systems and UI styleguides
-- page speed optimisation
-- coaching on web development (HTML/CSS, best practices)
+- improving design and development processes
+- minimizing technical debt
+- coaching teammates on best practices of web development
 
 
 ## Dry long read
