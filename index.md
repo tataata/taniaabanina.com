@@ -7,10 +7,16 @@ permalink: /
 layout: default
 ---
 
-Hi! I'm a web designer and frontend developer. In the field since 2005.
+<nav>
+  <ul>
+    <li class="nav__item {% if location == '/' or page.layout == 'default' %}active {% endif %}"><a href="cv">CV</a></li>
+  </ul>
+</nav>
+
+Hi! I'm a frontend designer and developer. In the field since 2005.
 
 
-## Believes
+## Beliefs
 - moving
 - health is contagious
 - education
@@ -28,13 +34,14 @@ Hi! I'm a web designer and frontend developer. In the field since 2005.
 - meeting business needs
 
 
-## Focus on lately
-- building design systems and UI styleguides
-- page speed optimisation
-- coaching on web development (HTML/CSS and best practices)
+## Current focus
+- improving design and development processes
+- minimizing technical debt
+- coaching teammates on best practices of web development
+
 
 ## Dry long read
-[Full CV you can read here](cv)
+[Full CV you can read here](cv) or download it [as a PDF](/tania-abanina-cv.pdf)
 
 
 {% include contact.md %}

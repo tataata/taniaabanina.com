@@ -1,19 +1,73 @@
+html {
+	background: #f5f5f5;
+	color: $textColor;
+}
+
 body {
 	padding: 2vh 3vw;
-	background: #f5f5f5;
-	color: #333;
 }
 
 header,
 main {
-	max-width: 95vw;
+	width: 95vw;
 
 	@media (min-width: 720px) {
-			max-width: 85vw;
+		width: 80vw;
 	}
 
 	@media (min-width: 1025px) {
-			max-width: 70vw;
+		width: 70vw;
+		max-width: 800px;
+	}
+}
+
+header {
+	padding: 0 60px 0 0;
+}
+
+nav {
+
+	ul,
+	ul li {
+		padding: 0;
+		list-style: none;
+	}
+
+	li {
+		display: inline-block;
+	}
+
+	a {
+		display: inline-block;
+		padding: 5px 15px;
+		position: relative;
+
+		.icon {
+			display: inline-block;
+			position: relative;
+			top: 0;
+			left: -0.5rem;
+		}
+	}
+
+	.download {
+		margin: 0;
+
+		a {
+			color: #999;
+			/*border: 1px solid;
+			text-decoration: none;*/
+
+			&:hover,
+			&:focus {
+				color: darken(#999, 17%);
+			}
+
+			&:active {
+				color: darken(#999, 27%);
+			}
+		}
+
 	}
 }
 
