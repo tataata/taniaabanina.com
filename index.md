@@ -7,11 +7,6 @@ permalink: /
 layout: default
 ---
 
-<nav>
-  <ul>
-    <li class="nav__item {% if location == '/' or page.layout == 'default' %}active {% endif %}"><a href="cv">CV</a></li>
-  </ul>
-</nav>
 
 Hi! I'm a frontend designer and developer. In the field since 2005.
 

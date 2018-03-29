@@ -86,49 +86,58 @@ html {
   color: #333; }
 
 body {
-  padding: 2vh 3vw; }
-
-header,
-main {
+  padding: 2vh 3vw;
   width: 95vw; }
   @media (min-width: 720px) {
-    header,
-    main {
+    body {
       width: 80vw; } }
   @media (min-width: 1025px) {
-    header,
-    main {
+    body {
       width: 70vw;
       max-width: 800px; } }
 
 header {
-  padding: 0 60px 0 0; }
-
-nav ul,
-nav ul li {
-  padding: 0;
-  list-style: none; }
-nav li {
-  display: inline-block; }
-nav a {
-  display: inline-block;
-  padding: 5px 15px;
+  padding: 0 60px 0 0;
   position: relative; }
-  nav a .icon {
+
+header,
+main {
+  padding-left: 150px; }
+
+nav {
+  position: fixed;
+  left: 0; }
+  nav ul,
+  nav ul li {
+    padding: 0;
+    list-style: none; }
+  nav li {
     display: inline-block;
-    position: relative;
-    top: 0;
-    left: -0.5rem; }
-nav .download {
-  margin: 0; }
-  nav .download a {
-    color: #999;
-    /*border: 1px solid;
-    text-decoration: none;*/ }
-    nav .download a:hover, nav .download a:focus {
-      color: #6e6e6e; }
-    nav .download a:active {
-      color: #545454; }
+    clear: both;
+    float: left; }
+  nav a {
+    display: inline-block;
+    padding: 5px 15px;
+    position: relative; }
+    nav a .icon {
+      display: inline-block;
+      position: relative;
+      top: 0;
+      left: -0.5rem; }
+  nav .download {
+    margin: 0; }
+    nav .download a {
+      color: #999;
+      /*border: 1px solid;
+      text-decoration: none;*/ }
+      nav .download a:hover, nav .download a:focus {
+        color: #6e6e6e; }
+      nav .download a:active {
+        color: #545454; }
+
+nav li {
+  display: inline-block;
+  border: 1px dotted red; }
 
 html {
   box-sizing: border-box;
