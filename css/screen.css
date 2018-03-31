@@ -137,7 +137,15 @@ nav {
 
 nav li {
   display: inline-block;
-  border: 1px dotted red; }
+  border: 1px dotted red;
+  margin: 0; }
+
+.feed__item {
+  margin: 0 0 2rem;
+  list-style: none; }
+
+.feed__date {
+  display: block; }
 
 html {
   box-sizing: border-box;

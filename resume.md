@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: CV / Tania Abanina Frontend designer and developer
 permalink: /cv/
 ---
 

@@ -2,17 +2,19 @@
   <ul>
     <li class="nav__item {% if location == '/' or page.layout == 'default' %}active {% endif %}">
       <a href="/">
-        <span class="icon">&larr; </span>back home</a>
+        <span class="icon">&larr; </span>Home</a>
     </li>
     <li class="nav__item {% if location == '/' or page.layout == 'default' %}active {% endif %}">
-      <a href="{{ baseurl }}/cv">CV</a>
+      <a href="{{ baseurl }}/about">About</a>
     </li>
     <li class="nav__item {% if location == '/' or page.layout == 'default' %}active {% endif %}">
       <a href="{{ baseurl }}/notes">Notes</a>
     </li>
-    <li class="download">
-      <a href="/tania-abanina-cv.pdf">download PDF</a>
-    </li>
+    {% if location == '/about/' %}
+      <li class="download">
+        <a href="/tania-abanina-cv.pdf">download PDF</a>
+      </li>
+    {% endif %}
   </ul>
 
 </nav>

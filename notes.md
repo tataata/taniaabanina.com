@@ -4,11 +4,11 @@ title: Notes
 permalink: /notes/
 ---
 
-<ul>
+<ul class="feed">
   {% for post in site.posts %}
-    <li>
-      <div>{{ post.date | date: "%-d %B %Y" }}</div>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+    <li class="feed__item">
+      <small class="feed__date">{{ post.date | date: "%-d %B %Y" }}</small>
+      <a href="{{ post.url }}" class="feed__link">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>

@@ -1,13 +1,17 @@
 ---
 layout: post
-title:  "Test headline #1 Welcome to Jekyll! Test post"
-date:   2017-04-26
-categories: jekyll update
+title:  "On learning (part I)"
+date:   2018-03-26
+categories: learning
 ---
 
-# Test headline #1 Welcome to Jekyll! Test post
+# On learning (part I)
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+The job is always about learning.
+
+If not tech, than so called soft skills.
+
+Why communication belongs to this
 
 ## Headline 2nd level
 
@@ -15,13 +19,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 

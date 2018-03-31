@@ -1,12 +1,8 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 permalink: /
-layout: default
+layout: page
+title: Tania Abanina &mdash; frontend designer & developer
 ---
-
 
 Hi! I'm a frontend designer and developer. In the field since 2005.
 
@@ -36,7 +32,7 @@ Hi! I'm a frontend designer and developer. In the field since 2005.
 
 
 ## Dry long read
-[Full CV you can read here](cv) or download it [as a PDF](/tania-abanina-cv.pdf)
+About [my profile you can read here](about) or download it [as a PDF](/tania-abanina-cv.pdf)
 
 
 {% include contact.md %}

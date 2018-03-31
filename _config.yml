@@ -1,12 +1,12 @@
-title: Tania Abanina / Frontend designer and developer
+#  title: Tania Abanina / Frontend designer and developer
 email: hi@taniaabanina.com
 description: > # this means to ignore newlines until "baseurl:"
   Profile, CV and work related notes
 
 baseurl: ""
 url: ""
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: tataata
+github_username:  tataata
 
 # Build settings
 markdown: kramdown
