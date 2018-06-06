@@ -4,12 +4,8 @@ html {
 }
 
 body {
-	padding: 2vh 3vw;
-}
-
-header,
-main {
-	width: 95vw;
+  padding: 2vh 3vw;
+  width: 95vw;
 
 	@media (min-width: 720px) {
 		width: 80vw;
@@ -21,11 +17,25 @@ main {
 	}
 }
 
+header,
+nav,
+main {
+
+}
+
 header {
-	padding: 0 60px 0 0;
+  padding: 0 60px 0 0;
+  position: relative;
+}
+
+header,
+main {
+  padding-left: 150px;
 }
 
 nav {
+  position: fixed;
+  left: 0;
 
 	border: 1px solid red;
 
@@ -36,7 +46,9 @@ nav {
 	}
 
 	li {
-		display: inline-block;
+    display: inline-block;
+    clear: both;
+    float: left;
 	}
 
 	a {

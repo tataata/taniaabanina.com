@@ -7,6 +7,7 @@ permalink: /
 layout: default
 ---
 
+
 Hi! I'm a frontend designer and developer. In the field since 2005.
 
 
