@@ -24,7 +24,7 @@ Hi! I'm a frontend designer and developer. In the field since 2005.
 
 ## Intentions
 - continuous learning
-- spreading good, laughing together, giving smiles
+- spreading good and laughing together
 - creation of stimulating dynamics for individuals and groups
 
 
