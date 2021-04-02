@@ -35,9 +35,9 @@ Hi! I'm a frontend designer and developer. In the field since 2005.
 
 
 ## Current focus
-- supporting team with growth
-- learning and coaching teammates on best practices of web development
-- advocating for inclusion and diversity
+- supporting a team with its growth
+- personal and professional coaching of people on the team
+- inclusion and diversity
 
 
 ## Dry long read
