@@ -19,11 +19,11 @@ Hi! I'm a frontend designer and developer. In the field since 2005.
 ## Beliefs
 - people matter
 - health is contagious
-- kindness and opennes
+- kindness and curiosity
 
 
 ## Intentions
-- continuous learning
+- continual learning
 - spreading good and laughing together
 - creation of stimulating dynamics for individuals and groups
 
