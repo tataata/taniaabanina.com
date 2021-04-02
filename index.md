@@ -17,27 +17,27 @@ Hi! I'm a frontend designer and developer. In the field since 2005.
 
 
 ## Beliefs
-- moving
 - health is contagious
 - education
+- kindness and opennes
 
 
 ## Intentions
-- continuous improvement
-- spreading good
-- laugh and giving smiles
+- continuous learning
+- spreading good, laughing together, giving smiles
+- creation of stimulating dynamics for individuals and groups
 
 
 ## Important
-- understanding of the end users, orientation on their needs
+- understanding of the cutomers needs
 - cross functional collaboration
 - meeting business needs
 
 
 ## Current focus
-- improving design and development processes
-- minimizing technical debt
-- coaching teammates on best practices of web development
+- supporting team with growth
+- learning and coaching teammates on best practices of web development
+- advocating for inclusion and diversity
 
 
 ## Dry long read
