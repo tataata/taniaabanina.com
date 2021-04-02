@@ -17,8 +17,8 @@ Hi! I'm a frontend designer and developer. In the field since 2005.
 
 
 ## Beliefs
+- people matter
 - health is contagious
-- education
 - kindness and opennes
 
 
@@ -29,8 +29,8 @@ Hi! I'm a frontend designer and developer. In the field since 2005.
 
 
 ## Important
-- understanding of the cutomers needs
-- cross functional collaboration
+- understanding of the customers needs
+- cross-functional collaboration
 - meeting business needs
 
 
