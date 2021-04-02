@@ -13,32 +13,30 @@ permalink: /cv/
 
 ## Profile
 
-In short:
+**In short**: UI/X development; managing workflow; sharing knowledge; coaching and mentoring
 
-- user interface development
-- managing workflow
-- sharing knowledge, mentoring
 
-More detailed:
+**More detailed**:
 
 - <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> design and development
 - design of information and content architecture
-- templating and integrating <abbr title="User Interface">UI</abbr> in a context of different frameworks (Wordpress/Magento, Rails, Angular, Django, Jekyll, Bootstrap, <abbr title="Procedural Language/Structured Query Language">PL/SQL</abbr>, etc)
+- templating and integrating <abbr title="User Interface">UI</abbr> in a context of different frameworks (Wordpress/Magento, Woocommerce, Shopify, Rails, Angular, Django, Jekyll, Bootstrap, <abbr title="Procedural Language/Structured Query Language">PL/SQL</abbr>, etc)
 - refactoring and optimisation of existing code
 - building design systems and <abbr title="User Interface">UI</abbr> styleguides
 - page speed optimisation
 - communication with stakeholders, coordination between them and developers
 - coaching on web development (<abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr> and best practices)
 - writing documentation and technical requirements
+- support of the teams with adaptation cross-functional workflow mindset (keywords: scrum, agile, <abbr title="Total Quality Management">TQM</abbr>, kaizen, people matter)
 
 ### Writing
 <abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="HyperText Markup Language Version 5">HTML5</abbr> &amp; <abbr title="Cascading Style Sheets">CSS</abbr>/<abbr title="Cascading Style Sheets, Level 3">CSS3</abbr> with preprocessors, JavaScript (jQuery, ES6, React)
 
 ### Methods and approaches
-Atomic/component based design, design in the browser, mobile first, responsive web design, progressive enhancement, <abbr title="Block Element Modifier">BEM</abbr>, time boxing, Pomodoros
+Atomic/component-based design, design in the browser, mobile-first, responsive web design, digital accessibility, progressive enhancement, <abbr title="Block Element Modifier">BEM</abbr>/Tailwind, continuous delivery, time boxing, pomodoros, non-violent communication
 
 ### Tools
-Paper & pencil, IDE, Chrome Developer Tools, version control (git), package manager (npm, yarn), task runner (grunt, gulp), Sketch, Adobe Creative Suite, Github/Bitbucket, task management systems (Trello, Leankit, Basecamp), Stackoverflow, Google.
+Paper & pencil, <abbr title="Integrated Development Environment">IDE</abbr>, Chrome Developer Tools, version control (git), package manager (npm, yarn), task runner (grunt, gulp), Github/Bitbucket, Zeplin, Sketch, Adobe Creative Suite, task management systems (Jira, Trello, Leankit, Basecamp), Stackoverflow, search engines.
 
 
 ### Public repos and code snippets
@@ -49,8 +47,15 @@ Paper & pencil, IDE, Chrome Developer Tools, version control (git), package mana
 
 ## Experience
 
-### Frontend developer at [Amorelie](https://amorelie.de)
+### Senior frontend developer at [Amorelie](https://amorelie.de)
 <p class="mute">Jan 2015 &ndash; present</p>
+
+Projects worth mentioning:
+
+- styleguide and its further iterations
+- migration from Magento 1 to Magento 2
+- decoupling frontend and backend and move towards headless Magento
+
 
 Work on e-commerce project (Magento) in an agile environment:
 
@@ -59,6 +64,7 @@ Work on e-commerce project (Magento) in an agile environment:
 - close work with <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> designers and project owners: providing feedback, participation in design process and planning of further implementation
 - creating and maintaining of <abbr title="User Interface">UI</abbr> Styleguide
 - coaching and training colleagues on best practices of web development (<abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, new tools and methods)
+- support of the team adapt scrum framework
 
 
 ### Freelance <abbr title="User Interface">UI</abbr>/<abbr title="User Experience">UX</abbr> designer and frontend developer
@@ -70,9 +76,9 @@ Focus on:
 - <abbr title="User Experience">UX</abbr> &amp; <abbr title="User Interface">UI</abbr> design (websites, web/iOS applications)
 - frontend development
 - design of user workflows and scenarios
-- interface audit
+- <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> audit
 - consulting on brand and content strategy
-- writing an expression of requirements
+- technical writing
 
 Selected clients and projects:
 
@@ -89,8 +95,8 @@ Selected clients and projects:
 
 Part of a team in charge of internal informational infrastructure:
 - <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> design and development
-- data bases design
-- project management: communication and coordination of processes with stakeholders
+- databases design
+- project management
 - content management
 - writing documentation
 - speaking at conferences
@@ -108,8 +114,11 @@ Instructor of&nbsp;the&nbsp;course «Multimedia technology» (Adobe Photoshop/Fl
 ### Courses and workshops
 
 <dl>
-  <dt><em>Agile Development Specialization</em> at <a href="https://www.coursera.org/specializations/agile-development">University of Virginia (Coursera)</a></dt>
-	<dd>January 2018 &ndash; ongoing</dd>
+	<dt><em>New Adventures In Front-End 2021</em></dt>
+	<dd>with <a href="https://www.smashingmagazine.com/author/vitaly-friedman/">Vitaly Friedman</a> and <a href="https://smashingconf.com/online-workshops">The Smashing Family</a></dd>
+	<dd>January &ndash; February 2021</dd>
+  <dt><em>Business English for Cross-cultural Communication</em> at <a href="https://www.coursera.org/learn/cross-cultural-communication-business">The Hong Kong University of Science and Technology (Coursera)</a></dt>
+	<dd>June 2020</dd>
 	<dt><em>Inspired Leadership Specialization</em> at <a href="https://www.coursera.org/specializations/inspired-leadership">Case Western Reserve University (Coursera)</a></dt>
 	<dd>February &ndash; November 2017</dd>
   <dt><em>Scalable Design Systems</em> at <a href="https://smashingconf.com/">Smashingconf</a></dt>
@@ -132,9 +141,14 @@ Instructor of&nbsp;the&nbsp;course «Multimedia technology» (Adobe Photoshop/Fl
 	<dt>Biysk Technological Institute (branch) <a href="http://www.en.altstu.ru/">Altai State Technical University</a></dt>
 	<dd class="mute">2002 &ndash; 2007</dd>
 	<dd>Specialist</dd>
-	<dd>Special subject: Quality management</dd>
-	<dd>Qualification: Engineer&ndash;manager</dd>
-	<dd>Keywords: Quality Management System, Change Management, Organizational Culture</dd>
+	<dd><strong>Special subject</strong>: Quality management</dd>
+	<dd><p><strong>Qualification</strong>: Engineer&ndash;manager</p></dd>
+	<dd>
+		<p>The focus of studies was on building and maintaining quality management systems in organisations according to <abbr title="International Organization for Standardization">ISO</abbr> 9000 family
+standards.</p>
+		<p>My choice was to specialize in the educational service sector.</p>
+	</dd>
+	<dd><strong>Keywords</strong>: Quality Management System, Total Quality Management, agile methodology, continuous improvement, leadership, change management, organisational culture</dd>
 </dl>
 
 
