@@ -13,7 +13,7 @@ layout: default
   </ul>
 </nav>
 
-Hi! I'm a frontend designer and developer. In the field since 2005.
+Hi! I'm an UI/UX designer and developer. In the field since 2005.
 
 
 ## Beliefs
