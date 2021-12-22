@@ -4,6 +4,12 @@ title: CV / Tania Abanina Frontend designer and developer
 permalink: /cv/
 ---
 
+<!-- <nav>
+  <ul>
+    <li class="nav__item {% if location == '/' or page.layout == 'default' %}active {% endif %}"><a href="/"><span class="icon">&larr; </span>back home</a></li>
+    <li class="download"><a href="/tania-abanina-cv.pdf">download PDF</a></li>
+  </ul>
+</nav> -->
 
 ## Profile
 

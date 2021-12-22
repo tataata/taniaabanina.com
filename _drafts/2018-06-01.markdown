@@ -1,0 +1,59 @@
+---
+layout: post
+title:  CSSconf"
+date:   2017-10-19 23:17:52 +0200
+categories: test
+---
+
+
+
+----->>>>>> Integrate global vars in CSS
+
+# Trent Willis
+
+Building tean
+
+safe team
+careful communication
+building relationship
+
+non-judjful attention
+impression management
+
+Experiment and learn rapidly. Like continuous deployments.
+
+Penalties for the actions -- feedback, build trust.
+
+Feedback -- earlym often, transparently.
+
+Effective feedback -- 5 whys.
+
+Seth Godin
+Todd Conkin
+
+Track participation of your team
+incorporate + acknoledge contributions
+
+Dr. Emily Anhalt
+Play!
+What makes you cmile more?
+Model the behavioue you want to see. Be a role model.
+Make people awersome
+Make safety a requirement
+
+teachfrim the
+
+
+# Behance story
+
+
+# Vertical aliging pencils
+
+## Oliver Williams
+
+@@
+Finch for dev tool
+Chrome Color Picker -- integratoin a11y
+CSS Grid Inspector
+
+the shape editor
