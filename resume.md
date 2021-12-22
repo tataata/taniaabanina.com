@@ -13,30 +13,31 @@ permalink: /cv/
 
 ## Profile
 
-**In short**: UI/X development; managing workflow; sharing knowledge; coaching and mentoring
+**In short**: <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> development; team and individuals care; managing workflow; 15+ years in the field.
 
 
 **More detailed**:
 
 - <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> design and development
-- design of information and content architecture
-- templating and integrating <abbr title="User Interface">UI</abbr> in a context of different frameworks (Wordpress/Magento, Woocommerce, Shopify, Rails, Angular, Django, Jekyll, Bootstrap, <abbr title="Procedural Language/Structured Query Language">PL/SQL</abbr>, etc)
+- templating and integrating <abbr title="User Interface">UI</abbr> in a context of different CMS/frameworks (WordPress, Magento, Woocommerce, Shopify, Rails, Angular, Django, Jekyll, Bootstrap, PL/SQL, etc)
 - refactoring and optimisation of existing code
 - building design systems and <abbr title="User Interface">UI</abbr> styleguides
 - page speed optimisation
 - communication with stakeholders, coordination between them and developers
-- coaching on web development (<abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr> and best practices)
-- writing documentation and technical requirements
-- support of the teams with adaptation cross-functional workflow mindset (keywords: scrum, agile, <abbr title="Total Quality Management">TQM</abbr>, kaizen, people matter)
+- coaching on web design and development (<abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, <abbr title="User Experience">UX</abbr>)
+- technical writing
+- support of the teams with adaptation to cross-functional workflow mindset (keywords: people matter, scrum, agile, <abbr title="Total Quality Management">TQM</abbr>, kaizen)
+- hiring for engineering and managerial roles
+- support individuals on the team: mentoring, conducting 1-1s, delivering feedback
 
 ### Writing
-<abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="HyperText Markup Language Version 5">HTML5</abbr> &amp; <abbr title="Cascading Style Sheets">CSS</abbr>/<abbr title="Cascading Style Sheets, Level 3">CSS3</abbr> with preprocessors, JavaScript (jQuery, ES6, React)
+<abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="HyperText Markup Language Version 5">HTML5</abbr> &amp; <abbr title="Cascading Style Sheets">CSS</abbr>/<abbr title="Cascading Style Sheets, Level 3">CSS3</abbr> with preprocessors, JavaScript (jQuery, <abbr title="ECMAScript 6">ES6</abbr>, React)
 
 ### Methods and approaches
-Atomic/component-based design, design in the browser, mobile-first, responsive web design, digital accessibility, progressive enhancement, <abbr title="Block Element Modifier">BEM</abbr>/Tailwind, continuous delivery, time boxing, pomodoros, non-violent communication
+Atomic/component-based design, design in the browser, mobile-first, responsive web design, digital accessibility, progressive enhancement, <abbr title="Block Element Modifier">BEM</abbr>, Tailwind, continuous delivery, time boxing, Pomodoro, non-violent communication, servant leadership
 
 ### Tools
-Paper & pencil, <abbr title="Integrated Development Environment">IDE</abbr>, Chrome Developer Tools, version control (git), package manager (npm, yarn), task runner (grunt, gulp), Github/Bitbucket, Zeplin, Sketch, Adobe Creative Suite, task management systems (Jira, Trello, Leankit, Basecamp), Stackoverflow, search engines.
+Paper & pencil, <abbr title="Integrated Development Environment">IDE</abbr>, Chrome Developer Tools, version control (git), package manager (npm, yarn), task runner (grunt, gulp), Github/Bitbucket, Stackoverflow, Zeplin, Sketch, Adobe Creative Suite, task management systems (Jira, Trello, Leankit, Basecamp), search engines
 
 
 ### Public repos and code snippets
@@ -50,30 +51,30 @@ Paper & pencil, <abbr title="Integrated Development Environment">IDE</abbr>, Chr
 ### Senior frontend developer at [Amorelie](https://amorelie.de)
 <p class="mute">Jan 2015 &ndash; present</p>
 
-Projects worth mentioning:
+Worth highlighting:
 
-- styleguide and its further iterations
-- migration from Magento 1 to Magento 2
-- decoupling frontend and backend and move towards headless Magento
+- supporting the growth of the IT department: involvement in hiring for engineering and managerial roles
+- creating and maintaining UI Styleguide, work on its further iterations
+- migration from Magento 1 to Magento 2: planning, contributing as a UI developer
 
 
-Work on e-commerce project (Magento) in an agile environment:
+Work on an e-commerce project as part of a team:
 
-- project management in a semi-distributed team: structuring and planning workload, coordination of  stakeholders and developers during the working process;
 - frontend development: implementation of new features; optimisation and maintenance of existing code
-- close work with <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> designers and project owners: providing feedback, participation in design process and planning of further implementation
-- creating and maintaining of <abbr title="User Interface">UI</abbr> Styleguide
-- coaching and training colleagues on best practices of web development (<abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, new tools and methods)
-- support of the team adapt scrum framework
+- collaboration with <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> designers and product owners: providing feedback, participation in the design process and planning of further implementation
+- managing workflow in a distributed team: structuring and planning workload, coordination of stakeholders and developers during the working process
+- coaching and training colleagues on best practices of web development (<abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, <abbr title="User Experience">UX</abbr>, new tools and methods)
+- support of the team with adapting to the scrum framework
+- support individuals on the team: mentoring, conducting 1-1s, providing feedback
 
 
 ### Freelance <abbr title="User Interface">UI</abbr>/<abbr title="User Experience">UX</abbr> designer and frontend developer
 <p class="mute">2009 &ndash; 2014 (5&nbsp;years)</p>
 
-Work on projects in&nbsp;a&nbsp;role&nbsp;of&nbsp;web/<abbr title="User Experience">UX</abbr> designer and/or frontend developer in&nbsp;different fields: education, culture, media, online shops, etc.
+Work on projects as&nbsp;a&nbsp;web/<abbr title="User Experience">UX</abbr> designer and/or frontend developer for&nbsp;different sectors: education, culture, media, online shops, etc.
 
 Focus on:
-- <abbr title="User Experience">UX</abbr> &amp; <abbr title="User Interface">UI</abbr> design (websites, web/iOS applications)
+- <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> design (websites, web/iOS applications)
 - frontend development
 - design of user workflows and scenarios
 - <abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr> audit
@@ -87,7 +88,6 @@ Selected clients and projects:
 - [Careerfoundry](https://careerfoundry.com/)
 - [Soundcloud](https://soundcloud.com/)
 - [Upstream](http://upstre.am/)
-- [Intaxi](http://intaxi.ru/)
 
 
 ### Programmer / Web designer at [Biysk technological institute](http://www.bti.secna.ru)
@@ -144,13 +144,11 @@ Instructor of&nbsp;the&nbsp;course «Multimedia technology» (Adobe Photoshop/Fl
 	<dd><strong>Special subject</strong>: Quality management</dd>
 	<dd><p><strong>Qualification</strong>: Engineer&ndash;manager</p></dd>
 	<dd>
-		<p>The focus of studies was on building and maintaining quality management systems in organisations according to <abbr title="International Organization for Standardization">ISO</abbr> 9000 family
-standards.</p>
+		<p>The focus of studies was on building and sustaining Quality Management Systems in organisations according to <abbr title="International Organization for Standardization">ISO</abbr>&nbsp;9000 and  <abbr title="International Organization for Standardization">ISO</abbr>&nbsp;14000 family standards.</p>
 		<p>My choice was to specialize in the educational service sector.</p>
 	</dd>
 	<dd><strong>Keywords</strong>: Quality Management System, Total Quality Management, agile methodology, continuous improvement, leadership, change management, organisational culture</dd>
 </dl>
-
 
 ## Languages
 - Russian &mdash; mother tongue
@@ -164,6 +162,3 @@ standards.</p>
 ## Social
 
 <a href="http://www.linkedin.com/in/taniaabanina">Linkedin</a>
-
-<!-- <a href="http://taniaabanina.moikrug.ru/">Мойкруг</a> -->
-
