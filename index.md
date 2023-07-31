@@ -13,7 +13,7 @@ layout: default
   </ul>
 </nav>
 
-Hi! I'm an UI/UX designer and developer. In the field since 2005.
+Hi! I'm a UI/UX designer and developer. In the field since 2005.
 
 
 ## Beliefs
@@ -29,7 +29,7 @@ Hi! I'm an UI/UX designer and developer. In the field since 2005.
 
 
 ## Important
-- understanding of the customers needs
+- understanding of the customer's needs
 - cross-functional collaboration
 - meeting business needs
 
@@ -41,14 +41,10 @@ Hi! I'm an UI/UX designer and developer. In the field since 2005.
 
 
 ## Dry long read
-[Full CV you can read here](cv) or download it [as a PDF](/tania-abanina-cv.pdf)
+[The full CV you can read here](cv) or download it [as a PDF](/tania-abanina-cv.pdf)
 
 
 {% include contact.md %}
 
-<!--
-
-## Another place on the web
-- [tataata](http://tataata.com) -->
 
 See you around! ♥
