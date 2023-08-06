@@ -9,7 +9,8 @@ layout: default
   </ul>
 </nav>
 
-Hi! I'm an engineering manager skilled in UI/UX design and development. Creating web-based products since 2005.
+Hi! 
+I'm an engineering manager skilled in UI/UX design and development. Creating web-based products since 2005.
 
 ## CV
 [The full CV you can read here](cv) or download it [as a PDF](/Engineering_Manager__CV__Tania_Abanina.pdf)
