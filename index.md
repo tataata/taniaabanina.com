@@ -9,7 +9,7 @@ layout: default
   </ul>
 </nav>
 
-Hi! I'm a n engineering manager skilled in UI/UX design and development. In the field since 2005.
+Hi! I'm an engineering manager skilled in UI/UX design and development. Build web-based products since 2005.
 
 
 ## Beliefs
