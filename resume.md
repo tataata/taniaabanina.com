@@ -53,41 +53,43 @@ Promoted cross-functional collaboration: set up regular meetings for product man
 
 
 ### Mentoring and professional coaching
-* Mentored two <abbr title="User Interface">UI</abbr>/<abbr title="User Experience">UX</abbr> designers and a frontend engineer who joined the team at entry level and have been contributing to the webshop project from day one.
-* Ran workshops for the product, engineering and marketing teams on <abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr>, accessibility, people-centric design and development. It established common ground on how we work together and facilitated cross-functional communication patterns.
-* Coached communication skills in groups of 6-10 participants and individual level, which received positive feedback and helped people to resolve personal situations: de-escalating of conflicts, dealing with demanding clients, and finding agreements.
+- Mentored two <abbr title="User Interface">UI</abbr>/<abbr title="User Experience">UX</abbr> designers and a frontend engineer who joined the team at entry level and have been contributing to the webshop project from day one.
+- Ran workshops for the product, engineering and marketing teams on <abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr>, accessibility, people-centric design and development. It established common ground on how we work together and facilitated cross-functional communication patterns.
+- Coached communication skills in groups of 6-10 participants and individual level, which received positive feedback and helped people to resolve personal situations: de-escalating of conflicts, dealing with demanding clients, and finding agreements.
 
 
 ## Professional experience
 
 ### FrauenLoop | Evening classes for career changers into tech aimed at women
 <p class="mute">Sept 2021 &ndash; current</p>
-* Mentor of the Web Design and Development.
+Mentor of the Web Design and Development.
 
 
 ### Amorelie | Online shop for sensual lifestyle (DACH)
 <p class="mute">Jan 2015 &ndash; Apr 2022</p>
-* Engineering manager (Team Lead) Frontend (Jul 2019 &ndash; Apr 2022) 
-* Senior UI developer (Apr 2017 &ndash; Jun 2019) 
+Engineering manager (Team Lead) Frontend (Jul 2019 &ndash; Apr 2022) 
+Senior UI developer (Apr 2017 &ndash; Jun 2019) 
 Frontend developer (Jan 2015 &ndash; Mar 2017)
 
 
 ### Self-employed | Setting up digital presence for companies in education, culture, and e-commerce sectors. 
 Selected clients: [Careerfoundry](https://careerfoundry.com/), [Soundcloud](https://soundcloud.com/), [Cobot](https://www.cobot.me/), [School of machines, making &amp; make-believe](http://schoolofma.org/), [Vse svobodny: book store](http://vse-svobodny.com/).
 <p class="mute">Jul 2009 &ndash; Dec 2014</p>
+
 UI/UX designer and developer
 Brand communication consultant
 
 
 ### Biysk Technological Institute | Top 5 higher education institution in Altay region, 4 faculties, 1200+ students
 <p class="mute">May 2005 &ndash; Oct 2009</p>
+
 Product Manager (Feb 2008 - May 2009)
 Web designer and developer (May 2005 - Oct 2009)
 
 
-### Teacher at Sunday computer school at&nbsp;Biysk technological institute
+### Sunday computer school at&nbsp;Biysk technological institute
 <p class="mute">Oct 2008 &ndash; May 2009</p>
-Instructor of&nbsp;the&nbsp;course «Multimedia technology» (Adobe Photoshop/Flash/Premiere, 3ds Max) for children 11-13&nbsp;years
+Teacher of&nbsp;the&nbsp;course «Multimedia technology» (Adobe Photoshop/Flash/Premiere, 3ds Max) for children 11-13&nbsp;years
 
 
 ## Education
@@ -98,24 +100,19 @@ Instructor of&nbsp;the&nbsp;course «Multimedia technology» (Adobe Photoshop/Fl
 	<dd class="mute">2002 &ndash; 2007</dd>
 	<dd>Specialist</dd>
 	<dd><strong>Subject</strong>: Quality management</dd>
-	<dd><p><strong>Qualification</strong>: Engineer&ndash;manager</p></dd>
-	<dd>
-		<p>Building and sustaining Quality Management Systems in organisations according to <abbr title="International Organization for Standardization">ISO</abbr>&nbsp;9000 and  <abbr title="International Organization for Standardization">ISO</abbr>&nbsp;14000 family standards.</p>
-		<p>My choice was to specialize in the educational service sector.</p>
-	</dd>
+	<dd><strong>Qualification</strong>: Engineer&ndash;manager</dd>
+	<dd>Building and sustaining Quality Management Systems in organisations according to <abbr title="International Organization for Standardization">ISO</abbr>&nbsp;9000 and  <abbr title="International Organization for Standardization">ISO</abbr>&nbsp;14000 family standards.</dd>
 	<dd><strong>Keywords</strong>: Quality Management System, Total Quality Management, agile methodology, continuous improvement, leadership, change management, organisational culture.</dd>
 </dl>
 
 
 ### Related Training
-
 <dl>
  	<dt><em>Coaching Skills for Managers</em> at <a href="https://coursera.org/specializations/coaching-skills-manager">University of California, Davis (Coursera)</a></em></dt>
 	<dd>March 2023</dd>
 	<dt><em>Scrum Master Certification</em> at <a href="https://coursera.org/specializations/learnquest-certified-scrum-master">LearnQuest (Coursera)</a></dt>
 	<dd>September 2022</dd>
-	<dt><em>New Adventures In Front-End 2021</em></dt>
-	<dd>with <a href="https://www.smashingmagazine.com/author/vitaly-friedman/">Vitaly Friedman</a> and <a href="https://smashingconf.com/online-workshops">The Smashing Family</a></dd>
+	<dt><em>New Adventures In Front-End 2021</em> with <a href="https://www.smashingmagazine.com/author/vitaly-friedman/">Vitaly Friedman</a> and <a href="https://smashingconf.com/online-workshops">The Smashing Family</a></dt>
 	<dd>January &ndash; February 2021</dd>
   	<dt><em>Business English for Cross-cultural Communication</em> at <a href="https://www.coursera.org/learn/cross-cultural-communication-business">The Hong Kong University of Science and Technology (Coursera)</a></dt>
 	<dd>June 2020</dd>
