@@ -25,6 +25,5 @@ My approach is shaped by:
 
 You can reach out via [hi@taniaabanina.com](mailto:hi@taniaabanina.com) or [LinkedIn](https://www.linkedin.com/in/taniaabanina/)
 
-Or download my [CV tailored for Engineering Manager role as a PDF](/Engineering_Manager__CV__Tania_Abanina.pdf).
 
 See you around! ♥
