@@ -5,7 +5,8 @@ layout: default
 
 Hi! 
 
-I'm an experienced professional in creating web interfaces who focuses on people leadership. I offer my expertise as a coach, team lead, hiring partner, educator, delivery/project manager, and career and communication coach.
+I'm an experienced professional in creating web interfaces who focuses on people leadership. 
+I offer my expertise as a team lead, [coach](https://www.notion.so/Coaching-with-Tania-Intro-and-description-10d5161f356380a0aa44f67513c3f3f1?pvs=4), hiring partner, educator, delivery/project manager. 
 
 
 I bring:
