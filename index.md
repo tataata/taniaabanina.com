@@ -28,12 +28,6 @@ Summary of the background:
 * 3+ years of experience as a teacher for teens and adults.
 
 
-My approach is shaped by:
-* a people-first set of beliefs,
-* continual learning,
-* commitment to diversity and inclusion, and
-* authentic communication.
-
 
 I'm based in Berlin and work worldwide.
 
