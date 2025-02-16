@@ -19,9 +19,6 @@ I bring:
 - cultural sensitivity.
 
 
-I'm based in Berlin and work worldwide.
-
-
 Summary of the background:
 * formal training in organisational and quality management.
 * in the field of creating web interfaces since 2005.
@@ -36,6 +33,9 @@ My approach is shaped by:
 * continual learning,
 * commitment to diversity and inclusion, and
 * authentic communication.
+
+
+I'm based in Berlin and work worldwide.
 
 
 You can reach out via [hi@taniaabanina.com](mailto:hi@taniaabanina.com) or [LinkedIn](https://www.linkedin.com/in/taniaabanina/)
