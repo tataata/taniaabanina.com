@@ -28,21 +28,21 @@ I’m actively seeking leadership roles-both direct and lateral, where I can dri
 
 ### Individual coaching
 Since September 2024, I have been running a private coaching practice, supporting individuals in their professional development, career transitions and communication skills.
+
 Interested in working together? [Discover my coaching approach](https://www.notion.so/Coaching-with-Tania-Intro-and-description-10d5161f356380a0aa44f67513c3f3f1?pvs=4).
 
 
 ### LXD and education
 I enjoy designing and facilitating engaging learning journeys focused on UX/UI and digital skills, helping learners build confidence and practical expertise. 
+
 I have a special interest in web accessibility and incorporate inclusive design principles and practical accessibility training into my UX/UI and digital skills courses.
 
 
 ## Where I am?
-
 I'm based in Berlin and work worldwide.
 
 
 ## Get in touch
-
 You can reach out via [hi@taniaabanina.com](mailto:hi@taniaabanina.com) or [LinkedIn](https://www.linkedin.com/in/taniaabanina/)
 
 
