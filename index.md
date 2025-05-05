@@ -3,41 +3,49 @@ permalink: /
 layout: default
 ---
 
-Hi! 
+Hi!
 
-I'm an experienced professional in creating web interfaces who focuses on people leadership. 
+I'm a product- and people-focused leader with 20 years of experience at the intersection of UX/UI engineering, coaching, and team development.
 
-I offer my expertise as a team lead, coach, hiring partner, educator, delivery/project manager. 
+I bring a blend of technical fluency in web development, coaching, and quality management tools to support teams in improving workflows, communication, and product delivery.
 
-In September 2024 I started [my private coaching practice](https://www.notion.so/Coaching-with-Tania-Intro-and-description-10d5161f356380a0aa44f67513c3f3f1?pvs=4).
+## My specialisation
 
+I specialise in fostering high-performing, collaborative and safe environments, whether by guiding teams as a leader, empowering individuals as a coach, or designing learning experiences as an educator. 
 
-What I bring:
-- UX/UI engineering generalist set of expertise.
-- experience in designing hiring processes from scratch: defining the role requirements and writing job descriptions, creating the process, briefing and coordinating the hiring team, and conducting interviews.
-- skillset in coaching, mentoring, and teaching: the ability to switch between coach, mentor, and educator modes.
-- ability to work independently and on a team.
-- people-first set of beliefs.
-- commitment to diversity and inclusion. 
-- ability to learn quickly.
-- cultural sensitivity.
+My background includes:
+* 17+ years in hands-on roles across frontend engineering, design, product delivery, and ownership
+* 8+ years mentoring and coaching professionals at different career stages
+* 4+ years managing and growing teams, with a focus on hiring, talent development, and process improvement
+* 3+ years teaching and designing learning journeys for diverse audiences
 
+I'm passionate about enabling individuals, teams, and organisations to grow through transparent processes, communication based on mutual trust and respect, and purpose-driven leadership. 
 
-Summary of the background:
-* formal training in organisational and quality management.
-* formal training in transformational coaching (aim to get accreditation in April 2025).
-* in the field of creating web interfaces since 2005.
-* 17+ years in individual contributor roles as a frontend engineer, UI/UX designer, delivery manager and product owner in educational, e-commerce, publishing, and similar sectors. 
-* 8+ years in mentoring and coaching for personal and professional growth. 
-* 4+ years leading a team, being focused on the growth of people on the team, hiring, and facilitating cross-functional collaboration in a safe and dynamic environment. 
-* 3+ years of experience as a teacher for teens and adults.
+## My offerings
+
+### Team leadership
+I’m actively seeking leadership roles-both direct and lateral, where I can drive team growth, foster a positive culture, and deliver impactful results.
+
+### Individual coaching
+Since September 2024, I have been running a private coaching practice, supporting individuals in their professional development, career transitions and communication skills.
+Interested in working together? [Discover my coaching approach](https://www.notion.so/Coaching-with-Tania-Intro-and-description-10d5161f356380a0aa44f67513c3f3f1?pvs=4).
 
 
+### LXD and education
+I enjoy designing and facilitating engaging learning journeys focused on UX/UI and digital skills, helping learners build confidence and practical expertise. 
+I have a special interest in web accessibility and incorporate inclusive design principles and practical accessibility training into my UX/UI and digital skills courses.
+
+
+## Where I am?
 
 I'm based in Berlin and work worldwide.
 
 
+## Get in touch
+
 You can reach out via [hi@taniaabanina.com](mailto:hi@taniaabanina.com) or [LinkedIn](https://www.linkedin.com/in/taniaabanina/)
 
 
-See you around! ♥
+~ 
+
+Take care and maybe see you around! ♥
