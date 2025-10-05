@@ -32,8 +32,7 @@ Since September 2024, I&nbsp;run a&nbsp;private coaching practice supporting ind
 
 Coaching is&nbsp;where I&nbsp;help people realign with what matters to&nbsp;them and act from clarity and self-awareness.
 
-<a href="https://rhetorical-raven-afe.notion.site/Coaching-with-Tania-invitation-and-orientation-10d5161f356380a0aa44f67513c3f3f1" style="
-">Learn more about my coaching practice ↗</a>
+<a href="https://rhetorical-raven-afe.notion.site/Coaching-with-Tania-invitation-and-orientation-10d5161f356380a0aa44f67513c3f3f1" target="_blank">Learn more about my coaching practice&nbsp;↗</a>
 
 ### Learning design and education
 I&nbsp;design and facilitate learning journeys in <abbr title="User Experience/User Interface">UX/UI</abbr>, frontend development, digital, teamwork and soft skills. My programs combine accessibility, design systems, and collaborative methods to build both confidence and practical expertise.
