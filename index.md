@@ -3,47 +3,50 @@ permalink: /
 layout: default
 ---
 
-Hi!
+Hello!
 
-I'm a product- and people-focused leader with 20 years of experience at the intersection of UX/UI engineering, coaching, and team development.
-
-I bring a blend of technical fluency in web development, coaching, and quality management tools to support teams in improving workflows, communication, and product delivery.
+I work at the intersection of&nbsp;technology, learning, and&nbsp;human development. With two decades in&nbsp;<abbr title="User Experience/User Interface">UX/UI</abbr> engineering, team leadership, and education, I&nbsp;help teams and&nbsp;individuals grow through structured collaboration, transparent processes, and trust-based communication. My&nbsp;focus is&nbsp;on&nbsp;creating environments where people and systems can thrive together&nbsp;&ndash;&nbsp;balancing&nbsp;clarity, accountability, and&nbsp;creativity.
 
 ## My specialisation
 
-I specialise in fostering high-performing, collaborative and safe environments, whether by guiding teams as a leader, empowering individuals as a coach, or designing learning experiences as an educator. 
+I specialise in&nbsp;leading teams, designing learning experiences, and supporting professional and personal transformation. My&nbsp;work connects strategy and practice: from improving team workflows and feedback culture to&nbsp;mentoring individuals and facilitating learning journeys in&nbsp;<abbr title="User Experience/User Interface">UX/UI</abbr>, digital, teamwork and soft skills.
 
-My background includes:
-* 17+ years in hands-on roles across frontend engineering, design, product delivery, and ownership
-* 8+ years mentoring and coaching professionals at different career stages
-* 4+ years managing and growing teams, with a focus on hiring, talent development, and process improvement
-* 3+ years teaching and designing learning journeys for diverse audiences
-
-I'm passionate about enabling individuals, teams, and organisations to grow through transparent processes, communication based on mutual trust and respect, and purpose-driven leadership. 
+I&nbsp;am&nbsp;motivated by&nbsp;values of safety, trust, mutual respect, freedom, and creativity: building cultures where autonomy and shared responsibility lead to&nbsp;sustainable results.
 
 ## My offerings
 
 ### Team leadership
-I’m actively seeking leadership roles-both direct and lateral, where I can drive team growth, foster a positive culture, and deliver impactful results.
+I work with teams and organisations to&nbsp;shape effective, collaborative, and psychologically safe environments. My&nbsp;approach combines coaching-informed leadership, process design, training and mentoring.
+
+Examples of my work:
+
+* Strengthening collaboration between product, design, and engineering teams through regular syncs, introducing pairing to&nbsp;the workflow and transparent documentation practices.
+* Supporting individual contributors in&nbsp;defining development goals and reflecting on&nbsp;progress through regular 1:1s&nbsp;and mentoring.
+* Creating space for constructive feedback and learning by&nbsp;piloting peer feedback formats and team reflection sessions.
+* Designing hiring and onboarding processes that make expectations explicit and promote inclusion and shared ownership.
+
+I&nbsp;am&nbsp;open to&nbsp;leadership opportunities&nbsp;&ndash; both direct and cross-functional&nbsp;&ndash;&nbsp;where I can contribute to&nbsp;team development, product delivery, and&nbsp;strategic collaboration.
 
 ### Individual coaching
-Since September 2024, I have been running a private coaching practice, supporting individuals in their professional development, career transitions and communication skills.
+Since September 2024, I&nbsp;run a&nbsp;private coaching practice supporting individuals through career transitions, leadership development, and communication challenges. My work is&nbsp;informed by&nbsp;<abbr title="International Coaching Federation">ICF</abbr>&nbsp;and <abbr title="European Mentoring and Coaching Council">EMCC</abbr> principles and grounded in&nbsp;presence, trust, and accountability.
 
-Interested in working together? [Discover my coaching approach](https://www.notion.so/Coaching-with-Tania-Intro-and-description-10d5161f356380a0aa44f67513c3f3f1?pvs=4).
+Coaching is&nbsp;where I&nbsp;help people realign with what matters to&nbsp;them and act from clarity and self-awareness.
+
+[Learn more about my coaching practice](https://rhetorical-raven-afe.notion.site/Coaching-with-Tania-invitation-and-orientation-10d5161f356380a0aa44f67513c3f3f1).
 
 
-### LXD and education
-I enjoy designing and facilitating engaging learning journeys focused on UX/UI and digital skills, helping learners build confidence and practical expertise. 
+### Learning design and education
+I&nbsp;design and facilitate learning journeys in <abbr title="User Experience/User Interface">UX/UI</abbr>, frontend development, digital, teamwork and soft skills. My programs combine accessibility, design systems, and collaborative methods to build both confidence and practical expertise.
 
-I have a special interest in web accessibility and incorporate inclusive design principles and practical accessibility training into my UX/UI and digital skills courses.
+I&nbsp;integrate inclusive design and accessibility into every learning experience—helping learners understand how technology and education can serve diverse human needs.
 
 
 ## Where I am?
-I'm based in Berlin and work worldwide.
+Based in&nbsp;Berlin, Germany. Working with teams and clients worldwide.
 
 
 ## Get in touch
-You can reach out via [hi@taniaabanina.com](mailto:hi@taniaabanina.com) or [LinkedIn](https://www.linkedin.com/in/taniaabanina/)
+[hi@taniaabanina.com](mailto:hi@taniaabanina.com) | [LinkedIn](https://www.linkedin.com/in/taniaabanina/)
 
 
 ~ 
